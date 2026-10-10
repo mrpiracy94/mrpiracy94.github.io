@@ -14,6 +14,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: mrstore-pages
@@ -23,7 +25,10 @@ jobs:
   build-and-deploy:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout website sources
         uses: actions/checkout@v4
@@ -35,9 +40,9 @@ jobs:
         run: python -m pip install 'PyYAML>=6,<7'
       - name: Validate build script
         run: python -m compileall -q scripts
-      - name: Prepare independently curated and verified catalog
+      - name: Prepare independently curated catalog
         run: python scripts/sync_catalog.py --output public
-      - name: Check generated site and data consistency
+      - name: Validate real catalog and visual structure
         shell: bash
         run: |
           set -euo pipefail
@@ -49,44 +54,63 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          i = json.loads(Path('public/index.json').read_text(encoding='utf-8'))
-          r = json.loads(Path('public/release-status.json').read_text(encoding='utf-8'))
-          assert i['version'] == 2 and i['app_count'] == len(i['apps'])
-          assert i['app_count'] <= r['candidate_count']
-          assert r['approved_count'] == len(r['approved'])
-          assert r['approved_count'] in (0, i['app_count'])
-          assert len({a['id'] for a in i['apps']}) == i['app_count']
-          print('Valid storefront with', i['app_count'], 'entries; status:', r['status'])
+          i = json.loads(Path("public/index.json").read_text(encoding="utf-8"))
+          r = json.loads(Path("public/release-status.json").read_text(encoding="utf-8"))
+          html = Path("public/index.html").read_text(encoding="utf-8")
+          css = Path("public/assets/site.css").read_text(encoding="utf-8")
+          assert i["version"] == 2 and i["app_count"] == len(i["apps"])
+          assert 1 <= i["app_count"] <= r["candidate_count"]
+          assert r["approved_count"] == len(r["approved"])
+          assert r["approved_count"] in (0, i["app_count"])
+          assert len({a["id"] for a in i["apps"]}) == i["app_count"]
+          assert 'class="hero-second-line"' in html
+          assert html.count('class="system-card"') == 11
+          assert html.count('class="orbit-bubble orbit-bubble-') == 5
+          assert 'id="preview-app-count"' in html
+          assert 'class="showcase-browserbar"' in html
+          assert "grid-template-columns:repeat(4,minmax(0,1fr))" in css
+          print(f"Verified {i['app_count']} apps and six visual structure changes.")
           PY
-      - name: Update published branch snapshot
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload compiled static website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Persist generated catalog snapshot
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
           git checkout main
+          git fetch origin main
+          git reset --hard origin/main
           cp public/index.json index.json
           cp public/release-status.json release-status.json
           git add index.json release-status.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore(pages): synchronize published application catalog [skip ci]"
+            git commit -m "chore(pages): sync current editorial catalog [skip ci]"
             git push origin HEAD:main
           fi
-      - name: Smoke test HTTPS homepage after deployment
+      - name: Smoke test HTTPS homepage
         shell: bash
         run: |
           set -euo pipefail
           for attempt in $(seq 1 12); do
             if curl --location --fail --silent --show-error --max-time 20 \
               --output /tmp/mrstore-homepage.html https://mrpiracy94.github.io/ &&
-              grep -q 'id="catalogo"' /tmp/mrstore-homepage.html; then
-              echo "Public homepage is reachable and contains the catalog interface."
+              grep -q 'id="catalogo"' /tmp/mrstore-homepage.html &&
+              grep -q 'class="hero-second-line"' /tmp/mrstore-homepage.html; then
+              echo "MrStore homepage online and visual update present."
               exit 0
             fi
-            echo "Site not ready yet (attempt $attempt/12)."
             sleep 10
           done
-          echo "Public homepage failed the HTTP smoke test."
+          echo "Public homepage failed deployment validation."
           exit 1
