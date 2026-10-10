@@ -30,26 +30,18 @@
     try { localStorage.setItem("mrstore-favorites-v1", JSON.stringify(Array.from(state.saved))); }
     catch (_) { /* Private mode may reject storage. Favorites still work this session. */ }
   }
-  // Trust only known catalog-image providers; Compose URLs stay restricted
-  // to immutable public /MrStore/apps/ paths. Never allow arbitrary remote URLs.
+  // Só são aceites recursos do catálogo ou de fornecedores identificados.
+  // Nunca aceitar URLs arbitrários vindos de metadados externos.
   function safePath(value, extension) {
     if (typeof value !== "string") return null;
     if (!extension) {
-      try {
-        const u = new URL(value);
-        if (u.protocol === "https:" && !u.username && !u.password && !u.port &&
-            !u.search && !u.hash && (
-          (u.hostname === "cdn.jsdelivr.net" &&
-            /^\/gh\/walkxcode\/dashboard-icons\/(?:png|svg)\/[a-zA-Z0-9._-]+\.(?:png|svg)$/.test(u.pathname)) ||
-          (u.hostname === "raw.githubusercontent.com" && (
-            /^\/(?:selfhst\/icons|homarr-labs\/dashboard-icons)\/[a-f0-9]{40}\/png\/[a-zA-Z0-9._-]+\.png$/.test(u.pathname) ||
-            /^\/linuxserver\/docker-templates\/[a-f0-9]{40}\/linuxserver\.io\/img\/[a-zA-Z0-9._-]+\.(?:png|gif)$/.test(u.pathname) ||
-            /^\/mrpiracy94\/MrStore\/main\/Apps\/[a-z0-9-]+\/icon\.svg$/.test(u.pathname)
-          )) ||
-          (u.hostname === "seedit4.me" &&
-            /^\/assets\/img\/icons\/software\/[a-zA-Z0-9._-]+\.png$/.test(u.pathname))
-        )) return u.href;
-      } catch (_) { /* Relative paths are processed locally below. */ }
+      const trustedCDN = /^https:\/\/cdn\.jsdelivr\.net\/gh\/walkxcode\/dashboard-icons\/(?:png|svg)\/[a-zA-Z0-9._-]+\.(?:png|svg)$/;
+      const trustedRaw = /^https:\/\/raw\.githubusercontent\.com\/(?:selfhst\/icons|homarr-labs\/dashboard-icons|linuxserver\/docker-templates|dosbox-staging\/dosbox-staging|luanti-org\/luanti|selkies-project\/sealskin)\/[0-9a-f]{40}\/[a-zA-Z0-9._/-]+\.(?:png|svg|webp|gif)$/;
+      const trustedSeedit = /^https:\/\/seedit4\.me\/assets\/img\/icons\/software\/[a-zA-Z0-9._-]+\.(?:png|webp)$/;
+      const trustedStore = /^https:\/\/raw\.githubusercontent\.com\/mrpiracy94\/MrStore\/main\/Apps\/[a-z0-9._-]+\/icon\.svg$/;
+      if (trustedCDN.test(value) || trustedRaw.test(value) || trustedSeedit.test(value) || trustedStore.test(value)) {
+        return value;
+      }
     }
     if (!value.startsWith("/apps/") || value.includes("..") ||
         value.includes("\\") || value.includes("?") || value.includes("#") ||
@@ -78,9 +70,9 @@
     if (src) {
       const img = document.createElement("img");
       img.src = src; img.alt = ""; img.loading = "lazy";
-      img.addEventListener("error", function () { img.remove(); wrap.textContent = "✦"; }, { once: true });
+      img.addEventListener("error", function () { img.remove(); wrap.textContent = appTitle(app).charAt(0).toLocaleUpperCase("pt"); }, { once: true });
       wrap.appendChild(img);
-    } else wrap.textContent = "✦";
+    } else wrap.textContent = appTitle(app).charAt(0).toLocaleUpperCase("pt");
     return wrap;
   }
   function categoryList() {
@@ -125,7 +117,7 @@
       cover.classList.add("cover-placeholder");
       cover.replaceChildren(iconNode(app, "cover-placeholder-icon"));
     }
-    if (screenshotURL && /\.(?:png|jpe?g|webp|avif|gif)$/i.test(new URL(screenshotURL).pathname)) {
+    if (screenshotURL && /\.(?:png|jpe?g|webp|avif)$/i.test(new URL(screenshotURL).pathname)) {
       const shot = document.createElement("img");
       shot.src = screenshotURL;
       shot.loading = "lazy"; shot.decoding = "async"; shot.alt = "";
@@ -193,7 +185,7 @@
     preview.replaceChildren();
     preview.hidden = true;
     const thumbnail = safePath(app.thumbnail);
-    if (thumbnail && /\.(?:png|jpe?g|webp|avif|gif)$/i.test(new URL(thumbnail).pathname)) {
+    if (thumbnail && /\.(?:png|jpe?g|webp|avif)$/i.test(new URL(thumbnail).pathname)) {
       const screenshot = document.createElement("img");
       screenshot.alt = "Pré-visualização de " + appTitle(app);
       screenshot.loading = "eager"; // Hidden preview containers cannot trigger lazy loads reliably.
@@ -256,8 +248,8 @@
       $("results-summary").textContent = "Indisponível"; return;
     }
     $("total-apps").textContent = String(state.apps.length);
-    const pilotCount = $("pilot-count");
-    if (pilotCount) pilotCount.textContent = String(state.apps.length);
+    const pilotCounter = $("pilot-count");
+    if (pilotCounter) pilotCounter.textContent = state.apps.length + " aplicações selecionadas";
     const previewCounter = $("preview-app-count");
     if (previewCounter) previewCounter.textContent = String(state.apps.length);
     try {

@@ -1,10 +1,52 @@
 {
   "version": 2,
   "updated_at": "2026-10-09T22:26:57Z",
-  "app_count": 112,
+  "app_count": 253,
   "base_url": "https://mrpiracy94.github.io/MrStore",
   "catalogue_status": "editorial_pilot_unverified",
   "apps": [
+    {
+      "id": "io.github.mrpiracy94.homeassistant",
+      "title": "Home Assistant",
+      "tagline": "Automação e controlo da casa inteligente",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.homeassistant/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.homeassistant/assets/home-assistant.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.homeassistant/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.homeassistant/meta.json",
+      "content_hash": "ebee48d8",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.immich",
+      "title": "Immich",
+      "tagline": "Biblioteca privada de fotos e vídeos",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "Immich",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.immich/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.immich/assets/immich.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.immich/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.immich/meta.json",
+      "content_hash": "9ad5386d",
+      "version": "1.0.1"
+    },
     {
       "id": "io.github.mrpiracy94.jellyfin",
       "title": "Jellyfin",
@@ -27,6 +69,69 @@
       "version": "1.0.1"
     },
     {
+      "id": "io.github.mrpiracy94.nextcloud",
+      "title": "Nextcloud",
+      "tagline": "Nuvem privada para ficheiros e colaboração",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.nextcloud/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.nextcloud/assets/nextcloud.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.nextcloud/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.nextcloud/meta.json",
+      "content_hash": "8cd36db0",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.qbittorrent",
+      "title": "qBittorrent",
+      "tagline": "Cliente BitTorrent com interface web",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.qbittorrent/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.qbittorrent/assets/qbittorrent.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.qbittorrent/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.qbittorrent/meta.json",
+      "content_hash": "2c89d83e",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.vaultwarden",
+      "title": "Vaultwarden",
+      "tagline": "Gestor de palavras-passe compatível com Bitwarden",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Vaultwarden",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.vaultwarden/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.vaultwarden/assets/vaultwarden.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.vaultwarden/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.vaultwarden/meta.json",
+      "content_hash": "6fe00635",
+      "version": "1.0.1"
+    },
+    {
       "id": "io.github.mrpiracy94.plex",
       "title": "Plex",
       "tagline": "Plex (LinuxServer.io)",
@@ -43,27 +148,6 @@
       "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/plex.png",
       "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/plex.png",
       "editorial_only": true
-    },
-    {
-      "id": "io.github.mrpiracy94.immich",
-      "title": "Immich",
-      "tagline": "Biblioteca privada de fotos e vídeos",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "Immich",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.immich/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.immich/assets/immich.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.immich/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.immich/meta.json",
-      "content_hash": "9ad5386d",
-      "version": "1.0.1"
     },
     {
       "id": "io.github.mrpiracy94.audiobookshelf",
@@ -136,27 +220,6 @@
       "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/calibre-web.png",
       "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/calibre-web.png",
       "editorial_only": true
-    },
-    {
-      "id": "io.github.mrpiracy94.qbittorrent",
-      "title": "qBittorrent",
-      "tagline": "Cliente BitTorrent com interface web",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.qbittorrent/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.qbittorrent/assets/qbittorrent.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.qbittorrent/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.qbittorrent/meta.json",
-      "content_hash": "2c89d83e",
-      "version": "1.0.1"
     },
     {
       "id": "io.github.mrpiracy94.sonarr",
@@ -267,27 +330,6 @@
       "editorial_only": true
     },
     {
-      "id": "io.github.mrpiracy94.homeassistant",
-      "title": "Home Assistant",
-      "tagline": "Automação e controlo da casa inteligente",
-      "category": "Home",
-      "categories": [
-        "home"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.homeassistant/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.homeassistant/assets/home-assistant.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.homeassistant/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.homeassistant/meta.json",
-      "content_hash": "ebee48d8",
-      "version": "1.0.2"
-    },
-    {
       "id": "io.github.mrpiracy94.dockge",
       "title": "Dockge",
       "tagline": "Gestor de stacks Docker Compose (alternativa ao Portainer)",
@@ -376,27 +418,6 @@
       "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/uptime-kuma.png",
       "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/uptime-kuma.png",
       "editorial_only": true
-    },
-    {
-      "id": "io.github.mrpiracy94.nextcloud",
-      "title": "Nextcloud",
-      "tagline": "Nuvem privada para ficheiros e colaboração",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.nextcloud/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.nextcloud/assets/nextcloud.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.nextcloud/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.nextcloud/meta.json",
-      "content_hash": "8cd36db0",
-      "version": "1.0.1"
     },
     {
       "id": "io.github.mrpiracy94.paperless-ngx",
@@ -577,27 +598,6 @@
       "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/homepage.png",
       "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/homepage.png",
       "editorial_only": true
-    },
-    {
-      "id": "io.github.mrpiracy94.vaultwarden",
-      "title": "Vaultwarden",
-      "tagline": "Gestor de palavras-passe compatível com Bitwarden",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Vaultwarden",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.vaultwarden/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.vaultwarden/assets/vaultwarden.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.vaultwarden/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.vaultwarden/meta.json",
-      "content_hash": "6fe00635",
-      "version": "1.0.1"
     },
     {
       "id": "io.github.mrpiracy94.adguardhome-sync",
@@ -2034,6 +2034,2510 @@
       "developer": "Wizarr",
       "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wizarr.png",
       "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wizarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.airsonic-advanced",
+      "title": "Airsonic Advanced",
+      "tagline": "Airsonic Advanced (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/airsonic.png",
+      "thumbnail": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/airsonic.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.altus",
+      "title": "Altus",
+      "tagline": "Altus (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/altus-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/altus-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.ardour",
+      "title": "Ardour",
+      "tagline": "Ardour (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/ardour-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/ardour-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.audacity",
+      "title": "Audacity",
+      "tagline": "Audacity (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/audacity.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/audacity.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.azahar",
+      "title": "Azahar",
+      "tagline": "Azahar (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/azahar-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/azahar-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.babybuddy",
+      "title": "Baby Buddy",
+      "tagline": "Baby Buddy (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/babybuddy.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/babybuddy.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.bambustudio",
+      "title": "Bambu Studio",
+      "tagline": "Bambu Studio (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/bambu-lab.png",
+      "thumbnail": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/bambu-lab.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.beets",
+      "title": "Beets",
+      "tagline": "Beets (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/beets.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/beets.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.bitcoin-knots",
+      "title": "Bitcoin Knots",
+      "tagline": "Bitcoin Knots (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/bitcoin-knots-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/bitcoin-knots-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.blade-of-agony",
+      "title": "Blade of Agony",
+      "tagline": "Blade of Agony (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/boa-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/boa-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.blender",
+      "title": "Blender",
+      "tagline": "Blender (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/blender.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/blender.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.boinc",
+      "title": "BOINC",
+      "tagline": "BOINC (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/boinc.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/boinc.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.brave",
+      "title": "Brave",
+      "tagline": "Brave (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/brave.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/brave.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.budge",
+      "title": "Budge",
+      "tagline": "Budge (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/mrpiracy94/MrStore/main/Apps/budge/icon.svg",
+      "thumbnail": "https://raw.githubusercontent.com/mrpiracy94/MrStore/main/Apps/budge/icon.svg",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.calligra",
+      "title": "Calligra",
+      "tagline": "Calligra (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/calligra-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/calligra-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.chrome",
+      "title": "Chrome",
+      "tagline": "Chrome (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/chrome.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/chrome.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.chromium",
+      "title": "Chromium",
+      "tagline": "Chromium (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/chromium.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/chromium.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.cops",
+      "title": "COPS",
+      "tagline": "COPS (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/cops-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/cops-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.cross-seed",
+      "title": "cross-seed",
+      "tagline": "Cross-seeding automático",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "cross-seed",
+      "icon": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/cross-seed.png",
+      "thumbnail": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/cross-seed.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.cura",
+      "title": "Cura",
+      "tagline": "Cura (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/cura.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/cura.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.darktable",
+      "title": "darktable",
+      "tagline": "darktable (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/darktable-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/darktable-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.digikam",
+      "title": "digiKam",
+      "tagline": "digiKam (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/digikam.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/digikam.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.diskover",
+      "title": "Diskover",
+      "tagline": "Diskover (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/diskover.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/diskover.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.dogwalk",
+      "title": "Dogwalk",
+      "tagline": "Dogwalk (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/dogwalk-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/dogwalk-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.dokuwiki",
+      "title": "DokuWiki",
+      "tagline": "DokuWiki (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/dokuwiki.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/dokuwiki.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.dolphin",
+      "title": "Dolphin Emulator",
+      "tagline": "Dolphin Emulator (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/dolphin.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/dolphin.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.doplarr_rs",
+      "title": "Doplarr RS",
+      "tagline": "Doplarr RS (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/doplarr.png",
+      "thumbnail": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/doplarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.dosbox-staging",
+      "title": "DOSBox Staging",
+      "tagline": "DOSBox Staging (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/dosbox-staging/dosbox-staging/05e2004729f9b31d33deaa442f4933844ef87d02/extras/icons/png/icon_512.png",
+      "thumbnail": "https://raw.githubusercontent.com/dosbox-staging/dosbox-staging/05e2004729f9b31d33deaa442f4933844ef87d02/extras/icons/png/icon_512.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.doublecommander",
+      "title": "Double Commander",
+      "tagline": "Double Commander (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/double-commander.png",
+      "thumbnail": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/double-commander.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.duckdns",
+      "title": "DuckDNS",
+      "tagline": "DuckDNS (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/duckdns.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/duckdns.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.duckstation",
+      "title": "DuckStation",
+      "tagline": "DuckStation (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/duckstation-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/duckstation-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.eden",
+      "title": "Eden",
+      "tagline": "Eden (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/eden-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/eden-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.fail2ban",
+      "title": "Fail2ban",
+      "tagline": "Fail2ban (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/fail2ban.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/fail2ban.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.faster-whisper",
+      "title": "Faster Whisper",
+      "tagline": "Faster Whisper (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/mrpiracy94/MrStore/main/Apps/faster-whisper/icon.svg",
+      "thumbnail": "https://raw.githubusercontent.com/mrpiracy94/MrStore/main/Apps/faster-whisper/icon.svg",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.ferdium",
+      "title": "Ferdium",
+      "tagline": "Ferdium (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ferdium.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ferdium.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.ffmpeg",
+      "title": "FFmpeg",
+      "tagline": "FFmpeg (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/ffmpeg.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/ffmpeg.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.filezilla",
+      "title": "FileZilla",
+      "tagline": "FileZilla (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/filezilla.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/filezilla.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.firefox",
+      "title": "Firefox",
+      "tagline": "Firefox (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/firefox.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/firefox.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.flaresolverr",
+      "title": "FlareSolverr",
+      "tagline": "FlareSolverr (seedit4.me catalog)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "FlareSolverr",
+      "icon": "https://seedit4.me/assets/img/icons/software/flaresolverr.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/flaresolverr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.flexget",
+      "title": "FlexGet",
+      "tagline": "FlexGet (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/flexget.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/flexget.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.flycast",
+      "title": "Flycast",
+      "tagline": "Flycast (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/flycast-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/flycast-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.foldingathome",
+      "title": "Folding@home",
+      "tagline": "Folding@home (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/foldingathome.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/foldingathome.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.freecad",
+      "title": "FreeCAD",
+      "tagline": "FreeCAD (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/freecad.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/freecad.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.gimp",
+      "title": "GIMP",
+      "tagline": "GIMP (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/gimp.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/gimp.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.github-desktop",
+      "title": "GitHub Desktop",
+      "tagline": "GitHub Desktop (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/github-desktop-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/github-desktop-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.gitqlient",
+      "title": "GitQlient",
+      "tagline": "GitQlient (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/gitqlient-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/gitqlient-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.grav",
+      "title": "Grav",
+      "tagline": "Grav (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/grav.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/grav.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.gzdoom",
+      "title": "GZDoom",
+      "tagline": "GZDoom (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/gzdoom-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/gzdoom-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.habridge",
+      "title": "HA Bridge",
+      "tagline": "HA Bridge (LinuxServer.io)",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/habridge-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/habridge-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.hedgedoc",
+      "title": "HedgeDoc",
+      "tagline": "HedgeDoc (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/hedgedoc.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/hedgedoc.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.heimdall",
+      "title": "Heimdall",
+      "tagline": "Heimdall (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/heimdall.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/heimdall.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.helium",
+      "title": "Helium",
+      "tagline": "Helium (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/helium-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/helium-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.hishtory-server",
+      "title": "hishtory-server",
+      "tagline": "hishtory-server (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/hishtory-server-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/hishtory-server-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.inkscape",
+      "title": "Inkscape",
+      "tagline": "Inkscape (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/inkscape.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/inkscape.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.intellij-idea",
+      "title": "IntelliJ IDEA",
+      "tagline": "IntelliJ IDEA (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/intellij.png",
+      "thumbnail": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/intellij.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.kali-linux",
+      "title": "Kali Linux",
+      "tagline": "Kali Linux (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kali-linux.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kali-linux.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.kasm",
+      "title": "Kasm Workspaces",
+      "tagline": "Kasm Workspaces (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kasm.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kasm.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.kdenlive",
+      "title": "Kdenlive",
+      "tagline": "Kdenlive (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/kdenlive-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/kdenlive-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.keepassxc",
+      "title": "KeePassXC",
+      "tagline": "KeePassXC (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/keepassxc.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/keepassxc.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.kicad",
+      "title": "KiCad",
+      "tagline": "KiCad (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/kicad-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/kicad-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.kimai",
+      "title": "Kimai",
+      "tagline": "Kimai (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kimai.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kimai.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.kometa",
+      "title": "Kometa",
+      "tagline": "Kometa (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kometa.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kometa.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.krita",
+      "title": "Krita",
+      "tagline": "Krita (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/krita-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/krita-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.lazylibrarian",
+      "title": "LazyLibrarian",
+      "tagline": "LazyLibrarian (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/lazylibrarian.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/lazylibrarian.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.libreoffice",
+      "title": "LibreOffice",
+      "tagline": "LibreOffice (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/libreoffice.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/libreoffice.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.librewolf",
+      "title": "LibreWolf",
+      "tagline": "LibreWolf (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/librewolf.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/librewolf.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.limnoria",
+      "title": "Limnoria",
+      "tagline": "Limnoria (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/limnoria-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/limnoria-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.lm-studio",
+      "title": "LM Studio",
+      "tagline": "LM Studio (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/lmstudio-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/lmstudio-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.lollypop",
+      "title": "Lollypop",
+      "tagline": "Lollypop (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/lollypop-music-player.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/lollypop-music-player.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.luanti",
+      "title": "Luanti",
+      "tagline": "Luanti (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/luanti-org/luanti/9a1b92d0d4d2c47fced18e6077722c6301eb04f5/fastlane/metadata/android/en-US/images/icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/luanti-org/luanti/9a1b92d0d4d2c47fced18e6077722c6301eb04f5/fastlane/metadata/android/en-US/images/icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.lychee",
+      "title": "Lychee",
+      "tagline": "Lychee (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/lychee.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/lychee.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.mame",
+      "title": "MAME",
+      "tagline": "MAME (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/mame-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/mame-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.manyfold",
+      "title": "Manyfold",
+      "tagline": "Manyfold (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/manyfold.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/manyfold.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.mastodon",
+      "title": "Mastodon",
+      "tagline": "Mastodon (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mastodon.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mastodon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.mediaelch",
+      "title": "MediaElch",
+      "tagline": "MediaElch (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/mediaelch.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/mediaelch.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.medusa",
+      "title": "Medusa",
+      "tagline": "Medusa (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/medusa.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/medusa.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.melonds",
+      "title": "melonDS",
+      "tagline": "melonDS (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/melonds-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/melonds-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.minisatip",
+      "title": "minisatip",
+      "tagline": "minisatip (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/minisatip-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/minisatip-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.modmanager",
+      "title": "Mod Manager",
+      "tagline": "Mod Manager (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/mrpiracy94/MrStore/main/Apps/modmanager/icon.svg",
+      "thumbnail": "https://raw.githubusercontent.com/mrpiracy94/MrStore/main/Apps/modmanager/icon.svg",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.modrinth",
+      "title": "Modrinth App",
+      "tagline": "Modrinth App (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/modrinth.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/modrinth.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.msedge",
+      "title": "Microsoft Edge",
+      "tagline": "Microsoft Edge (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/microsoft-edge.png",
+      "thumbnail": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/microsoft-edge.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.mullvad-browser",
+      "title": "Mullvad Browser",
+      "tagline": "Mullvad Browser (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mullvad-browser.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mullvad-browser.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.mysql-workbench",
+      "title": "MySQL Workbench",
+      "tagline": "MySQL Workbench (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/mysql-workbench-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/mysql-workbench-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.nginx",
+      "title": "NGINX",
+      "tagline": "NGINX (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nginx.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nginx.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.ngircd",
+      "title": "ngIRCd",
+      "tagline": "ngIRCd (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/ngircd-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/ngircd-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.openshot",
+      "title": "OpenShot",
+      "tagline": "OpenShot (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/openshot-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/openshot-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.opera",
+      "title": "Opera",
+      "tagline": "Opera (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/opera.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/opera.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.orcaslicer",
+      "title": "OrcaSlicer",
+      "tagline": "OrcaSlicer (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/orcaslicer.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/orcaslicer.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.oscam",
+      "title": "OSCam",
+      "tagline": "OSCam (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/oscam.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/oscam.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.pcsx2",
+      "title": "PCSX2",
+      "tagline": "PCSX2 (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/pcsx2-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/pcsx2-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.pelorus",
+      "title": "Pelorus",
+      "tagline": "Pelorus (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/pelorus-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/pelorus-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.pidgin",
+      "title": "Pidgin",
+      "tagline": "Pidgin (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/pidgin-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/pidgin-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.piper",
+      "title": "Piper",
+      "tagline": "Piper (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/piper-tts.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/piper-tts.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.ppsspp",
+      "title": "PPSSPP",
+      "tagline": "PPSSPP (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/ppsspp-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/ppsspp-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.pwndrop",
+      "title": "pwndrop",
+      "tagline": "pwndrop (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pwndrop.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pwndrop.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.pycharm",
+      "title": "PyCharm",
+      "tagline": "PyCharm (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/pycharm-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/pycharm-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.pydio-cells",
+      "title": "Pydio Cells",
+      "tagline": "Pydio Cells (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/pydio.png",
+      "thumbnail": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/pydio.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.qbittorrent-4",
+      "title": "qBittorrent 5.2 (libtorrent v1)",
+      "tagline": "Cliente BitTorrent 5.2 com libtorrent v1",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.1.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://seedit4.me/assets/img/icons/software/qbittorrent.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/qbittorrent.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.qdirstat",
+      "title": "QDirStat",
+      "tagline": "QDirStat (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/qdirstat.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/qdirstat.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.raneto",
+      "title": "Raneto",
+      "tagline": "Raneto (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/raneto.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/raneto.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.rawtherapee",
+      "title": "RawTherapee",
+      "tagline": "RawTherapee (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/rawtherapee-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/rawtherapee-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.remmina",
+      "title": "Remmina",
+      "tagline": "Remmina (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/remmina.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/remmina.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.retroarch",
+      "title": "RetroArch",
+      "tagline": "RetroArch (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/retroarch-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/retroarch-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.rpcs3",
+      "title": "RPCS3",
+      "tagline": "RPCS3 (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/rpcs3-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/rpcs3-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.scummvm",
+      "title": "ScummVM",
+      "tagline": "ScummVM (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/scummvm-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/scummvm-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.sealskin",
+      "title": "SealSkin",
+      "tagline": "SealSkin (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selkies-project/sealskin/d054d878d00ad22893c1c9a07b2c1c2638e626b9/docs/app/icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/selkies-project/sealskin/d054d878d00ad22893c1c9a07b2c1c2638e626b9/docs/app/icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.series-troxide",
+      "title": "Series Troxide",
+      "tagline": "Series Troxide (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/series-troxide.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/series-troxide.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.shadps4",
+      "title": "shadPS4",
+      "tagline": "shadPS4 (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/shadps4-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/shadps4-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.shotcut",
+      "title": "Shotcut",
+      "tagline": "Shotcut (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/shotcut-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/shotcut-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.sickgear",
+      "title": "SickGear",
+      "tagline": "SickGear (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/sickgear.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/sickgear.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.signal",
+      "title": "Signal",
+      "tagline": "Signal (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/signal.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/signal.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.spotube",
+      "title": "Spotube",
+      "tagline": "Spotube (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/spotube-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/spotube-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.sqlitebrowser",
+      "title": "DB Browser for SQLite",
+      "tagline": "DB Browser for SQLite (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/sqlitebrowser.png",
+      "thumbnail": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/sqlitebrowser.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.steam",
+      "title": "Steam",
+      "tagline": "Steam (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/steam.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/steam.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.syslog-ng",
+      "title": "syslog-ng",
+      "tagline": "syslog-ng (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/syslog-ng-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/syslog-ng-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.telegram",
+      "title": "Telegram",
+      "tagline": "Telegram (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/telegram.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/telegram.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.thelounge",
+      "title": "The Lounge",
+      "tagline": "The Lounge (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/thelounge.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/thelounge.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.thunderbird",
+      "title": "Thunderbird",
+      "tagline": "Thunderbird (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/thunderbird.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/thunderbird.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.ubooquity",
+      "title": "Ubooquity",
+      "tagline": "Ubooquity (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ubooquity.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ubooquity.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.ungoogled-chromium",
+      "title": "Ungoogled Chromium",
+      "tagline": "Ungoogled Chromium (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/ungoogled-chromium-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/ungoogled-chromium-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.vivaldi",
+      "title": "Vivaldi",
+      "tagline": "Vivaldi (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/vivaldi.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/vivaldi.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.vlc",
+      "title": "VLC",
+      "tagline": "VLC (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/vlc-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/vlc-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.vscode",
+      "title": "VS Code",
+      "tagline": "VS Code (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/vscode.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/vscode.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.vscodium-web",
+      "title": "VSCodium Web",
+      "tagline": "VSCodium Web (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/vscodium.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/vscodium.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.vscodium",
+      "title": "VSCodium",
+      "tagline": "VSCodium (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/vscodium.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/vscodium.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.webcord",
+      "title": "WebCord",
+      "tagline": "WebCord (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/webcord-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/webcord-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.webgrabplus",
+      "title": "WebGrab+Plus",
+      "tagline": "WebGrab+Plus (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/webgrabplus-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/webgrabplus-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.webstation",
+      "title": "Webstation",
+      "tagline": "Webstation (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/webstation-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/webstation-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.webtop",
+      "title": "Webtop",
+      "tagline": "Webtop (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/webtop.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/webtop.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.weixin",
+      "title": "Weixin",
+      "tagline": "Weixin (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/weixin-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/weixin-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.whisparr",
+      "title": "Whisparr",
+      "tagline": "Whisparr (seedit4.me catalog)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "hotio",
+      "icon": "https://seedit4.me/assets/img/icons/software/whisparr.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/whisparr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.winegui",
+      "title": "WineGUI",
+      "tagline": "WineGUI (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/winegui-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/winegui-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.wireshark",
+      "title": "Wireshark",
+      "tagline": "Wireshark (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wireshark.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wireshark.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.wps-office",
+      "title": "WPS Office",
+      "tagline": "WPS Office (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/wps-office-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/wps-office-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.xbackbone",
+      "title": "XBackBone",
+      "tagline": "XBackBone (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/xbackbone.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/xbackbone.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.xemu",
+      "title": "xemu",
+      "tagline": "xemu (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/xemu-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/xemu-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.yaak",
+      "title": "Yaak",
+      "tagline": "Yaak (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/yaak-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/yaak-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.your_spotify",
+      "title": "Your Spotify",
+      "tagline": "Your Spotify (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/your-spotify.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/your-spotify.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.zen",
+      "title": "Zen Browser",
+      "tagline": "Zen Browser (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/zen-browser.png",
+      "thumbnail": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/zen-browser.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.znc",
+      "title": "ZNC",
+      "tagline": "ZNC (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/znc.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/znc.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.zotero",
+      "title": "Zotero",
+      "tagline": "Zotero (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/zotero.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/zotero.png",
       "editorial_only": true
     }
   ]
