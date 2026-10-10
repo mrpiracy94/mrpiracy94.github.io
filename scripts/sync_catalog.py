@@ -116,7 +116,8 @@ def build_selection(featured, published, source_release):
     if not available:
         raise ValueError("No editorial applications found upstream")
 
-    verified = valid_upstream_release(source_release, published) and not any(\n        app.get("editorial_only") for app in available)
+    verified = valid_upstream_release(source_release, published) and not any(
+        app.get("editorial_only") for app in available)
     if verified:
         # Published approval is authoritative; never promote an absent slug.
         released = {PREFIX + slug for slug in source_release["approved"]}
