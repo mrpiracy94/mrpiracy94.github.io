@@ -119,7 +119,7 @@
       cover.classList.add("cover-placeholder");
       cover.replaceChildren(iconNode(app, "cover-placeholder-icon"));
     }
-    if (screenshotURL && /\.(?:png|jpe?g|webp|avif)$/i.test(new URL(screenshotURL).pathname)) {
+    if (screenshotURL && /\.(?:png|jpe?g|webp|avif)$/i.test(new URL(screenshotURL, document.baseURI).pathname)) {
       const shot = document.createElement("img");
       shot.src = screenshotURL;
       shot.loading = "lazy"; shot.decoding = "async"; shot.alt = "";
@@ -187,7 +187,7 @@
     preview.replaceChildren();
     preview.hidden = true;
     const thumbnail = safePath(app.thumbnail);
-    if (thumbnail && /\.(?:png|jpe?g|webp|avif)$/i.test(new URL(thumbnail).pathname)) {
+    if (thumbnail && /\.(?:png|jpe?g|webp|avif)$/i.test(new URL(thumbnail, document.baseURI).pathname)) {
       const screenshot = document.createElement("img");
       screenshot.alt = "Pré-visualização de " + appTitle(app);
       screenshot.loading = "eager"; // Hidden preview containers cannot trigger lazy loads reliably.
