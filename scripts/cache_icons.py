@@ -33,6 +33,8 @@ LOCAL_APP = re.compile(r"^/apps/io\.github\.mrpiracy94\.[a-z0-9._-]+/assets/[A-Z
 def normalize_url(raw: str) -> str | None:
     if not isinstance(raw, str):
         return None
+    if ".." in raw or any(char in raw for char in ("\r", "\n", "\\", "\0")):
+        return None
     if LOCAL_APP.fullmatch(raw):
         return "https://mrpiracy94.github.io/MrStore" + raw
     if any(char in raw for char in ("\r", "\n", "\\", "\0")):
