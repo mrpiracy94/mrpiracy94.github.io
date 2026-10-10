@@ -50,7 +50,7 @@ jobs:
       - name: Verify JavaScript syntax and catalog image sources
         run: |
           node --check assets/site.js
-          node tests/catalog-smoke.cjs .
+          node tests/catalog-smoke.cjs . --source
       - name: Prepare independently curated catalog
         run: python scripts/sync_catalog.py --output public
       - name: Test artwork caching and trust restrictions (offline)
