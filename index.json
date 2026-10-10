@@ -1,7 +1,7 @@
 {
   "version": 2,
   "updated_at": "2026-10-09T22:26:57Z",
-  "app_count": 233,
+  "app_count": 253,
   "base_url": "https://mrpiracy94.github.io/MrStore",
   "catalogue_status": "editorial_pilot_unverified",
   "apps": [
@@ -4182,6 +4182,362 @@
       "developer": "LinuxServer.io",
       "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/vivaldi.png",
       "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/vivaldi.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.vlc",
+      "title": "VLC",
+      "tagline": "VLC (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/vlc-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/vlc-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.vscode",
+      "title": "VS Code",
+      "tagline": "VS Code (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/vscode.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/vscode.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.vscodium-web",
+      "title": "VSCodium Web",
+      "tagline": "VSCodium Web (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/vscodium.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/vscodium.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.vscodium",
+      "title": "VSCodium",
+      "tagline": "VSCodium (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/vscodium.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/vscodium.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.webcord",
+      "title": "WebCord",
+      "tagline": "WebCord (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/webcord-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/webcord-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.webgrabplus",
+      "title": "WebGrab+Plus",
+      "tagline": "WebGrab+Plus (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/webgrabplus-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/webgrabplus-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.webstation",
+      "title": "Webstation",
+      "tagline": "Webstation (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/webstation-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/webstation-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.webtop",
+      "title": "Webtop",
+      "tagline": "Webtop (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/webtop.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/webtop.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.weixin",
+      "title": "Weixin",
+      "tagline": "Weixin (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/weixin-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/weixin-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.whisparr",
+      "title": "Whisparr",
+      "tagline": "Whisparr (seedit4.me catalog)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "hotio",
+      "icon": "https://seedit4.me/assets/img/icons/software/whisparr.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/whisparr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.winegui",
+      "title": "WineGUI",
+      "tagline": "WineGUI (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/winegui-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/winegui-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.wireshark",
+      "title": "Wireshark",
+      "tagline": "Wireshark (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wireshark.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wireshark.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.wps-office",
+      "title": "WPS Office",
+      "tagline": "WPS Office (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/wps-office-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/wps-office-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.xbackbone",
+      "title": "XBackBone",
+      "tagline": "XBackBone (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/xbackbone.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/xbackbone.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.xemu",
+      "title": "xemu",
+      "tagline": "xemu (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/xemu-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/xemu-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.yaak",
+      "title": "Yaak",
+      "tagline": "Yaak (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/yaak-logo.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/yaak-logo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.your_spotify",
+      "title": "Your Spotify",
+      "tagline": "Your Spotify (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/your-spotify.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/your-spotify.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.zen",
+      "title": "Zen Browser",
+      "tagline": "Zen Browser (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/zen-browser.png",
+      "thumbnail": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/zen-browser.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.znc",
+      "title": "ZNC",
+      "tagline": "ZNC (LinuxServer.io)",
+      "category": "Social",
+      "categories": [
+        "social"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/znc.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/znc.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.zotero",
+      "title": "Zotero",
+      "tagline": "Zotero (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/zotero.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/zotero.png",
       "editorial_only": true
     }
   ]
