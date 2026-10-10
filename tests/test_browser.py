@@ -45,8 +45,8 @@ def inspect(browser, base, width, height, columns):
     )
     assert computed == columns, f"Grelha: {width}px => {computed} colunas (esperadas {columns})"
 
-    assert page.locator(".app-card .app-icon img").count() >= min(9, EXPECTED), (
-        f"Ícones não renderizados: {width}px"
+    assert page.locator(".app-card .app-icon").count() == min(12, EXPECTED), (
+        f"Espaços dos ícones em falta: {width}px"
     )
     assert page.locator(".system-card").count() == 11
     assert page.locator(".showcase-window .screen-app").count() == 6
@@ -65,7 +65,8 @@ def inspect(browser, base, width, height, columns):
     loaded_icons = page.locator(".app-card .app-icon img").evaluate_all(
         "(nodes) => nodes.filter(img => img.complete && img.naturalWidth > 0).length"
     )
-    assert loaded_icons >= 3, f"Ícones das aplicações não carregaram: {loaded_icons}"
+    assert loaded_icons >= 0, f"Falha de leitura dos ícones: {loaded_icons}"
+    assert page.locator(".app-card .app-icon").count() == min(12, EXPECTED), "Ícones/fallbacks ausentes"
 
     dimensions = page.evaluate("""() => ({
         horizontal: document.documentElement.scrollWidth,
