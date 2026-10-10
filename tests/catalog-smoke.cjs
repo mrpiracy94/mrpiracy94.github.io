@@ -31,6 +31,10 @@ vm.runInContext(script.slice(begin, end), ctx, {filename: "image-resolver.js"});
 const safePath = vm.runInContext("safePath", ctx);
 for (const app of catalog.apps) {
   assert.ok(safePath(app.icon), "Catalog logo rejected: " + app.id + " (" + app.icon + ")");
+  if (app.icon.startsWith("./assets/catalog-icons/")) {
+    assert.ok(fs.existsSync(path.join(root, app.icon)),
+              "Cached icon file missing from the Pages artifact: " + app.id);
+  }
   if (app.thumbnail) assert.ok(safePath(app.thumbnail), "Screenshot rejected: " + app.id);
   if (app.compose_url) {
     const href = safePath(app.compose_url, ".yml");

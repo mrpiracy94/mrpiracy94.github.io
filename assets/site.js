@@ -34,6 +34,8 @@
   // Nunca aceitar URLs arbitrários vindos de metadados externos.
   function safePath(value, extension) {
     if (typeof value !== "string") return null;
+    // Original app artwork is mirrored inside this GitHub Pages artifact.
+    if (!extension && /^\.\/assets\/catalog-icons\/[0-9a-f]{22}\.(?:png|jpg|gif|webp|svg)$/.test(value)) return value;
     if (!extension) {
       const trustedCDN = /^https:\/\/cdn\.jsdelivr\.net\/gh\/walkxcode\/dashboard-icons\/(?:png|svg)\/[a-zA-Z0-9._-]+\.(?:png|svg)$/;
       const trustedRaw = /^https:\/\/raw\.githubusercontent\.com\/(?:selfhst\/icons|homarr-labs\/dashboard-icons|linuxserver\/docker-templates|dosbox-staging\/dosbox-staging|luanti-org\/luanti|selkies-project\/sealskin)\/[0-9a-f]{40}\/[a-zA-Z0-9._/-]+\.(?:png|svg|webp|gif)$/;
@@ -117,7 +119,7 @@
       cover.classList.add("cover-placeholder");
       cover.replaceChildren(iconNode(app, "cover-placeholder-icon"));
     }
-    if (screenshotURL && /\.(?:png|jpe?g|webp|avif)$/i.test(new URL(screenshotURL).pathname)) {
+    if (screenshotURL && /\.(?:png|jpe?g|webp|avif)$/i.test(new URL(screenshotURL, document.baseURI).pathname)) {
       const shot = document.createElement("img");
       shot.src = screenshotURL;
       shot.loading = "lazy"; shot.decoding = "async"; shot.alt = "";
@@ -185,7 +187,7 @@
     preview.replaceChildren();
     preview.hidden = true;
     const thumbnail = safePath(app.thumbnail);
-    if (thumbnail && /\.(?:png|jpe?g|webp|avif)$/i.test(new URL(thumbnail).pathname)) {
+    if (thumbnail && /\.(?:png|jpe?g|webp|avif)$/i.test(new URL(thumbnail, document.baseURI).pathname)) {
       const screenshot = document.createElement("img");
       screenshot.alt = "Pré-visualização de " + appTitle(app);
       screenshot.loading = "eager"; // Hidden preview containers cannot trigger lazy loads reliably.
