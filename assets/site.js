@@ -236,6 +236,8 @@
       $("results-summary").textContent = "Indisponível"; return;
     }
     $("total-apps").textContent = String(state.apps.length);
+    const previewCounter = $("preview-app-count");
+    if (previewCounter) previewCounter.textContent = String(state.apps.length);
     try {
       const reply = await fetch("./release-status.json", { cache: "no-store" });
       if (!reply.ok) throw new Error("Sem relatório de publicação");

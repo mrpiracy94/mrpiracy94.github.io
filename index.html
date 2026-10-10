@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#10141b">
   <meta name="description" content="MrStore — O teu homelab. As tuas apps. Uma só loja. Explora o catálogo comunitário de aplicações self-hosted, com pesquisa, filtros e informação de compatibilidade.">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://cdn.jsdelivr.net https://raw.githubusercontent.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://cdn.jsdelivr.net https://avatars.githubusercontent.com https://raw.githubusercontent.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta property="og:type" content="website">
   <meta property="og:title" content="MrStore — O teu homelab. As tuas apps. Uma só loja.">
   <meta property="og:description" content="Descobre, explora e organiza aplicações self-hosted. Uma loja para o teu homelab.">
@@ -54,7 +54,7 @@
       <div class="shell hero-main">
         <div class="hero-lead">
           <span class="hero-overline"><span class="hero-overline-dot" aria-hidden="true"></span> O ECOSSISTEMA DE APPS PARA O TEU HOMELAB</span>
-          <h1 id="hero-title">O universo <span>self-hosted</span> começa aqui.</h1>
+          <h1 id="hero-title">O universo <span class="hero-highlight">self-hosted</span><span class="hero-second-line">começa aqui.</span></h1>
           <p class="hero-subtitle">O teu homelab. As tuas apps. <strong>Uma só loja.</strong></p>
           <p class="hero-description">Descobre aplicações para servidores, NAS e ambientes self-hosted. Pesquisa o catálogo, explora cada projeto e acompanha a evolução de uma loja criada para unir plataformas.</p>
           <div class="hero-actions">
@@ -71,11 +71,11 @@
           <div class="cosmos-glow"></div><div class="orbit-ring orbit-ring-1"></div><div class="orbit-ring orbit-ring-2"></div><div class="orbit-ring orbit-ring-3"></div>
           <div class="orbit-connector orbit-connector-a"></div><div class="orbit-connector orbit-connector-b"></div>
           <div class="cosmos-center"><img src="./assets/mark.svg" width="116" height="116" alt=""><span class="center-plus">+</span></div>
-          <div class="orbit-bubble orbit-bubble-a"><span>⌂</span></div>
-          <div class="orbit-bubble orbit-bubble-b"><span>◈</span></div>
-          <div class="orbit-bubble orbit-bubble-c"><span>▤</span></div>
-          <div class="orbit-bubble orbit-bubble-d"><span>⌘</span></div>
-          <div class="orbit-bubble orbit-bubble-e"><span>⬡</span></div>
+          <div class="orbit-bubble orbit-bubble-a"><img src="https://mrpiracy94.github.io/MrStore/apps/io.github.mrpiracy94.homeassistant/assets/icon.png" alt="" width="48" height="48" loading="lazy"></div>
+          <div class="orbit-bubble orbit-bubble-b"><img src="https://mrpiracy94.github.io/MrStore/apps/io.github.mrpiracy94.jellyfin/assets/icon.png" alt="" width="48" height="48" loading="lazy"></div>
+          <div class="orbit-bubble orbit-bubble-c"><img src="https://mrpiracy94.github.io/MrStore/apps/io.github.mrpiracy94.immich/assets/icon.png" alt="" width="48" height="48" loading="lazy"></div>
+          <div class="orbit-bubble orbit-bubble-d"><img src="https://mrpiracy94.github.io/MrStore/apps/io.github.mrpiracy94.nextcloud/assets/icon.png" alt="" width="48" height="48" loading="lazy"></div>
+          <div class="orbit-bubble orbit-bubble-e"><img src="https://mrpiracy94.github.io/MrStore/apps/io.github.mrpiracy94.qbittorrent/assets/icon.png" alt="" width="48" height="48" loading="lazy"></div>
           <div class="orbit-node orbit-node-a"></div><div class="orbit-node orbit-node-b"></div><div class="orbit-node orbit-node-c"></div>
           <div class="orbit-label orbit-label-apps"><i></i><strong>APLICAÇÕES</strong><span>Explora. Descobre.</span></div>
           <div class="orbit-label orbit-label-systems"><i></i><strong>PLATAFORMAS</strong><span>Mais possibilidades.</span></div>
@@ -154,8 +154,17 @@
         </div>
         <div class="showcase-art" aria-hidden="true">
           <div class="showcase-window">
-            <div class="showcase-sidebar"><div class="showcase-mini-brand"><img src="./assets/mark.svg" width="28" height="28" alt=""> Mr<span>Store</span></div><div class="sidebar-item selected">▦ &nbsp; Aplicações</div><div class="sidebar-item">☆ &nbsp; Favoritos</div><div class="sidebar-item">◎ &nbsp; Plataformas</div><div class="sidebar-item">⚙ &nbsp; Definições</div></div>
-            <div class="showcase-screen"><div class="screen-search">⌕ &nbsp; Pesquisar aplicações <span>/</span></div><span class="screen-kicker">EXPLORAR</span><h3>Descobre aplicações</h3><p>Uma montra feita para o teu homelab.</p><div class="screen-tags"><span class="chosen">Todas</span><span>Multimédia</span><span>Produtividade</span><span>Redes</span></div><div class="screen-grid"><div><b>◈</b><strong>Multimédia</strong><small>Explorar projetos</small></div><div><b>☁</b><strong>Cloud</strong><small>Explorar projetos</small></div><div><b>⌂</b><strong>Casa</strong><small>Explorar projetos</small></div><div><b>⚙</b><strong>Utilitários</strong><small>Explorar projetos</small></div></div></div>
+            <div class="showcase-browserbar"><span class="browser-dots"><i></i><i></i><i></i></span><span class="browser-address">mrpiracy94.github.io</span><span class="browser-actions">○ &nbsp; ⋮</span></div>
+            <div class="showcase-body">
+              <div class="showcase-sidebar"><div class="showcase-mini-brand"><img src="./assets/mark.svg" width="28" height="28" alt="">Mr<span>Store</span></div><div class="sidebar-caption">DESCOBRIR</div><div class="sidebar-item selected">▦ &nbsp; Aplicações</div><div class="sidebar-item">☆ &nbsp; Favoritos</div><div class="sidebar-item">◎ &nbsp; Categorias</div><div class="sidebar-separator"></div><div class="sidebar-caption">SISTEMA</div><div class="sidebar-item">⚙ &nbsp; Definições</div><div class="sidebar-bottom">● <span>Catálogo de descoberta</span></div></div>
+              <div class="showcase-screen">
+                <div class="screen-search"><span>⌕ &nbsp; Pesquisar aplicações...</span><span class="screen-shortcut">/</span></div>
+                <div class="screen-heading"><div><span class="screen-kicker">BIBLIOTECA MRSTORE</span><h3>Explorar aplicações</h3><p>Encontra os teus próximos serviços self-hosted.</p></div><div class="screen-counter"><b id="preview-app-count">—</b><small>aplicações</small></div></div>
+                <div class="screen-tags"><span class="chosen">Todas</span><span>Multimédia</span><span>Produtividade</span><span>Redes</span><span>Casa</span></div>
+                <div class="screen-grid"><div class="screen-app"><span class="screen-app-icon"><img src="https://mrpiracy94.github.io/MrStore/apps/io.github.mrpiracy94.jellyfin/assets/icon.png" width="30" height="30" alt="" loading="lazy"></span><strong>Jellyfin</strong><small>Multimédia</small></div><div class="screen-app"><span class="screen-app-icon"><img src="https://mrpiracy94.github.io/MrStore/apps/io.github.mrpiracy94.immich/assets/icon.png" width="30" height="30" alt="" loading="lazy"></span><strong>Immich</strong><small>Fotografias</small></div><div class="screen-app"><span class="screen-app-icon"><img src="https://mrpiracy94.github.io/MrStore/apps/io.github.mrpiracy94.homeassistant/assets/icon.png" width="30" height="30" alt="" loading="lazy"></span><strong>Home Assistant</strong><small>Domótica</small></div><div class="screen-app"><span class="screen-app-icon"><img src="https://mrpiracy94.github.io/MrStore/apps/io.github.mrpiracy94.nextcloud/assets/icon.png" width="30" height="30" alt="" loading="lazy"></span><strong>Nextcloud</strong><small>Cloud</small></div><div class="screen-app"><span class="screen-app-icon"><img src="https://mrpiracy94.github.io/MrStore/apps/io.github.mrpiracy94.qbittorrent/assets/icon.png" width="30" height="30" alt="" loading="lazy"></span><strong>qBittorrent</strong><small>Downloads</small></div><div class="screen-app"><span class="screen-app-icon"><img src="https://mrpiracy94.github.io/MrStore/apps/io.github.mrpiracy94.vaultwarden/assets/icon.png" width="30" height="30" alt="" loading="lazy"></span><strong>Vaultwarden</strong><small>Segurança</small></div></div>
+                <div class="screen-bottom"><span>● Seleção editorial</span><span>Explorar todas →</span></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
