@@ -1,0 +1,59 @@
+name: Validate MrStore website
+
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'assets/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'index.json'
+      - 'release-status.json'
+      - '.github/workflows/validate-site.yml'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-validation-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Check icons, JavaScript, editorial data and Pages artifact
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Python metadata requirements
+        run: python -m pip install 'PyYAML>=6,<7'
+      - name: Check exact source JS and real brand graphics
+        run: |
+          node --check assets/site.js
+          node tests/catalog-smoke.cjs .
+          python -m unittest discover -s tests -p 'test_platform_logos.py' -v
+          python -m compileall -q scripts
+      - name: Build the same website artifact as the production deployment
+        run: python scripts/sync_catalog.py --output public
+      - name: Verify the published JavaScript and app metadata
+        run: |
+          node --check public/assets/site.js
+          node tests/catalog-smoke.cjs public
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          i = json.loads(Path("public/index.json").read_text())
+          r = json.loads(Path("public/release-status.json").read_text())
+          assert i["version"] == 2 and i["app_count"] == len(i["apps"])
+          assert r["approved_count"] in (0, i["app_count"])
+          assert i["app_count"] <= r["candidate_count"]
+          print(f"Verified {i['app_count']} advertised entries. Source approval count: {r['approved_count']}.")
+          PY
