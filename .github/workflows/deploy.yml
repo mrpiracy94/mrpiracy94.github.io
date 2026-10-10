@@ -10,7 +10,7 @@ on:
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
   schedule:
-    - cron: '17 */6 * * *'
+    - cron: '17 * * * *'
 
 permissions:
   contents: write
@@ -61,7 +61,7 @@ jobs:
           html = Path("public/index.html").read_text(encoding="utf-8")
           css = Path("public/assets/site.css").read_text(encoding="utf-8")
           assert i["version"] == 2 and i["app_count"] == len(i["apps"])
-          assert 1 <= i["app_count"] <= r["candidate_count"]
+          assert i["app_count"] == r["candidate_count"], "Website must show every selected upstream application"
           assert r["approved_count"] == len(r["approved"])
           assert r["approved_count"] in (0, i["app_count"])
           assert len({a["id"] for a in i["apps"]}) == i["app_count"]
