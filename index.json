@@ -1,31 +1,10 @@
 {
   "version": 2,
   "updated_at": "2026-10-09T22:26:57Z",
-  "app_count": 6,
+  "app_count": 112,
   "base_url": "https://mrpiracy94.github.io/MrStore",
   "catalogue_status": "editorial_pilot_unverified",
   "apps": [
-    {
-      "id": "io.github.mrpiracy94.homeassistant",
-      "title": "Home Assistant",
-      "tagline": "Automação e controlo da casa inteligente",
-      "category": "Home",
-      "categories": [
-        "home"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.homeassistant/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.homeassistant/assets/home-assistant.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.homeassistant/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.homeassistant/meta.json",
-      "content_hash": "ebee48d8",
-      "version": "1.0.2"
-    },
     {
       "id": "io.github.mrpiracy94.jellyfin",
       "title": "Jellyfin",
@@ -46,6 +25,24 @@
       "meta_url": "/apps/io.github.mrpiracy94.jellyfin/meta.json",
       "content_hash": "5445af10",
       "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.plex",
+      "title": "Plex",
+      "tagline": "Plex (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/plex.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/plex.png",
+      "editorial_only": true
     },
     {
       "id": "io.github.mrpiracy94.immich",
@@ -69,25 +66,76 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.nextcloud",
-      "title": "Nextcloud",
-      "tagline": "Nuvem privada para ficheiros e colaboração",
-      "category": "Productivity",
+      "id": "io.github.mrpiracy94.audiobookshelf",
+      "title": "Audiobookshelf",
+      "tagline": "Audiolivros e podcasts",
+      "category": "Media",
       "categories": [
-        "productivity"
+        "media"
       ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
       "architectures": [
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/io.github.mrpiracy94.nextcloud/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.nextcloud/assets/nextcloud.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.nextcloud/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.nextcloud/meta.json",
-      "content_hash": "8cd36db0",
-      "version": "1.0.1"
+      "version": "1.0.0",
+      "developer": "Audiobookshelf",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/audiobookshelf.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/audiobookshelf.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.navidrome",
+      "title": "Navidrome",
+      "tagline": "Navidrome (seedit4.me catalog)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Deluan",
+      "icon": "https://seedit4.me/assets/img/icons/software/navidrome.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/navidrome.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.kavita",
+      "title": "Kavita",
+      "tagline": "Kavita (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kavita.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kavita.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.calibre-web",
+      "title": "Calibre-Web",
+      "tagline": "Calibre-Web (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/calibre-web.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/calibre-web.png",
+      "editorial_only": true
     },
     {
       "id": "io.github.mrpiracy94.qbittorrent",
@@ -111,6 +159,426 @@
       "version": "1.0.1"
     },
     {
+      "id": "io.github.mrpiracy94.sonarr",
+      "title": "Sonarr",
+      "tagline": "Sonarr (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/sonarr.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/sonarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.radarr",
+      "title": "Radarr",
+      "tagline": "Radarr (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/radarr.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/radarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.prowlarr",
+      "title": "Prowlarr",
+      "tagline": "Prowlarr (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/prowlarr.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/prowlarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.bazarr",
+      "title": "Bazarr",
+      "tagline": "Bazarr (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/bazarr.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/bazarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.seerr",
+      "title": "Seerr",
+      "tagline": "Pedidos de filmes/séries (substitui Overseerr e Jellyseerr)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "seerr-team",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/seerr.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/seerr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.metube",
+      "title": "MeTube",
+      "tagline": "Descarregar vídeos (yt-dlp) com interface web",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "MeTube",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/metube.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/metube.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.homeassistant",
+      "title": "Home Assistant",
+      "tagline": "Automação e controlo da casa inteligente",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.homeassistant/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.homeassistant/assets/home-assistant.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.homeassistant/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.homeassistant/meta.json",
+      "content_hash": "ebee48d8",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.dockge",
+      "title": "Dockge",
+      "tagline": "Gestor de stacks Docker Compose (alternativa ao Portainer)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Dockge",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/dockge.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/dockge.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.nginx-proxy-manager",
+      "title": "Nginx Proxy Manager",
+      "tagline": "Proxy reverso com interface web",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Nginx Proxy Manager",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nginx-proxy-manager.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nginx-proxy-manager.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.tailscale",
+      "title": "Tailscale",
+      "tagline": "VPN mesh",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Tailscale",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tailscale.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tailscale.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.syncthing",
+      "title": "Syncthing",
+      "tagline": "Syncthing (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/syncthing.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/syncthing.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.uptime-kuma",
+      "title": "Uptime Kuma",
+      "tagline": "Monitorização de serviços",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Uptime Kuma",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/uptime-kuma.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/uptime-kuma.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.nextcloud",
+      "title": "Nextcloud",
+      "tagline": "Nuvem privada para ficheiros e colaboração",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.nextcloud/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.nextcloud/assets/nextcloud.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.nextcloud/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.nextcloud/meta.json",
+      "content_hash": "8cd36db0",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.paperless-ngx",
+      "title": "Paperless-ngx",
+      "tagline": "Arquivo de documentos com OCR",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "Paperless-ngx",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/paperless-ngx.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/paperless-ngx.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.actual-budget",
+      "title": "Actual Budget",
+      "tagline": "Orçamento pessoal",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Actual Budget",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/actual-budget.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/actual-budget.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.mealie",
+      "title": "Mealie",
+      "tagline": "Gestor de receitas",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Mealie",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mealie.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mealie.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.stirling-pdf",
+      "title": "Stirling PDF",
+      "tagline": "Ferramentas PDF",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Stirling PDF",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/stirling-pdf.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/stirling-pdf.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.gitea",
+      "title": "Gitea",
+      "tagline": "Servidor Git self-hosted",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Gitea",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/gitea.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/gitea.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.code-server",
+      "title": "code-server",
+      "tagline": "code-server (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/code-server.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/code-server.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.it-tools",
+      "title": "IT-Tools",
+      "tagline": "Ferramentas úteis para programadores",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "IT-Tools",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/it-tools.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/it-tools.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.ollama",
+      "title": "Ollama",
+      "tagline": "Modelos de IA locais (CPU por omissão)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Ollama",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ollama.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ollama.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.open-webui",
+      "title": "Open WebUI",
+      "tagline": "Interface web para Ollama/LLMs",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Open WebUI",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/open-webui.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/open-webui.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.homepage",
+      "title": "Homepage",
+      "tagline": "Dashboard configurável",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "Homepage",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/homepage.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/homepage.png",
+      "editorial_only": true
+    },
+    {
       "id": "io.github.mrpiracy94.vaultwarden",
       "title": "Vaultwarden",
       "tagline": "Gestor de palavras-passe compatível com Bitwarden",
@@ -130,6 +598,1443 @@
       "meta_url": "/apps/io.github.mrpiracy94.vaultwarden/meta.json",
       "content_hash": "6fe00635",
       "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.adguardhome-sync",
+      "title": "AdGuardHome Sync",
+      "tagline": "AdGuardHome Sync (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/adguardhome-sync.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/adguardhome-sync.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.apprise-api",
+      "title": "Apprise API",
+      "tagline": "Apprise API (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/apprise.png",
+      "thumbnail": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/57e939e504eda0ea764098015da93aa666ad6f31/png/apprise.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.autobrr",
+      "title": "Autobrr",
+      "tagline": "Autobrr (seedit4.me catalog)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "autobrr",
+      "icon": "https://seedit4.me/assets/img/icons/software/autobrr.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/autobrr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.beszel",
+      "title": "Beszel",
+      "tagline": "Monitorização leve de servidores",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Beszel",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/beszel.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/beszel.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.bookstack",
+      "title": "BookStack",
+      "tagline": "BookStack (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/bookstack.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/bookstack.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.changedetection.io",
+      "title": "changedetection.io",
+      "tagline": "changedetection.io (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/changedetection.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/changedetection.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.cloudflared",
+      "title": "Cloudflared",
+      "tagline": "Túnel Cloudflare (sem UI)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Cloudflared",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/cloudflared.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/cloudflared.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.dashy",
+      "title": "Dashy",
+      "tagline": "Dashboard",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Dashy",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/dashy.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/dashy.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.ddclient",
+      "title": "ddclient",
+      "tagline": "ddclient (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ddclient.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ddclient.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.deluge",
+      "title": "Deluge",
+      "tagline": "Deluge (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/deluge.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/deluge.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.dozzle",
+      "title": "Dozzle",
+      "tagline": "Logs Docker em tempo real",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Dozzle",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/dozzle.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/dozzle.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.duplicati",
+      "title": "Duplicati",
+      "tagline": "Duplicati (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/duplicati.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/duplicati.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.emby",
+      "title": "Emby",
+      "tagline": "Emby (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/emby.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/emby.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.esphome",
+      "title": "ESPHome",
+      "tagline": "Firmware para dispositivos ESP",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "ESPHome",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/esphome.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/esphome.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.freshrss",
+      "title": "FreshRSS",
+      "tagline": "FreshRSS (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/freshrss.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/freshrss.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.frigate",
+      "title": "Frigate",
+      "tagline": "NVR com deteção de objetos",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "Frigate",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/frigate.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/frigate.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.glances",
+      "title": "Glances",
+      "tagline": "Glances (seedit4.me catalog)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "nicolargo",
+      "icon": "https://seedit4.me/assets/img/icons/software/glances.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/glances.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.gluetun",
+      "title": "Gluetun",
+      "tagline": "Cliente VPN para outros contentores",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Gluetun",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/gluetun.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/gluetun.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.grocy",
+      "title": "Grocy",
+      "tagline": "Grocy (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/grocy.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/grocy.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.healthchecks",
+      "title": "Healthchecks",
+      "tagline": "Healthchecks (LinuxServer.io, correções de segurança MrStore)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.2",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/healthchecks.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/healthchecks.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.homarr",
+      "title": "Homarr",
+      "tagline": "Dashboard para a casa/homelab",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "Homarr",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/homarr.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/homarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.jackett",
+      "title": "Jackett",
+      "tagline": "Jackett (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/jackett.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/jackett.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.jdownloader",
+      "title": "JDownloader 2",
+      "tagline": "JDownloader 2 (seedit4.me catalog)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "jlesage",
+      "icon": "https://seedit4.me/assets/img/icons/software/jdownloader.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/jdownloader.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.joplin",
+      "title": "Joplin Server",
+      "tagline": "Joplin Server (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/joplin.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/joplin.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.karakeep",
+      "title": "Karakeep",
+      "tagline": "Guarda tudo: bookmarks, notas, imagens (com IA opcional)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.3",
+      "developer": "Karakeep",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/karakeep.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/karakeep.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.librespeed",
+      "title": "LibreSpeed",
+      "tagline": "LibreSpeed (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/librespeed.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/librespeed.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.lidarr",
+      "title": "Lidarr",
+      "tagline": "Lidarr (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/lidarr.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/lidarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.memos",
+      "title": "Memos",
+      "tagline": "Notas rápidas",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Memos",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/memos.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/memos.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.mosquitto",
+      "title": "Mosquitto",
+      "tagline": "Broker MQTT",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Mosquitto",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mosquitto.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mosquitto.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.node-red",
+      "title": "Node-RED",
+      "tagline": "Automação por fluxos",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Node-RED",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/node-red.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/node-red.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.handbrake",
+      "title": "HandBrake",
+      "tagline": "HandBrake (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/handbrake.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/handbrake.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.calibre",
+      "title": "Calibre",
+      "tagline": "Calibre (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/calibre.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/calibre.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.mariadb",
+      "title": "MariaDB",
+      "tagline": "MariaDB (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mariadb.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mariadb.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.speedtest-tracker",
+      "title": "Speedtest Tracker",
+      "tagline": "Speedtest Tracker (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/speedtest-tracker.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/speedtest-tracker.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.wireguard",
+      "title": "WireGuard",
+      "tagline": "WireGuard (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wireguard.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wireguard.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.netdata",
+      "title": "Netdata",
+      "tagline": "Monitorização em tempo real",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Netdata",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/netdata.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/netdata.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.photoprism",
+      "title": "PhotoPrism",
+      "tagline": "Fotos com IA",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "PhotoPrism",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/photoprism.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/photoprism.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.pairdrop",
+      "title": "PairDrop",
+      "tagline": "PairDrop (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pairdrop.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pairdrop.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.planka",
+      "title": "Planka",
+      "tagline": "Planka (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/planka.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/planka.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.pocket-id",
+      "title": "Pocket ID",
+      "tagline": "Servidor OIDC simples com passkeys",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Pocket ID",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pocket-id.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pocket-id.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.rustdesk",
+      "title": "RustDesk",
+      "tagline": "RustDesk (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/rustdesk.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/rustdesk.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.searxng",
+      "title": "SearXNG",
+      "tagline": "Metamotor de pesquisa privado",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "SearXNG",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/searxng.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/searxng.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.tautulli",
+      "title": "Tautulli",
+      "tagline": "Tautulli (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tautulli.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tautulli.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.transmission",
+      "title": "Transmission",
+      "tagline": "Transmission (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/transmission.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/transmission.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.unifi-network-application",
+      "title": "UniFi Network Application",
+      "tagline": "UniFi Network Application (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/unifi-network-application-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/unifi-network-application-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.wikijs",
+      "title": "Wiki.js",
+      "tagline": "Wiki.js (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wikijs.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wikijs.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.sabnzbd",
+      "title": "SABnzbd",
+      "tagline": "SABnzbd (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/sabnzbd.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/sabnzbd.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.tdarr",
+      "title": "Tdarr",
+      "tagline": "Transcodificação automática da biblioteca",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Tdarr",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tdarr.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tdarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.lldap",
+      "title": "LLDAP",
+      "tagline": "Servidor LDAP leve",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LLDAP",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/lldap.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/lldap.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.maintainerr",
+      "title": "Maintainerr",
+      "tagline": "Regras automáticas de limpeza para Plex/*arr",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Maintainerr",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/maintainerr.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/maintainerr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.netbox",
+      "title": "NetBox",
+      "tagline": "NetBox (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/netbox.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/netbox.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.nzbget",
+      "title": "NZBGet",
+      "tagline": "NZBGet (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nzbget.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nzbget.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.nzbhydra2",
+      "title": "NZBHydra2",
+      "tagline": "NZBHydra2 (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nzbhydra2.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nzbhydra2.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.obsidian",
+      "title": "Obsidian",
+      "tagline": "Obsidian (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/obsidian.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/obsidian.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.onlyoffice",
+      "title": "ONLYOFFICE",
+      "tagline": "ONLYOFFICE (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/onlyoffice.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/onlyoffice.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.ombi",
+      "title": "Ombi",
+      "tagline": "Ombi (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ombi.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ombi.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.organizr",
+      "title": "Organizr",
+      "tagline": "Organizr (seedit4.me catalog)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Organizr",
+      "icon": "https://seedit4.me/assets/img/icons/software/organizr.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/organizr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.phpmyadmin",
+      "title": "phpMyAdmin",
+      "tagline": "phpMyAdmin (LinuxServer.io)",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/phpmyadmin.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/phpmyadmin.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.piwigo",
+      "title": "Piwigo",
+      "tagline": "Piwigo (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/piwigo.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/piwigo.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.recyclarr",
+      "title": "Recyclarr",
+      "tagline": "Sincroniza perfis TRaSH com Sonarr/Radarr (sem UI)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "Recyclarr",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/recyclarr.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/recyclarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.resilio-sync",
+      "title": "Resilio Sync",
+      "tagline": "Resilio Sync (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/resilio-sync.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/resilio-sync.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.smokeping",
+      "title": "SmokePing",
+      "tagline": "SmokePing (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/smokeping.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/smokeping.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.swag",
+      "title": "SWAG",
+      "tagline": "SWAG (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/swag.gif",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/swag.gif",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.unpackerr",
+      "title": "Unpackerr",
+      "tagline": "Unpackerr (seedit4.me catalog)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Golift",
+      "icon": "https://seedit4.me/assets/img/icons/software/unpackerr.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/unpackerr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.mstream",
+      "title": "mStream",
+      "tagline": "mStream (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mstream.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mstream.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.mylar3",
+      "title": "Mylar3",
+      "tagline": "Mylar3 (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/mylar3.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/mylar3.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.netbootxyz",
+      "title": "netboot.xyz",
+      "tagline": "Arranque de sistemas e utilitários pela rede",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.1.0",
+      "developer": "netboot.xyz",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/netbootxyz.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/netbootxyz.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.notifiarr",
+      "title": "Notifiarr",
+      "tagline": "Cliente Notifiarr",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Notifiarr",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/notifiarr.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/notifiarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.openssh-server",
+      "title": "OpenSSH Server",
+      "tagline": "OpenSSH Server (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/openssh-server-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/openssh-server-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.projectsend",
+      "title": "ProjectSend",
+      "tagline": "ProjectSend (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/projectsend.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/projectsend.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.pyload-ng",
+      "title": "pyLoad-ng",
+      "tagline": "pyLoad-ng (LinuxServer.io)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.1",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/pyload.png",
+      "thumbnail": "https://raw.githubusercontent.com/selfhst/icons/2053b70b283ffed5f2cc1424d1e17d9c554a846d/png/pyload.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.qui",
+      "title": "qui",
+      "tagline": "qui (seedit4.me catalog)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "autobrr",
+      "icon": "https://seedit4.me/assets/img/icons/software/qui.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/qui.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.radarr-4k",
+      "title": "Radarr 4K",
+      "tagline": "Radarr 4K (seedit4.me catalog (instância extra))",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://seedit4.me/assets/img/icons/software/radarr.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/radarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.sonarr-4k",
+      "title": "Sonarr 4K",
+      "tagline": "Sonarr 4K (seedit4.me catalog (instância extra))",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://seedit4.me/assets/img/icons/software/sonarr.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/sonarr.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.rsnapshot",
+      "title": "rsnapshot",
+      "tagline": "rsnapshot (LinuxServer.io)",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/rsnapshot-icon.png",
+      "thumbnail": "https://raw.githubusercontent.com/linuxserver/docker-templates/c00fb6e6dc50b59217a915188be27d0ea55801c8/linuxserver.io/img/rsnapshot-icon.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.rutorrent",
+      "title": "ruTorrent (rTorrent)",
+      "tagline": "ruTorrent (rTorrent) (seedit4.me catalog)",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "crazy-max",
+      "icon": "https://seedit4.me/assets/img/icons/software/rtorrent.png",
+      "thumbnail": "https://seedit4.me/assets/img/icons/software/rtorrent.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.socket-proxy",
+      "title": "Socket Proxy",
+      "tagline": "Socket Proxy (LinuxServer.io)",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.1.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://raw.githubusercontent.com/mrpiracy94/MrStore/main/Apps/socket-proxy/icon.svg",
+      "thumbnail": "https://raw.githubusercontent.com/mrpiracy94/MrStore/main/Apps/socket-proxy/icon.svg",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.synclounge",
+      "title": "SyncLounge",
+      "tagline": "SyncLounge (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/synclounge.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/synclounge.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.tvheadend",
+      "title": "Tvheadend",
+      "tagline": "Tvheadend (LinuxServer.io)",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "LinuxServer.io",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tvheadend.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tvheadend.png",
+      "editorial_only": true
+    },
+    {
+      "id": "io.github.mrpiracy94.wizarr",
+      "title": "Wizarr",
+      "tagline": "Convites para Plex/Jellyfin/Emby",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "version": "1.0.0",
+      "developer": "Wizarr",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wizarr.png",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wizarr.png",
+      "editorial_only": true
     }
   ]
 }
