@@ -256,6 +256,8 @@
       $("results-summary").textContent = "Indisponível"; return;
     }
     $("total-apps").textContent = String(state.apps.length);
+    const pilotCount = $("pilot-count");
+    if (pilotCount) pilotCount.textContent = String(state.apps.length);
     const previewCounter = $("preview-app-count");
     if (previewCounter) previewCounter.textContent = String(state.apps.length);
     try {
