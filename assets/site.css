@@ -705,3 +705,13 @@ body{background:#10151d;overflow-x:hidden}
  .screen-bottom{font-size:7px}
  .brand-preview{padding-top:14px}
 }
+
+/* Logótipos originais das plataformas: nunca glifos decorativos. */
+.system-glyph{overflow:hidden}
+.system-glyph img{display:block;width:82%;height:82%;object-fit:contain;flex:none}
+.system-glyph.purple img,.system-glyph.green img{width:100%;height:100%}
+.system-glyph.cyan,.system-glyph.midnight,.system-glyph.blue,.system-glyph.deep,
+.system-glyph.sky,.system-glyph.ruby,.system-glyph.aqua,.system-glyph.peach,
+.system-glyph.violet,.system-glyph.green{background:#fffaf0}
+.system-glyph.purple{background:#5351f3}
+.system-glyph.green{background:#f8f4ef}
