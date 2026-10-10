@@ -67,7 +67,9 @@ def valid_index(data) -> bool:
 
 
 def valid_upstream_release(release, index) -> bool:
-    if not valid_index(index) or not isinstance(release, dict):
+    # A matching editorial listing is not a security-certified release.
+    if (not valid_index(index) or not isinstance(release, dict)
+            or release.get("certification") != "security_scanned"):
         return False
     approved = release.get("approved")
     count = release.get("approved_count")
@@ -79,13 +81,33 @@ def valid_upstream_release(release, index) -> bool:
     return len(expected) == count and expected == {app["id"] for app in index["apps"]}
 
 
+def source_app_slugs(tree: dict) -> list[str]:
+    """List every source manifest from GitHub's complete tree; no shortlists."""
+    if not isinstance(tree, dict) or tree.get("truncated") is not False:
+        raise ValueError("Missing or incomplete upstream manifest tree")
+    entries = tree.get("tree")
+    if not isinstance(entries, list):
+        raise ValueError("Malformed upstream manifest tree")
+    names = []
+    for item in entries:
+        if not isinstance(item, dict) or item.get("type") != "blob":
+            continue
+        match = re.fullmatch(r"Apps/([a-z0-9._-]+)/docker-compose\.yml",
+                             str(item.get("path", "")))
+        if match:
+            names.append(match.group(1))
+    if not names or len(names) != len(set(names)):
+        raise ValueError("No apps or duplicate manifests in upstream tree")
+    return sorted(names)
+
+
 def build_selection(featured, published, source_release):
     if not isinstance(featured, dict) or not isinstance(featured.get("apps"), list):
-        raise ValueError("Missing curated upstream shortlist")
+        raise ValueError("Missing upstream application inventory")
     slugs = featured["apps"]
     if not slugs or len(slugs) != len(set(slugs)) or not all(
             isinstance(s, str) and re.fullmatch(r"[a-z0-9._-]+", s) for s in slugs):
-        raise ValueError("Invalid or duplicate curated slugs")
+        raise ValueError("Invalid or duplicate application slugs")
     if not valid_index(published):
         raise ValueError("Invalid upstream public index")
 
@@ -166,7 +188,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=ROOT / "public")
     args = parser.parse_args()
-    featured = get_json(UPSTREAM_RAW + "/main/data/featured-apps.json")
+    # All source applications, not a manually curated partial featured list.
+    tree = get_json("https://api.github.com/repos/mrpiracy94/MrStore/git/trees/main?recursive=1")
+    featured = {"apps": source_app_slugs(tree)}
     published = get_json(UPSTREAM_RAW + "/gh-pages/index.json")
     approved = get_json(UPSTREAM_RAW + "/gh-pages/release-status.json",
                         allow_missing=True)
