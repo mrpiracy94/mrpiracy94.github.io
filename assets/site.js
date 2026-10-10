@@ -36,9 +36,10 @@
     if (typeof value !== "string") return null;
     if (!extension) {
       const trustedCDN = /^https:\/\/cdn\.jsdelivr\.net\/gh\/walkxcode\/dashboard-icons\/(?:png|svg)\/[a-zA-Z0-9._-]+\.(?:png|svg)$/;
-      const trustedRaw = /^https:\/\/raw\.githubusercontent\.com\/(?:selfhst\/icons|homarr-labs\/dashboard-icons|linuxserver\/docker-templates)\/[0-9a-f]{40}\/[a-zA-Z0-9._/-]+\.(?:png|svg|webp|gif)$/;
+      const trustedRaw = /^https:\/\/raw\.githubusercontent\.com\/(?:selfhst\/icons|homarr-labs\/dashboard-icons|linuxserver\/docker-templates|dosbox-staging\/dosbox-staging|luanti-org\/luanti|selkies-project\/sealskin)\/[0-9a-f]{40}\/[a-zA-Z0-9._/-]+\.(?:png|svg|webp|gif)$/;
       const trustedSeedit = /^https:\/\/seedit4\.me\/assets\/img\/icons\/software\/[a-zA-Z0-9._-]+\.(?:png|webp)$/;
-      if (trustedCDN.test(value) || trustedRaw.test(value) || trustedSeedit.test(value)) {
+      const trustedStore = /^https:\/\/raw\.githubusercontent\.com\/mrpiracy94\/MrStore\/main\/Apps\/[a-z0-9._-]+\/icon\.svg$/;
+      if (trustedCDN.test(value) || trustedRaw.test(value) || trustedSeedit.test(value) || trustedStore.test(value)) {
         return value;
       }
     }
@@ -69,9 +70,9 @@
     if (src) {
       const img = document.createElement("img");
       img.src = src; img.alt = ""; img.loading = "lazy";
-      img.addEventListener("error", function () { img.remove(); wrap.textContent = "✦"; }, { once: true });
+      img.addEventListener("error", function () { img.remove(); wrap.textContent = appTitle(app).charAt(0).toLocaleUpperCase("pt"); }, { once: true });
       wrap.appendChild(img);
-    } else wrap.textContent = "✦";
+    } else wrap.textContent = appTitle(app).charAt(0).toLocaleUpperCase("pt");
     return wrap;
   }
   function categoryList() {
@@ -247,6 +248,8 @@
       $("results-summary").textContent = "Indisponível"; return;
     }
     $("total-apps").textContent = String(state.apps.length);
+    const pilotCounter = $("pilot-count");
+    if (pilotCounter) pilotCounter.textContent = state.apps.length + " aplicações selecionadas";
     const previewCounter = $("preview-app-count");
     if (previewCounter) previewCounter.textContent = String(state.apps.length);
     try {
