@@ -34,6 +34,8 @@
   // Nunca aceitar URLs arbitrários vindos de metadados externos.
   function safePath(value, extension) {
     if (typeof value !== "string") return null;
+    // Original app artwork is mirrored inside this GitHub Pages artifact.
+    if (!extension && /^\.\/assets\/catalog-icons\/[0-9a-f]{22}\.(?:png|jpg|gif|webp|svg)$/.test(value)) return value;
     if (!extension) {
       const trustedCDN = /^https:\/\/cdn\.jsdelivr\.net\/gh\/walkxcode\/dashboard-icons\/(?:png|svg)\/[a-zA-Z0-9._-]+\.(?:png|svg)$/;
       const trustedRaw = /^https:\/\/raw\.githubusercontent\.com\/(?:selfhst\/icons|homarr-labs\/dashboard-icons|linuxserver\/docker-templates|dosbox-staging\/dosbox-staging|luanti-org\/luanti|selkies-project\/sealskin)\/[0-9a-f]{40}\/[a-zA-Z0-9._/-]+\.(?:png|svg|webp|gif)$/;
