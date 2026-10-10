@@ -43,10 +43,20 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_platform_logos.py' -v
       - name: Validate build script
         run: python -m compileall -q scripts
-      - name: Verify JavaScript syntax (fail before publishing)
-        run: node --check assets/site.js
+      - name: Set up stable Node.js runtime
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify JavaScript syntax and catalog image sources
+        run: |
+          node --check assets/site.js
+          node tests/catalog-smoke.cjs .
       - name: Prepare independently curated catalog
         run: python scripts/sync_catalog.py --output public
+      - name: Verify built JavaScript and all catalog icon URLs
+        run: |
+          node --check public/assets/site.js
+          node tests/catalog-smoke.cjs public
       - name: Validate real catalog and visual structure
         shell: bash
         run: |
