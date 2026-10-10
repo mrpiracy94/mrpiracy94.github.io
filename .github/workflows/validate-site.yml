@@ -43,6 +43,8 @@ jobs:
           python -m compileall -q scripts
       - name: Build the same website artifact as the production deployment
         run: python scripts/sync_catalog.py --output public
+      - name: Mirror original icons into the public site
+        run: python scripts/cache_icons.py --site public
       - name: Verify the published JavaScript and app metadata
         run: |
           node --check public/assets/site.js
