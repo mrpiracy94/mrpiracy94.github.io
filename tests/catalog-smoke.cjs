@@ -6,6 +6,9 @@ const path = require("node:path");
 const vm = require("node:vm");
 
 const root = path.resolve(process.argv[2] || ".");
+// Source checks run before generated icon assets exist. Built artifact checks
+// still require every locally cached image to exist on disk.
+const checkGeneratedAssets = process.argv[3] !== "--source";
 const script = fs.readFileSync(path.join(root, "assets/site.js"), "utf8");
 const html = fs.readFileSync(path.join(root, "index.html"), "utf8");
 const catalog = JSON.parse(fs.readFileSync(path.join(root, "index.json"), "utf8"));
@@ -31,7 +34,7 @@ vm.runInContext(script.slice(begin, end), ctx, {filename: "image-resolver.js"});
 const safePath = vm.runInContext("safePath", ctx);
 for (const app of catalog.apps) {
   assert.ok(safePath(app.icon), "Catalog logo rejected: " + app.id + " (" + app.icon + ")");
-  if (app.icon.startsWith("./assets/catalog-icons/")) {
+  if (checkGeneratedAssets && app.icon.startsWith("./assets/catalog-icons/")) {
     assert.ok(fs.existsSync(path.join(root, app.icon)),
               "Cached icon file missing from the Pages artifact: " + app.id);
   }
