@@ -17,7 +17,7 @@ assert.equal(new Set(catalog.apps.map(app => app.id)).size, catalog.app_count);
 assert.ok(/id="app-grid"/.test(html), "App grid is missing");
 assert.ok(/id="categories"/.test(html), "Categories are missing");
 assert.ok(/id="pilot-count"/.test(html), "Pilot app count target is missing");
-assert.ok(script.includes('pilotCount.textContent = String(state.apps.length)'), "App counter not dynamic");
+assert.ok(/pilotCount(?:er)?\\.textContent\\s*=\\s*(?:String\\(state\\.apps\\.length\\)|state\\.apps\\.length)/.test(script), "App counter not dynamic");
 
 const begin = script.indexOf("  function safePath(value, extension) {");
 const end = script.indexOf("  function element(tag, className, textValue) {", begin);
