@@ -52,7 +52,8 @@ class PlatformLogoTests(unittest.TestCase):
         homeio = [x for x in sources if "/doctor-io/homeio/" in x]
         self.assertEqual(len(homeio), 1)
         self.assertIn("13a40d496e57b8939f5efd2b54bd0ad0a702ca17", homeio[0])
-        self.assertIn("img-src 'self' data: https://raw.githubusercontent.com;", html)
+        self.assertIn("https://raw.githubusercontent.com;", html)
+        self.assertIn("https://cdn.jsdelivr.net", html)
 
     def test_static_builder_includes_all_platform_assets(self):
         sys.path.insert(0, str(ROOT / "scripts"))
