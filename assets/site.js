@@ -30,10 +30,21 @@
     try { localStorage.setItem("mrstore-favorites-v1", JSON.stringify(Array.from(state.saved))); }
     catch (_) { /* Private mode may reject storage. Favorites still work this session. */ }
   }
+  // Só são aceites recursos do catálogo ou de fornecedores identificados.
+  // Nunca aceitar URLs arbitrários vindos de metadados externos.
   function safePath(value, extension) {
-    if (typeof value === "string" && /^https:\/\/cdn\.jsdelivr\.net\/gh\/walkxcode\/dashboard-icons\/(?:png|svg)\/[a-zA-Z0-9._-]+\.(?:png|svg)$/.test(value) && !extension) return value;\n    if (typeof value !== "string" || !value.startsWith("/apps/") ||
-        value.includes("..") || value.includes("\\") || value.includes("?") ||
-        value.includes("#") || !/^\/apps\/[a-z0-9._-]+\/[a-zA-Z0-9._/-]+$/.test(value)) return null;
+    if (typeof value !== "string") return null;
+    if (!extension) {
+      const trustedCDN = /^https:\/\/cdn\.jsdelivr\.net\/gh\/walkxcode\/dashboard-icons\/(?:png|svg)\/[a-zA-Z0-9._-]+\.(?:png|svg)$/;
+      const trustedRaw = /^https:\/\/raw\.githubusercontent\.com\/(?:selfhst\/icons|homarr-labs\/dashboard-icons|linuxserver\/docker-templates)\/[0-9a-f]{40}\/[a-zA-Z0-9._/-]+\.(?:png|svg|webp|gif)$/;
+      const trustedSeedit = /^https:\/\/seedit4\.me\/assets\/img\/icons\/software\/[a-zA-Z0-9._-]+\.(?:png|webp)$/;
+      if (trustedCDN.test(value) || trustedRaw.test(value) || trustedSeedit.test(value)) {
+        return value;
+      }
+    }
+    if (!value.startsWith("/apps/") || value.includes("..") ||
+        value.includes("\\") || value.includes("?") || value.includes("#") ||
+        !/^\/apps\/[a-z0-9._-]+\/[a-zA-Z0-9._/-]+$/.test(value)) return null;
     if (extension && !value.toLowerCase().endsWith(extension)) return null;
     const candidate = new URL("." + value, base);
     if (candidate.origin !== base.origin ||
