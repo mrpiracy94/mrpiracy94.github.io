@@ -3,7 +3,7 @@
   "status": "editorial_pilot_unverified",
   "approved": [],
   "approved_count": 0,
-  "candidate_count": 233,
+  "candidate_count": 223,
   "candidates": [
     "homeassistant",
     "immich",
@@ -227,17 +227,7 @@
     "shadps4",
     "shotcut",
     "sickgear",
-    "signal",
-    "spotube",
-    "sqlitebrowser",
-    "steam",
-    "syslog-ng",
-    "telegram",
-    "thelounge",
-    "thunderbird",
-    "ubooquity",
-    "ungoogled-chromium",
-    "vivaldi"
+    "signal"
   ],
   "source": "https://github.com/mrpiracy94/MrStore",
   "notice": "Seleção editorial piloto sem relatório completo de aprovação. Não representa certificação de instalação ou segurança."
