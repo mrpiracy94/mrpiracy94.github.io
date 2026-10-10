@@ -51,6 +51,22 @@ def inspect(browser, base, width, height, columns):
     assert page.locator(".system-card").count() == 11
     assert page.locator(".showcase-window .screen-app").count() == 6
 
+    # Não basta existir o elemento img: o SVG tem de carregar realmente.
+    page.locator(".platform-section").scroll_into_view_if_needed()
+    page.wait_for_function("""() => [...document.querySelectorAll(
+        '.system-card img[src^="./assets/platforms/"]'
+    )].every(img => img.complete)""", timeout=12000)
+    broken_platforms = page.locator('.system-card img[src^="./assets/platforms/"]').evaluate_all(
+        "(nodes) => nodes.filter(img => img.naturalWidth === 0).map(img => img.src)"
+    )
+    assert not broken_platforms, f"Logótipos indisponíveis: {broken_platforms}"
+    page.locator("#app-grid").scroll_into_view_if_needed()
+    page.wait_for_timeout(1200)
+    loaded_icons = page.locator(".app-card .app-icon img").evaluate_all(
+        "(nodes) => nodes.filter(img => img.complete && img.naturalWidth > 0).length"
+    )
+    assert loaded_icons >= 3, f"Ícones das aplicações não carregaram: {loaded_icons}"
+
     dimensions = page.evaluate("""() => ({
         horizontal: document.documentElement.scrollWidth,
         viewport: window.innerWidth,
