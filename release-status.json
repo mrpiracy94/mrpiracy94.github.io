@@ -1,154 +1,61 @@
 {
-  "schema": 1,
-  "status": "editorial_pilot_unverified",
-  "approved": [],
-  "approved_count": 0,
-  "candidate_count": 223,
-  "candidates": [
-    "homeassistant",
-    "immich",
-    "jellyfin",
-    "nextcloud",
-    "qbittorrent",
-    "vaultwarden",
-    "plex",
-    "audiobookshelf",
-    "navidrome",
-    "kavita",
-    "calibre-web",
-    "sonarr",
-    "radarr",
-    "prowlarr",
-    "bazarr",
-    "seerr",
-    "metube",
-    "dockge",
-    "nginx-proxy-manager",
-    "tailscale",
-    "syncthing",
-    "uptime-kuma",
-    "paperless-ngx",
+  "source_apps": 253,
+  "featured_count": 253,
+  "approved_count": 253,
+  "approved": [
     "actual-budget",
-    "mealie",
-    "stirling-pdf",
-    "gitea",
-    "code-server",
-    "it-tools",
-    "ollama",
-    "open-webui",
-    "homepage",
     "adguardhome-sync",
-    "apprise-api",
-    "autobrr",
-    "beszel",
-    "bookstack",
-    "changedetection.io",
-    "cloudflared",
-    "dashy",
-    "ddclient",
-    "deluge",
-    "dozzle",
-    "duplicati",
-    "emby",
-    "esphome",
-    "freshrss",
-    "frigate",
-    "glances",
-    "gluetun",
-    "grocy",
-    "healthchecks",
-    "homarr",
-    "jackett",
-    "jdownloader",
-    "joplin",
-    "karakeep",
-    "librespeed",
-    "lidarr",
-    "memos",
-    "mosquitto",
-    "node-red",
-    "handbrake",
-    "calibre",
-    "mariadb",
-    "speedtest-tracker",
-    "wireguard",
-    "netdata",
-    "photoprism",
-    "pairdrop",
-    "planka",
-    "pocket-id",
-    "rustdesk",
-    "searxng",
-    "tautulli",
-    "transmission",
-    "unifi-network-application",
-    "wikijs",
-    "sabnzbd",
-    "tdarr",
-    "lldap",
-    "maintainerr",
-    "netbox",
-    "nzbget",
-    "nzbhydra2",
-    "obsidian",
-    "onlyoffice",
-    "ombi",
-    "organizr",
-    "phpmyadmin",
-    "piwigo",
-    "recyclarr",
-    "resilio-sync",
-    "smokeping",
-    "swag",
-    "unpackerr",
-    "mstream",
-    "mylar3",
-    "netbootxyz",
-    "notifiarr",
-    "openssh-server",
-    "projectsend",
-    "pyload-ng",
-    "qui",
-    "radarr-4k",
-    "sonarr-4k",
-    "rsnapshot",
-    "rutorrent",
-    "socket-proxy",
-    "synclounge",
-    "tvheadend",
-    "wizarr",
     "airsonic-advanced",
     "altus",
+    "apprise-api",
     "ardour",
     "audacity",
+    "audiobookshelf",
+    "autobrr",
     "azahar",
     "babybuddy",
     "bambustudio",
+    "bazarr",
     "beets",
+    "beszel",
     "bitcoin-knots",
     "blade-of-agony",
     "blender",
     "boinc",
+    "bookstack",
     "brave",
     "budge",
+    "calibre",
+    "calibre-web",
     "calligra",
+    "changedetection.io",
     "chrome",
     "chromium",
+    "cloudflared",
+    "code-server",
     "cops",
     "cross-seed",
     "cura",
     "darktable",
+    "dashy",
+    "ddclient",
+    "deluge",
     "digikam",
     "diskover",
+    "dockge",
     "dogwalk",
     "dokuwiki",
     "dolphin",
     "doplarr_rs",
     "dosbox-staging",
     "doublecommander",
+    "dozzle",
     "duckdns",
     "duckstation",
+    "duplicati",
     "eden",
+    "emby",
+    "esphome",
     "fail2ban",
     "faster-whisper",
     "ferdium",
@@ -160,20 +67,39 @@
     "flycast",
     "foldingathome",
     "freecad",
+    "freshrss",
+    "frigate",
     "gimp",
+    "gitea",
     "github-desktop",
     "gitqlient",
+    "glances",
+    "gluetun",
     "grav",
+    "grocy",
     "gzdoom",
     "habridge",
+    "handbrake",
+    "healthchecks",
     "hedgedoc",
     "heimdall",
     "helium",
     "hishtory-server",
+    "homarr",
+    "homeassistant",
+    "homepage",
+    "immich",
     "inkscape",
     "intellij-idea",
+    "it-tools",
+    "jackett",
+    "jdownloader",
+    "jellyfin",
+    "joplin",
     "kali-linux",
+    "karakeep",
     "kasm",
+    "kavita",
     "kdenlive",
     "keepassxc",
     "kicad",
@@ -182,53 +108,527 @@
     "krita",
     "lazylibrarian",
     "libreoffice",
+    "librespeed",
     "librewolf",
+    "lidarr",
     "limnoria",
+    "lldap",
     "lm-studio",
     "lollypop",
     "luanti",
     "lychee",
+    "maintainerr",
     "mame",
     "manyfold",
+    "mariadb",
     "mastodon",
+    "mealie",
     "mediaelch",
     "medusa",
     "melonds",
+    "memos",
+    "metube",
     "minisatip",
     "modmanager",
     "modrinth",
+    "mosquitto",
     "msedge",
+    "mstream",
     "mullvad-browser",
+    "mylar3",
     "mysql-workbench",
+    "navidrome",
+    "netbootxyz",
+    "netbox",
+    "netdata",
+    "nextcloud",
     "nginx",
+    "nginx-proxy-manager",
     "ngircd",
+    "node-red",
+    "notifiarr",
+    "nzbget",
+    "nzbhydra2",
+    "obsidian",
+    "ollama",
+    "ombi",
+    "onlyoffice",
+    "open-webui",
     "openshot",
+    "openssh-server",
     "opera",
     "orcaslicer",
+    "organizr",
     "oscam",
+    "pairdrop",
+    "paperless-ngx",
     "pcsx2",
     "pelorus",
+    "photoprism",
+    "phpmyadmin",
     "pidgin",
     "piper",
+    "piwigo",
+    "planka",
+    "plex",
+    "pocket-id",
     "ppsspp",
+    "projectsend",
+    "prowlarr",
     "pwndrop",
     "pycharm",
     "pydio-cells",
+    "pyload-ng",
+    "qbittorrent",
     "qbittorrent-4",
     "qdirstat",
+    "qui",
+    "radarr",
+    "radarr-4k",
     "raneto",
     "rawtherapee",
+    "recyclarr",
     "remmina",
+    "resilio-sync",
     "retroarch",
     "rpcs3",
+    "rsnapshot",
+    "rustdesk",
+    "rutorrent",
+    "sabnzbd",
     "scummvm",
     "sealskin",
+    "searxng",
+    "seerr",
     "series-troxide",
     "shadps4",
     "shotcut",
     "sickgear",
-    "signal"
+    "signal",
+    "smokeping",
+    "socket-proxy",
+    "sonarr",
+    "sonarr-4k",
+    "speedtest-tracker",
+    "spotube",
+    "sqlitebrowser",
+    "steam",
+    "stirling-pdf",
+    "swag",
+    "synclounge",
+    "syncthing",
+    "syslog-ng",
+    "tailscale",
+    "tautulli",
+    "tdarr",
+    "telegram",
+    "thelounge",
+    "thunderbird",
+    "transmission",
+    "tvheadend",
+    "ubooquity",
+    "ungoogled-chromium",
+    "unifi-network-application",
+    "unpackerr",
+    "uptime-kuma",
+    "vaultwarden",
+    "vivaldi",
+    "vlc",
+    "vscode",
+    "vscodium",
+    "vscodium-web",
+    "webcord",
+    "webgrabplus",
+    "webstation",
+    "webtop",
+    "weixin",
+    "whisparr",
+    "wikijs",
+    "winegui",
+    "wireguard",
+    "wireshark",
+    "wizarr",
+    "wps-office",
+    "xbackbone",
+    "xemu",
+    "yaak",
+    "your_spotify",
+    "zen",
+    "znc",
+    "zotero"
   ],
-  "source": "https://github.com/mrpiracy94/MrStore",
-  "notice": "Seleção editorial piloto sem relatório completo de aprovação. Não representa certificação de instalação ou segurança."
+  "quarantined_count": 0,
+  "quarantined": {},
+  "deferred_count": 0,
+  "deferred": [],
+  "warnings": {
+    "altus": [
+      "altus: dangerous security_opt=seccomp:unconfined"
+    ],
+    "ardour": [
+      "ardour: dangerous security_opt=seccomp:unconfined"
+    ],
+    "audacity": [
+      "audacity: dangerous security_opt=seccomp:unconfined"
+    ],
+    "azahar": [
+      "azahar: dangerous security_opt=seccomp:unconfined"
+    ],
+    "bambustudio": [
+      "bambustudio: dangerous security_opt=seccomp:unconfined"
+    ],
+    "blade-of-agony": [
+      "blade-of-agony: dangerous security_opt=seccomp:unconfined"
+    ],
+    "blender": [
+      "blender: dangerous security_opt=seccomp:unconfined"
+    ],
+    "boinc": [
+      "boinc: dangerous security_opt=seccomp:unconfined"
+    ],
+    "bookstack": [
+      "bookstack: default credentials not configured"
+    ],
+    "brave": [
+      "brave: dangerous security_opt=seccomp:unconfined"
+    ],
+    "calibre": [
+      "calibre: dangerous security_opt=seccomp:unconfined"
+    ],
+    "calligra": [
+      "calligra: dangerous security_opt=seccomp:unconfined"
+    ],
+    "chrome": [
+      "chrome: dangerous security_opt=seccomp:unconfined"
+    ],
+    "chromium": [
+      "chromium: dangerous security_opt=seccomp:unconfined"
+    ],
+    "cloudflared": [
+      "cloudflared: default credentials not configured"
+    ],
+    "cura": [
+      "cura: dangerous security_opt=seccomp:unconfined"
+    ],
+    "darktable": [
+      "darktable: dangerous security_opt=seccomp:unconfined"
+    ],
+    "digikam": [
+      "digikam: dangerous security_opt=seccomp:unconfined"
+    ],
+    "dockge": [
+      "dockge: dangerous sensitive_mount=/var/run/docker.sock"
+    ],
+    "dogwalk": [
+      "dogwalk: dangerous security_opt=seccomp:unconfined"
+    ],
+    "dolphin": [
+      "dolphin: dangerous security_opt=seccomp:unconfined"
+    ],
+    "dosbox-staging": [
+      "dosbox-staging: dangerous security_opt=seccomp:unconfined"
+    ],
+    "doublecommander": [
+      "doublecommander: dangerous security_opt=seccomp:unconfined"
+    ],
+    "dozzle": [
+      "dozzle: dangerous sensitive_mount=/var/run/docker.sock"
+    ],
+    "duckdns": [
+      "duckdns: default credentials not configured"
+    ],
+    "duckstation": [
+      "duckstation: dangerous security_opt=seccomp:unconfined"
+    ],
+    "eden": [
+      "eden: dangerous security_opt=seccomp:unconfined"
+    ],
+    "fail2ban": [
+      "fail2ban: dangerous cap_add=NET_ADMIN"
+    ],
+    "ferdium": [
+      "ferdium: dangerous security_opt=seccomp:unconfined"
+    ],
+    "filezilla": [
+      "filezilla: dangerous security_opt=seccomp:unconfined"
+    ],
+    "firefox": [
+      "firefox: dangerous security_opt=seccomp:unconfined"
+    ],
+    "flycast": [
+      "flycast: dangerous security_opt=seccomp:unconfined"
+    ],
+    "freecad": [
+      "freecad: dangerous security_opt=seccomp:unconfined"
+    ],
+    "frigate": [
+      "frigate: default credentials not configured"
+    ],
+    "gimp": [
+      "gimp: dangerous security_opt=seccomp:unconfined"
+    ],
+    "github-desktop": [
+      "github-desktop: dangerous security_opt=seccomp:unconfined"
+    ],
+    "gitqlient": [
+      "gitqlient: dangerous security_opt=seccomp:unconfined"
+    ],
+    "gluetun": [
+      "gluetun: dangerous cap_add=NET_ADMIN",
+      "gluetun: dangerous device=\"/dev/net/tun:/dev/net/tun\"",
+      "gluetun: default credentials not configured"
+    ],
+    "gzdoom": [
+      "gzdoom: dangerous security_opt=seccomp:unconfined"
+    ],
+    "handbrake": [
+      "handbrake: dangerous security_opt=seccomp:unconfined"
+    ],
+    "healthchecks": [
+      "healthchecks: default credentials not configured"
+    ],
+    "hedgedoc": [
+      "hedgedoc: default credentials not configured"
+    ],
+    "helium": [
+      "helium: dangerous security_opt=seccomp:unconfined"
+    ],
+    "homarr": [
+      "homarr: default credentials not configured"
+    ],
+    "homeassistant": [
+      "homeassistant: dangerous network_mode=host"
+    ],
+    "immich": [
+      "immich-database: default credentials not configured",
+      "immich-server: default credentials not configured"
+    ],
+    "inkscape": [
+      "inkscape: dangerous security_opt=seccomp:unconfined"
+    ],
+    "intellij-idea": [
+      "intellij-idea: dangerous security_opt=seccomp:unconfined"
+    ],
+    "kali-linux": [
+      "kali-linux: dangerous security_opt=seccomp:unconfined"
+    ],
+    "karakeep": [
+      "karakeep-meilisearch: default credentials not configured",
+      "karakeep: default credentials not configured"
+    ],
+    "kasm": [
+      "kasm: dangerous privileged=true"
+    ],
+    "kdenlive": [
+      "kdenlive: dangerous security_opt=seccomp:unconfined"
+    ],
+    "keepassxc": [
+      "keepassxc: dangerous security_opt=seccomp:unconfined"
+    ],
+    "kicad": [
+      "kicad: dangerous security_opt=seccomp:unconfined"
+    ],
+    "kimai": [
+      "kimai: default credentials not configured"
+    ],
+    "krita": [
+      "krita: dangerous security_opt=seccomp:unconfined"
+    ],
+    "libreoffice": [
+      "libreoffice: dangerous security_opt=seccomp:unconfined"
+    ],
+    "librewolf": [
+      "librewolf: dangerous security_opt=seccomp:unconfined"
+    ],
+    "lldap": [
+      "lldap: default credentials not configured"
+    ],
+    "lm-studio": [
+      "lm-studio: dangerous security_opt=seccomp:unconfined"
+    ],
+    "lollypop": [
+      "lollypop: dangerous security_opt=seccomp:unconfined"
+    ],
+    "mame": [
+      "mame: dangerous security_opt=seccomp:unconfined"
+    ],
+    "mariadb": [
+      "mariadb: default credentials not configured"
+    ],
+    "mediaelch": [
+      "mediaelch: dangerous security_opt=seccomp:unconfined"
+    ],
+    "melonds": [
+      "melonds: dangerous security_opt=seccomp:unconfined"
+    ],
+    "modmanager": [
+      "modmanager: dangerous security_opt=seccomp:unconfined"
+    ],
+    "modrinth": [
+      "modrinth: dangerous security_opt=seccomp:unconfined"
+    ],
+    "msedge": [
+      "msedge: dangerous security_opt=seccomp:unconfined"
+    ],
+    "mullvad-browser": [
+      "mullvad-browser: dangerous security_opt=seccomp:unconfined"
+    ],
+    "mysql-workbench": [
+      "mysql-workbench: dangerous security_opt=seccomp:unconfined"
+    ],
+    "netbox": [
+      "netbox: default credentials not configured"
+    ],
+    "netdata": [
+      "netdata: dangerous cap_add=SYS_PTRACE",
+      "netdata: dangerous sensitive_mount=/proc",
+      "netdata: dangerous sensitive_mount=/sys",
+      "netdata: dangerous sensitive_mount=/var/run/docker.sock"
+    ],
+    "obsidian": [
+      "obsidian: dangerous security_opt=seccomp:unconfined"
+    ],
+    "openshot": [
+      "openshot: dangerous security_opt=seccomp:unconfined"
+    ],
+    "opera": [
+      "opera: dangerous security_opt=seccomp:unconfined"
+    ],
+    "paperless-ngx": [
+      "paperless-ngx: default credentials not configured"
+    ],
+    "pcsx2": [
+      "pcsx2: dangerous security_opt=seccomp:unconfined"
+    ],
+    "photoprism": [
+      "photoprism: default credentials not configured"
+    ],
+    "pidgin": [
+      "pidgin: dangerous security_opt=seccomp:unconfined"
+    ],
+    "planka": [
+      "planka: default credentials not configured"
+    ],
+    "ppsspp": [
+      "ppsspp: dangerous security_opt=seccomp:unconfined"
+    ],
+    "pycharm": [
+      "pycharm: dangerous security_opt=seccomp:unconfined"
+    ],
+    "qdirstat": [
+      "qdirstat: dangerous security_opt=seccomp:unconfined"
+    ],
+    "rawtherapee": [
+      "rawtherapee: dangerous security_opt=seccomp:unconfined"
+    ],
+    "remmina": [
+      "remmina: dangerous security_opt=seccomp:unconfined"
+    ],
+    "retroarch": [
+      "retroarch: dangerous security_opt=seccomp:unconfined"
+    ],
+    "rpcs3": [
+      "rpcs3: dangerous security_opt=seccomp:unconfined"
+    ],
+    "rustdesk": [
+      "rustdesk: dangerous security_opt=seccomp:unconfined"
+    ],
+    "scummvm": [
+      "scummvm: dangerous security_opt=seccomp:unconfined"
+    ],
+    "series-troxide": [
+      "series-troxide: dangerous security_opt=seccomp:unconfined"
+    ],
+    "shadps4": [
+      "shadps4: dangerous security_opt=seccomp:unconfined"
+    ],
+    "shotcut": [
+      "shotcut: dangerous security_opt=seccomp:unconfined"
+    ],
+    "signal": [
+      "signal: dangerous security_opt=seccomp:unconfined"
+    ],
+    "socket-proxy": [
+      "socket-proxy: dangerous sensitive_mount=/var/run/docker.sock"
+    ],
+    "speedtest-tracker": [
+      "speedtest-tracker: default credentials not configured"
+    ],
+    "spotube": [
+      "spotube: dangerous security_opt=seccomp:unconfined"
+    ],
+    "sqlitebrowser": [
+      "sqlitebrowser: dangerous security_opt=seccomp:unconfined"
+    ],
+    "steam": [
+      "steam: dangerous security_opt=seccomp:unconfined"
+    ],
+    "tailscale": [
+      "tailscale: dangerous cap_add=NET_ADMIN",
+      "tailscale: dangerous cap_add=NET_RAW",
+      "tailscale: dangerous network_mode=host",
+      "tailscale: dangerous sensitive_mount=/dev/net/tun",
+      "tailscale: default credentials not configured"
+    ],
+    "telegram": [
+      "telegram: dangerous security_opt=seccomp:unconfined"
+    ],
+    "thunderbird": [
+      "thunderbird: dangerous security_opt=seccomp:unconfined"
+    ],
+    "ungoogled-chromium": [
+      "ungoogled-chromium: dangerous security_opt=seccomp:unconfined"
+    ],
+    "vivaldi": [
+      "vivaldi: dangerous security_opt=seccomp:unconfined"
+    ],
+    "vlc": [
+      "vlc: dangerous security_opt=seccomp:unconfined"
+    ],
+    "vscode": [
+      "vscode: dangerous security_opt=seccomp:unconfined"
+    ],
+    "vscodium": [
+      "vscodium: dangerous security_opt=seccomp:unconfined"
+    ],
+    "webcord": [
+      "webcord: dangerous security_opt=seccomp:unconfined"
+    ],
+    "webstation": [
+      "webstation: dangerous security_opt=seccomp:unconfined"
+    ],
+    "webtop": [
+      "webtop: dangerous security_opt=seccomp:unconfined"
+    ],
+    "weixin": [
+      "weixin: dangerous security_opt=seccomp:unconfined"
+    ],
+    "winegui": [
+      "winegui: dangerous security_opt=seccomp:unconfined"
+    ],
+    "wireguard": [
+      "wireguard: dangerous cap_add=NET_ADMIN",
+      "wireguard: dangerous cap_add=SYS_MODULE"
+    ],
+    "wireshark": [
+      "wireshark: dangerous security_opt=seccomp:unconfined"
+    ],
+    "wps-office": [
+      "wps-office: dangerous security_opt=seccomp:unconfined"
+    ],
+    "xemu": [
+      "xemu: dangerous security_opt=seccomp:unconfined"
+    ],
+    "yaak": [
+      "yaak: dangerous security_opt=seccomp:unconfined"
+    ],
+    "zen": [
+      "zen: dangerous security_opt=seccomp:unconfined"
+    ],
+    "zotero": [
+      "zotero: dangerous security_opt=seccomp:unconfined"
+    ]
+  },
+  "certification": "not_assessed",
+  "policy": "Editorial listing only; upstream images are not certified by MrStore"
 }
