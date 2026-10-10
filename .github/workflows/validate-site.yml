@@ -38,7 +38,7 @@ jobs:
       - name: Check exact source JS and real brand graphics
         run: |
           node --check assets/site.js
-          node tests/catalog-smoke.cjs .
+          node tests/catalog-smoke.cjs . --source
           python -m unittest discover -s tests -p 'test_platform_logos.py' -v
           python -m compileall -q scripts
       - name: Build the same website artifact as the production deployment
