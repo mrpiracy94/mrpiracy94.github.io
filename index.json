@@ -3,7 +3,491 @@
   "updated_at": "2026-10-10T14:39:40Z",
   "app_count": 253,
   "base_url": "https://mrpiracy94.github.io/MrStore",
+  "catalogue_status": "approved_subset_of_upstream_release",
   "apps": [
+    {
+      "id": "io.github.mrpiracy94.homeassistant",
+      "title": "Home Assistant",
+      "tagline": "Automação e controlo da casa inteligente",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.homeassistant/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.homeassistant/assets/home-assistant.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.homeassistant/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.homeassistant/meta.json",
+      "content_hash": "ebee48d8",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.immich",
+      "title": "Immich",
+      "tagline": "Biblioteca privada de fotos e vídeos",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "Immich",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.immich/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.immich/assets/immich.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.immich/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.immich/meta.json",
+      "content_hash": "9ad5386d",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.jellyfin",
+      "title": "Jellyfin",
+      "tagline": "Servidor multimédia para filmes, séries e música",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "Jellyfin Project",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.jellyfin/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.jellyfin/assets/jellyfin.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.jellyfin/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.jellyfin/meta.json",
+      "content_hash": "7832b731",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.nextcloud",
+      "title": "Nextcloud",
+      "tagline": "Nuvem privada para ficheiros e colaboração",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.nextcloud/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.nextcloud/assets/nextcloud.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.nextcloud/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.nextcloud/meta.json",
+      "content_hash": "70b86267",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.qbittorrent",
+      "title": "qBittorrent",
+      "tagline": "Cliente BitTorrent com interface web",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.qbittorrent/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.qbittorrent/assets/qbittorrent.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.qbittorrent/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.qbittorrent/meta.json",
+      "content_hash": "2c89d83e",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.vaultwarden",
+      "title": "Vaultwarden",
+      "tagline": "Gestor de palavras-passe compatível com Bitwarden",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Vaultwarden",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.vaultwarden/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.vaultwarden/assets/vaultwarden.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.vaultwarden/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.vaultwarden/meta.json",
+      "content_hash": "84860973",
+      "version": "1.0.3"
+    },
+    {
+      "id": "io.github.mrpiracy94.plex",
+      "title": "Plex",
+      "tagline": "Servidor multimédia para filmes, séries e música",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.plex/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.plex/assets/plex.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.plex/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.plex/meta.json",
+      "content_hash": "63d87509",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.audiobookshelf",
+      "title": "Audiobookshelf",
+      "tagline": "Organiza e reproduz audiolivros e podcasts",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "Audiobookshelf",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.audiobookshelf/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.audiobookshelf/assets/audiobookshelf.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.audiobookshelf/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.audiobookshelf/meta.json",
+      "content_hash": "5693c1e9",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.navidrome",
+      "title": "Navidrome",
+      "tagline": "Servidor de música compatível com Subsonic",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "Deluan",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.navidrome/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.navidrome/assets/navidrome.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.navidrome/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.navidrome/meta.json",
+      "content_hash": "d9e7582b",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.kavita",
+      "title": "Kavita",
+      "tagline": "Leitor e biblioteca de livros, manga e BD",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.kavita/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.kavita/assets/kavita.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.kavita/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.kavita/meta.json",
+      "content_hash": "27aa157f",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.calibre-web",
+      "title": "Calibre-Web",
+      "tagline": "Biblioteca web para livros digitais",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.calibre-web/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.calibre-web/assets/calibre-web.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.calibre-web/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.calibre-web/meta.json",
+      "content_hash": "7b688b30",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.sonarr",
+      "title": "Sonarr",
+      "tagline": "Organiza e acompanha downloads de séries",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.sonarr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.sonarr/assets/sonarr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.sonarr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.sonarr/meta.json",
+      "content_hash": "39807aba",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.radarr",
+      "title": "Radarr",
+      "tagline": "Organiza e acompanha downloads de filmes",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.radarr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.radarr/assets/radarr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.radarr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.radarr/meta.json",
+      "content_hash": "29ff7a76",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.prowlarr",
+      "title": "Prowlarr",
+      "tagline": "Gere indexadores para aplicações multimédia",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.prowlarr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.prowlarr/assets/prowlarr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.prowlarr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.prowlarr/meta.json",
+      "content_hash": "6b36e545",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.bazarr",
+      "title": "Bazarr",
+      "tagline": "Pesquisa e descarrega legendas automaticamente",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.bazarr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.bazarr/assets/bazarr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.bazarr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.bazarr/meta.json",
+      "content_hash": "311c08af",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.seerr",
+      "title": "Seerr",
+      "tagline": "Pedidos de filmes e séries para servidores multimédia",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "seerr-team",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.seerr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.seerr/assets/seerr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.seerr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.seerr/meta.json",
+      "content_hash": "05ec4744",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.metube",
+      "title": "MeTube",
+      "tagline": "Descarrega vídeos e áudio através do navegador",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "MeTube",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.metube/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.metube/assets/metube.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.metube/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.metube/meta.json",
+      "content_hash": "84b1e06f",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.dockge",
+      "title": "Dockge",
+      "tagline": "Gere stacks Docker Compose numa interface web",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Dockge",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.dockge/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.dockge/assets/dockge.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.dockge/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.dockge/meta.json",
+      "content_hash": "6b009125",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.nginx-proxy-manager",
+      "title": "Nginx Proxy Manager",
+      "tagline": "Gere proxies reversos e certificados SSL",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "Nginx Proxy Manager",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.nginx-proxy-manager/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.nginx-proxy-manager/assets/nginx-proxy-manager.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.nginx-proxy-manager/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.nginx-proxy-manager/meta.json",
+      "content_hash": "9e6b973a",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.tailscale",
+      "title": "Tailscale",
+      "tagline": "Rede privada segura entre dispositivos",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "Tailscale",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.tailscale/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.tailscale/assets/tailscale.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.tailscale/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.tailscale/meta.json",
+      "content_hash": "990a4fa5",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.syncthing",
+      "title": "Syncthing",
+      "tagline": "Sincroniza pastas entre dispositivos",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.syncthing/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.syncthing/assets/syncthing.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.syncthing/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.syncthing/meta.json",
+      "content_hash": "ff3d94f1",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.uptime-kuma",
+      "title": "Uptime Kuma",
+      "tagline": "Monitoriza disponibilidade de serviços",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Uptime Kuma",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.uptime-kuma/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.uptime-kuma/assets/uptime-kuma.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.uptime-kuma/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.uptime-kuma/meta.json",
+      "content_hash": "4701b9d5",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.paperless-ngx",
+      "title": "Paperless-ngx",
+      "tagline": "Digitaliza e organiza documentos com OCR",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "Paperless-ngx",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.paperless-ngx/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.paperless-ngx/assets/paperless-ngx.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.paperless-ngx/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.paperless-ngx/meta.json",
+      "content_hash": "d0823d1f",
+      "version": "1.0.2"
+    },
     {
       "id": "io.github.mrpiracy94.actual-budget",
       "title": "Actual Budget",
@@ -26,6 +510,174 @@
       "version": "1.0.1"
     },
     {
+      "id": "io.github.mrpiracy94.mealie",
+      "title": "Mealie",
+      "tagline": "Organiza receitas e planos de refeições",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "Mealie",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.mealie/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.mealie/assets/mealie.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.mealie/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.mealie/meta.json",
+      "content_hash": "3dc94a49",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.stirling-pdf",
+      "title": "Stirling PDF",
+      "tagline": "Converte e edita ficheiros PDF",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "Stirling PDF",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.stirling-pdf/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.stirling-pdf/assets/stirling-pdf.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.stirling-pdf/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.stirling-pdf/meta.json",
+      "content_hash": "6c290587",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.gitea",
+      "title": "Gitea",
+      "tagline": "Alojamento Git para projetos e equipas",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "MrStore",
+      "developer": "Gitea",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.gitea/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.gitea/assets/gitea.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.gitea/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.gitea/meta.json",
+      "content_hash": "f6d07c83",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.code-server",
+      "title": "code-server",
+      "tagline": "Editor VS Code acessível no navegador",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.code-server/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.code-server/assets/code-server.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.code-server/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.code-server/meta.json",
+      "content_hash": "b09d09ae",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.it-tools",
+      "title": "IT-Tools",
+      "tagline": "Coleção de ferramentas para programadores",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "MrStore",
+      "developer": "IT-Tools",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.it-tools/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.it-tools/assets/it-tools.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.it-tools/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.it-tools/meta.json",
+      "content_hash": "99514164",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.ollama",
+      "title": "Ollama",
+      "tagline": "Executa modelos de inteligência artificial locais",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Ollama",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.ollama/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.ollama/assets/ollama.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.ollama/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.ollama/meta.json",
+      "content_hash": "51aca94b",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.open-webui",
+      "title": "Open WebUI",
+      "tagline": "Interface web para conversar com modelos de IA",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Open WebUI",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.open-webui/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.open-webui/assets/open-webui.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.open-webui/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.open-webui/meta.json",
+      "content_hash": "bb523964",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.homepage",
+      "title": "Homepage",
+      "tagline": "Página inicial personalizável para o homelab",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Homepage",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.homepage/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.homepage/assets/homepage.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.homepage/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.homepage/meta.json",
+      "content_hash": "c0f19f34",
+      "version": "1.0.2"
+    },
+    {
       "id": "io.github.mrpiracy94.adguardhome-sync",
       "title": "AdGuardHome Sync",
       "tagline": "Sincroniza configurações entre servidores AdGuard Home",
@@ -45,6 +697,1662 @@
       "meta_url": "/apps/io.github.mrpiracy94.adguardhome-sync/meta.json",
       "content_hash": "0a0c9407",
       "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.apprise-api",
+      "title": "Apprise API",
+      "tagline": "Envia notificações para múltiplos serviços",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.apprise-api/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.apprise-api/assets/apprise.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.apprise-api/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.apprise-api/meta.json",
+      "content_hash": "43cfa07c",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.autobrr",
+      "title": "Autobrr",
+      "tagline": "Automatiza downloads através de anúncios de trackers",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "autobrr",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.autobrr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.autobrr/assets/autobrr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.autobrr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.autobrr/meta.json",
+      "content_hash": "7081a58c",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.beszel",
+      "title": "Beszel",
+      "tagline": "Monitorização leve de servidores e contentores",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Beszel",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.beszel/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.beszel/assets/beszel.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.beszel/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.beszel/meta.json",
+      "content_hash": "14cd546f",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.bookstack",
+      "title": "BookStack",
+      "tagline": "Documentação e wiki para equipas",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.bookstack/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.bookstack/assets/bookstack.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.bookstack/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.bookstack/meta.json",
+      "content_hash": "bfc5e35f",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.changedetection.io",
+      "title": "changedetection.io",
+      "tagline": "Monitoriza alterações em páginas web",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.changedetection.io/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.changedetection.io/assets/changedetection.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.changedetection.io/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.changedetection.io/meta.json",
+      "content_hash": "7d4d416d",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.cloudflared",
+      "title": "Cloudflared",
+      "tagline": "Cria túneis seguros para serviços locais",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "Cloudflared",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.cloudflared/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.cloudflared/assets/cloudflared.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.cloudflared/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.cloudflared/meta.json",
+      "content_hash": "9000fb24",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.dashy",
+      "title": "Dashy",
+      "tagline": "Painel personalizável para serviços web",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Dashy",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.dashy/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.dashy/assets/dashy.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.dashy/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.dashy/meta.json",
+      "content_hash": "99ddee58",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.ddclient",
+      "title": "ddclient",
+      "tagline": "Atualiza automaticamente endereços DNS dinâmicos",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.ddclient/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.ddclient/assets/ddclient.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.ddclient/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.ddclient/meta.json",
+      "content_hash": "4c244f32",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.deluge",
+      "title": "Deluge",
+      "tagline": "Cliente BitTorrent com interface web",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.deluge/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.deluge/assets/deluge.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.deluge/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.deluge/meta.json",
+      "content_hash": "78c52a6e",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.dozzle",
+      "title": "Dozzle",
+      "tagline": "Consulta logs Docker em tempo real",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Dozzle",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.dozzle/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.dozzle/assets/dozzle.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.dozzle/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.dozzle/meta.json",
+      "content_hash": "d2146772",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.duplicati",
+      "title": "Duplicati",
+      "tagline": "Cria backups encriptados e programados",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.duplicati/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.duplicati/assets/duplicati.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.duplicati/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.duplicati/meta.json",
+      "content_hash": "38adae6c",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.emby",
+      "title": "Emby",
+      "tagline": "Organiza e transmite filmes, séries e música",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.emby/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.emby/assets/emby.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.emby/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.emby/meta.json",
+      "content_hash": "1a973b94",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.esphome",
+      "title": "ESPHome",
+      "tagline": "Cria firmware para dispositivos ESP inteligentes",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "author": "MrStore",
+      "developer": "ESPHome",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.esphome/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.esphome/assets/esphome.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.esphome/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.esphome/meta.json",
+      "content_hash": "1530e717",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.freshrss",
+      "title": "FreshRSS",
+      "tagline": "Leitor RSS para acompanhar notícias e sites",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.freshrss/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.freshrss/assets/freshrss.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.freshrss/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.freshrss/meta.json",
+      "content_hash": "337bb7de",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.frigate",
+      "title": "Frigate",
+      "tagline": "Videovigilância com deteção inteligente",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "author": "MrStore",
+      "developer": "Frigate",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.frigate/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.frigate/assets/frigate.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.frigate/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.frigate/meta.json",
+      "content_hash": "5a31b6be",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.glances",
+      "title": "Glances",
+      "tagline": "Monitoriza CPU, memória, discos e rede",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "nicolargo",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.glances/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.glances/assets/glances.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.glances/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.glances/meta.json",
+      "content_hash": "13020fa3",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.gluetun",
+      "title": "Gluetun",
+      "tagline": "Liga contentores à Internet através de VPN",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "Gluetun",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.gluetun/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.gluetun/assets/gluetun.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.gluetun/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.gluetun/meta.json",
+      "content_hash": "59bf23bc",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.grocy",
+      "title": "Grocy",
+      "tagline": "Gere compras, produtos e tarefas domésticas",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.grocy/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.grocy/assets/grocy.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.grocy/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.grocy/meta.json",
+      "content_hash": "51f91141",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.healthchecks",
+      "title": "Healthchecks",
+      "tagline": "Deteta falhas em tarefas e backups programados",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.healthchecks/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.healthchecks/assets/healthchecks.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.healthchecks/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.healthchecks/meta.json",
+      "content_hash": "7f37d035",
+      "version": "1.0.3"
+    },
+    {
+      "id": "io.github.mrpiracy94.homarr",
+      "title": "Homarr",
+      "tagline": "Painel de controlo para serviços do homelab",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Homarr",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.homarr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.homarr/assets/homarr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.homarr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.homarr/meta.json",
+      "content_hash": "6ab65531",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.jackett",
+      "title": "Jackett",
+      "tagline": "Liga indexadores de torrents a outras aplicações",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.jackett/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.jackett/assets/jackett.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.jackett/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.jackett/meta.json",
+      "content_hash": "e18d61cc",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.jdownloader",
+      "title": "JDownloader 2",
+      "tagline": "Gestor de downloads de ficheiros e links",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "jlesage",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.jdownloader/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.jdownloader/assets/jdownloader.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.jdownloader/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.jdownloader/meta.json",
+      "content_hash": "95956e1e",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.joplin",
+      "title": "Joplin Server",
+      "tagline": "Sincronização de notas e cadernos Joplin",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.joplin/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.joplin/assets/joplin.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.joplin/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.joplin/meta.json",
+      "content_hash": "30fdd2da",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.karakeep",
+      "title": "Karakeep",
+      "tagline": "Guarda e pesquisa favoritos, notas e imagens",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "Karakeep",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.karakeep/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.karakeep/assets/karakeep.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.karakeep/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.karakeep/meta.json",
+      "content_hash": "d0183221",
+      "version": "1.0.4"
+    },
+    {
+      "id": "io.github.mrpiracy94.librespeed",
+      "title": "LibreSpeed",
+      "tagline": "Teste de velocidade da rede no navegador",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.librespeed/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.librespeed/assets/librespeed.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.librespeed/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.librespeed/meta.json",
+      "content_hash": "2e2b34e5",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.lidarr",
+      "title": "Lidarr",
+      "tagline": "Organiza e acompanha bibliotecas de música",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.lidarr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.lidarr/assets/lidarr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.lidarr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.lidarr/meta.json",
+      "content_hash": "b1c4ee44",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.memos",
+      "title": "Memos",
+      "tagline": "Notas rápidas e organização pessoal",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "Memos",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.memos/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.memos/assets/memos.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.memos/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.memos/meta.json",
+      "content_hash": "ce7309a8",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.mosquitto",
+      "title": "Mosquitto",
+      "tagline": "Broker MQTT para automação e IoT",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "author": "MrStore",
+      "developer": "Mosquitto",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.mosquitto/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.mosquitto/assets/mosquitto.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.mosquitto/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.mosquitto/meta.json",
+      "content_hash": "699c790c",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.node-red",
+      "title": "Node-RED",
+      "tagline": "Automatização visual com fluxos de tarefas",
+      "category": "Home",
+      "categories": [
+        "home"
+      ],
+      "author": "MrStore",
+      "developer": "Node-RED",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.node-red/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.node-red/assets/node-red.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.node-red/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.node-red/meta.json",
+      "content_hash": "24c146e1",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.handbrake",
+      "title": "HandBrake",
+      "tagline": "Converte e comprime ficheiros de vídeo",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.handbrake/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.handbrake/assets/handbrake.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.handbrake/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.handbrake/meta.json",
+      "content_hash": "f878f38e",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.calibre",
+      "title": "Calibre",
+      "tagline": "Organiza, converte e lê livros digitais",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.calibre/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.calibre/assets/calibre.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.calibre/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.calibre/meta.json",
+      "content_hash": "b582d66a",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.mariadb",
+      "title": "MariaDB",
+      "tagline": "Servidor de base de dados relacional",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.mariadb/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.mariadb/assets/mariadb.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.mariadb/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.mariadb/meta.json",
+      "content_hash": "e59dedd8",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.speedtest-tracker",
+      "title": "Speedtest Tracker",
+      "tagline": "Regista e compara velocidades da Internet",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.speedtest-tracker/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.speedtest-tracker/assets/speedtest-tracker.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.speedtest-tracker/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.speedtest-tracker/meta.json",
+      "content_hash": "dd0b105c",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.wireguard",
+      "title": "WireGuard",
+      "tagline": "VPN segura e de alto desempenho",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.wireguard/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.wireguard/assets/wireguard.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.wireguard/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.wireguard/meta.json",
+      "content_hash": "ef14726d",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.netdata",
+      "title": "Netdata",
+      "tagline": "Monitorização de servidores em tempo real",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Netdata",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.netdata/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.netdata/assets/netdata.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.netdata/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.netdata/meta.json",
+      "content_hash": "2e98f77f",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.photoprism",
+      "title": "PhotoPrism",
+      "tagline": "Biblioteca de fotografias com pesquisa inteligente",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "PhotoPrism",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.photoprism/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.photoprism/assets/photoprism.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.photoprism/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.photoprism/meta.json",
+      "content_hash": "f3e372f5",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.pairdrop",
+      "title": "PairDrop",
+      "tagline": "Partilha ficheiros entre dispositivos na rede",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.pairdrop/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.pairdrop/assets/pairdrop.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.pairdrop/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.pairdrop/meta.json",
+      "content_hash": "37afc88a",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.planka",
+      "title": "Planka",
+      "tagline": "Quadros Kanban para organizar tarefas",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.planka/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.planka/assets/planka.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.planka/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.planka/meta.json",
+      "content_hash": "2ca0129a",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.pocket-id",
+      "title": "Pocket ID",
+      "tagline": "Autenticação única com passkeys e OpenID Connect",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "Pocket ID",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.pocket-id/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.pocket-id/assets/pocket-id.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.pocket-id/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.pocket-id/meta.json",
+      "content_hash": "8468f384",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.rustdesk",
+      "title": "RustDesk",
+      "tagline": "Acesso remoto e partilha de ecrã",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.rustdesk/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.rustdesk/assets/rustdesk.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.rustdesk/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.rustdesk/meta.json",
+      "content_hash": "97a6ed33",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.searxng",
+      "title": "SearXNG",
+      "tagline": "Metamotor de pesquisa com foco na privacidade",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "SearXNG",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.searxng/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.searxng/assets/searxng.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.searxng/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.searxng/meta.json",
+      "content_hash": "3a007a46",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.tautulli",
+      "title": "Tautulli",
+      "tagline": "Estatísticas e notificações para Plex",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.tautulli/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.tautulli/assets/tautulli.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.tautulli/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.tautulli/meta.json",
+      "content_hash": "bbe14d23",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.transmission",
+      "title": "Transmission",
+      "tagline": "Cliente BitTorrent leve",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.transmission/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.transmission/assets/transmission.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.transmission/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.transmission/meta.json",
+      "content_hash": "dac9d8da",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.unifi-network-application",
+      "title": "UniFi Network Application",
+      "tagline": "Administra redes e dispositivos UniFi",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.unifi-network-application/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.unifi-network-application/assets/unifi-network-application-icon.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.unifi-network-application/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.unifi-network-application/meta.json",
+      "content_hash": "0eadfbe9",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.wikijs",
+      "title": "Wiki.js",
+      "tagline": "Wiki moderna para documentação de equipas",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.wikijs/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.wikijs/assets/wikijs.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.wikijs/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.wikijs/meta.json",
+      "content_hash": "1cf2704e",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.sabnzbd",
+      "title": "SABnzbd",
+      "tagline": "Automatiza downloads a partir da Usenet",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.sabnzbd/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.sabnzbd/assets/sabnzbd.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.sabnzbd/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.sabnzbd/meta.json",
+      "content_hash": "d32414f8",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.tdarr",
+      "title": "Tdarr",
+      "tagline": "Converte e otimiza bibliotecas de vídeo",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "Tdarr",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.tdarr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.tdarr/assets/tdarr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.tdarr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.tdarr/meta.json",
+      "content_hash": "3b8409e1",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.lldap",
+      "title": "LLDAP",
+      "tagline": "Servidor LDAP simples e leve",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LLDAP",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.lldap/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.lldap/assets/lldap.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.lldap/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.lldap/meta.json",
+      "content_hash": "38fc219d",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.maintainerr",
+      "title": "Maintainerr",
+      "tagline": "Limpeza automática de conteúdos multimédia",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "Maintainerr",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.maintainerr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.maintainerr/assets/maintainerr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.maintainerr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.maintainerr/meta.json",
+      "content_hash": "a3ac18ad",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.netbox",
+      "title": "NetBox",
+      "tagline": "Documenta redes, racks, IPs e equipamentos",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.netbox/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.netbox/assets/netbox.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.netbox/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.netbox/meta.json",
+      "content_hash": "74c3bdce",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.nzbget",
+      "title": "NZBGet",
+      "tagline": "Gestor de downloads da rede Usenet",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.nzbget/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.nzbget/assets/nzbget.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.nzbget/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.nzbget/meta.json",
+      "content_hash": "fa04c5f3",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.nzbhydra2",
+      "title": "NZBHydra2",
+      "tagline": "Pesquisa em vários indexadores Usenet",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.nzbhydra2/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.nzbhydra2/assets/nzbhydra2.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.nzbhydra2/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.nzbhydra2/meta.json",
+      "content_hash": "42d85ca1",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.obsidian",
+      "title": "Obsidian",
+      "tagline": "Notas Markdown e gestão de conhecimento",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.obsidian/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.obsidian/assets/obsidian.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.obsidian/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.obsidian/meta.json",
+      "content_hash": "17faead1",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.onlyoffice",
+      "title": "ONLYOFFICE",
+      "tagline": "Edita documentos e folhas de cálculo",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.onlyoffice/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.onlyoffice/assets/onlyoffice.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.onlyoffice/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.onlyoffice/meta.json",
+      "content_hash": "2f8dd56c",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.ombi",
+      "title": "Ombi",
+      "tagline": "Pedidos de filmes e séries para servidores multimédia",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.ombi/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.ombi/assets/ombi.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.ombi/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.ombi/meta.json",
+      "content_hash": "46f2a3ae",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.organizr",
+      "title": "Organizr",
+      "tagline": "Organiza serviços numa única página",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "Organizr",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.organizr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.organizr/assets/organizr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.organizr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.organizr/meta.json",
+      "content_hash": "7abe34cf",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.phpmyadmin",
+      "title": "phpMyAdmin",
+      "tagline": "Administra bases de dados MySQL no navegador",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.phpmyadmin/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.phpmyadmin/assets/phpmyadmin.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.phpmyadmin/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.phpmyadmin/meta.json",
+      "content_hash": "5f7b9830",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.piwigo",
+      "title": "Piwigo",
+      "tagline": "Galeria e arquivo de fotografias",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.piwigo/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.piwigo/assets/piwigo.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.piwigo/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.piwigo/meta.json",
+      "content_hash": "f175edaf",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.recyclarr",
+      "title": "Recyclarr",
+      "tagline": "Sincroniza perfis de qualidade com Sonarr e Radarr",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "Recyclarr",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.recyclarr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.recyclarr/assets/recyclarr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.recyclarr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.recyclarr/meta.json",
+      "content_hash": "4d16838e",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.resilio-sync",
+      "title": "Resilio Sync",
+      "tagline": "Sincronização de ficheiros entre dispositivos",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.resilio-sync/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.resilio-sync/assets/resilio-sync.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.resilio-sync/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.resilio-sync/meta.json",
+      "content_hash": "03a82789",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.smokeping",
+      "title": "SmokePing",
+      "tagline": "Monitorização de latência e perdas de rede",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.smokeping/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.smokeping/assets/smokeping.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.smokeping/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.smokeping/meta.json",
+      "content_hash": "494bd078",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.swag",
+      "title": "SWAG",
+      "tagline": "Proxy reverso Nginx com certificados SSL",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.swag/assets/icon.gif",
+      "thumbnail": "/apps/io.github.mrpiracy94.swag/assets/swag.gif",
+      "compose_url": "/apps/io.github.mrpiracy94.swag/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.swag/meta.json",
+      "content_hash": "6a5695dd",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.unpackerr",
+      "title": "Unpackerr",
+      "tagline": "Extrai automaticamente arquivos descarregados",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "Golift",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.unpackerr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.unpackerr/assets/unpackerr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.unpackerr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.unpackerr/meta.json",
+      "content_hash": "0d789818",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.mstream",
+      "title": "mStream",
+      "tagline": "Servidor pessoal para ouvir música",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.mstream/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.mstream/assets/mstream.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.mstream/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.mstream/meta.json",
+      "content_hash": "82389c5b",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.mylar3",
+      "title": "Mylar3",
+      "tagline": "Organiza e acompanha coleções de banda desenhada",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.mylar3/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.mylar3/assets/mylar3.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.mylar3/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.mylar3/meta.json",
+      "content_hash": "8562bcb0",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.netbootxyz",
+      "title": "netboot.xyz",
+      "tagline": "Arranca sistemas e utilitários pela rede",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "netboot.xyz",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.netbootxyz/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.netbootxyz/assets/netbootxyz.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.netbootxyz/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.netbootxyz/meta.json",
+      "content_hash": "b8857671",
+      "version": "1.1.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.notifiarr",
+      "title": "Notifiarr",
+      "tagline": "Notificações e integração de serviços multimédia",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "Notifiarr",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.notifiarr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.notifiarr/assets/notifiarr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.notifiarr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.notifiarr/meta.json",
+      "content_hash": "6b8ee133",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.openssh-server",
+      "title": "OpenSSH Server",
+      "tagline": "Acesso remoto seguro por SSH",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.openssh-server/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.openssh-server/assets/openssh-server-icon.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.openssh-server/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.openssh-server/meta.json",
+      "content_hash": "dd497a85",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.projectsend",
+      "title": "ProjectSend",
+      "tagline": "Partilha privada de ficheiros com clientes",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.projectsend/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.projectsend/assets/projectsend.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.projectsend/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.projectsend/meta.json",
+      "content_hash": "f0beacc6",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.pyload-ng",
+      "title": "pyLoad-ng",
+      "tagline": "Gestor de downloads através do navegador",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.pyload-ng/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.pyload-ng/assets/pyload.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.pyload-ng/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.pyload-ng/meta.json",
+      "content_hash": "382c27d2",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.qui",
+      "title": "qui",
+      "tagline": "Interface web para gerir torrents",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "autobrr",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.qui/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.qui/assets/qui.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.qui/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.qui/meta.json",
+      "content_hash": "fd8af786",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.radarr-4k",
+      "title": "Radarr 4K",
+      "tagline": "Gestão automática de filmes em qualidade 4K",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.radarr-4k/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.radarr-4k/assets/radarr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.radarr-4k/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.radarr-4k/meta.json",
+      "content_hash": "1745e7de",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.sonarr-4k",
+      "title": "Sonarr 4K",
+      "tagline": "Gestão automática de séries em qualidade 4K",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.sonarr-4k/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.sonarr-4k/assets/sonarr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.sonarr-4k/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.sonarr-4k/meta.json",
+      "content_hash": "3100b417",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.rsnapshot",
+      "title": "rsnapshot",
+      "tagline": "Backups incrementais com rsync",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.rsnapshot/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.rsnapshot/assets/rsnapshot-icon.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.rsnapshot/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.rsnapshot/meta.json",
+      "content_hash": "aa61ab5d",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.rutorrent",
+      "title": "ruTorrent (rTorrent)",
+      "tagline": "Interface web para o cliente rTorrent",
+      "category": "Networking",
+      "categories": [
+        "networking"
+      ],
+      "author": "MrStore",
+      "developer": "crazy-max",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.rutorrent/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.rutorrent/assets/rtorrent.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.rutorrent/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.rutorrent/meta.json",
+      "content_hash": "b66986ce",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.socket-proxy",
+      "title": "Socket Proxy",
+      "tagline": "Acesso controlado à API do Docker",
+      "category": "Others",
+      "categories": [
+        "others"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.socket-proxy/assets/icon.svg",
+      "thumbnail": "/apps/io.github.mrpiracy94.socket-proxy/assets/icon.svg",
+      "compose_url": "/apps/io.github.mrpiracy94.socket-proxy/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.socket-proxy/meta.json",
+      "content_hash": "44595906",
+      "version": "1.1.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.synclounge",
+      "title": "SyncLounge",
+      "tagline": "Sessões de visualização conjunta de conteúdos",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.synclounge/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.synclounge/assets/synclounge.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.synclounge/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.synclounge/meta.json",
+      "content_hash": "afe09d5a",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.tvheadend",
+      "title": "Tvheadend",
+      "tagline": "Servidor de televisão e gravações digitais",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.tvheadend/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.tvheadend/assets/tvheadend.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.tvheadend/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.tvheadend/meta.json",
+      "content_hash": "dbc21df2",
+      "version": "1.0.1"
+    },
+    {
+      "id": "io.github.mrpiracy94.wizarr",
+      "title": "Wizarr",
+      "tagline": "Convites para servidores Plex, Jellyfin e Emby",
+      "category": "Media",
+      "categories": [
+        "media"
+      ],
+      "author": "MrStore",
+      "developer": "Wizarr",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.wizarr/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.wizarr/assets/wizarr.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.wizarr/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.wizarr/meta.json",
+      "content_hash": "0343cac2",
+      "version": "1.0.1"
     },
     {
       "id": "io.github.mrpiracy94.airsonic-advanced",
@@ -89,27 +2397,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.apprise-api",
-      "title": "Apprise API",
-      "tagline": "Envia notificações para múltiplos serviços",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.apprise-api/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.apprise-api/assets/apprise.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.apprise-api/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.apprise-api/meta.json",
-      "content_hash": "43cfa07c",
-      "version": "1.0.2"
-    },
-    {
       "id": "io.github.mrpiracy94.ardour",
       "title": "Ardour",
       "tagline": "Gravação, edição e mistura de áudio",
@@ -148,48 +2435,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.audacity/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.audacity/meta.json",
       "content_hash": "23ceee96",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.audiobookshelf",
-      "title": "Audiobookshelf",
-      "tagline": "Organiza e reproduz audiolivros e podcasts",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "Audiobookshelf",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.audiobookshelf/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.audiobookshelf/assets/audiobookshelf.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.audiobookshelf/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.audiobookshelf/meta.json",
-      "content_hash": "5693c1e9",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.autobrr",
-      "title": "Autobrr",
-      "tagline": "Automatiza downloads através de anúncios de trackers",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "autobrr",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.autobrr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.autobrr/assets/autobrr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.autobrr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.autobrr/meta.json",
-      "content_hash": "7081a58c",
       "version": "1.0.1"
     },
     {
@@ -254,27 +2499,6 @@
       "version": "1.0.2"
     },
     {
-      "id": "io.github.mrpiracy94.bazarr",
-      "title": "Bazarr",
-      "tagline": "Pesquisa e descarrega legendas automaticamente",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.bazarr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.bazarr/assets/bazarr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.bazarr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.bazarr/meta.json",
-      "content_hash": "311c08af",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.beets",
       "title": "Beets",
       "tagline": "Organiza e identifica ficheiros de música",
@@ -294,27 +2518,6 @@
       "meta_url": "/apps/io.github.mrpiracy94.beets/meta.json",
       "content_hash": "497d0b22",
       "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.beszel",
-      "title": "Beszel",
-      "tagline": "Monitorização leve de servidores e contentores",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Beszel",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.beszel/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.beszel/assets/beszel.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.beszel/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.beszel/meta.json",
-      "content_hash": "14cd546f",
-      "version": "1.0.1"
     },
     {
       "id": "io.github.mrpiracy94.bitcoin-knots",
@@ -400,27 +2603,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.bookstack",
-      "title": "BookStack",
-      "tagline": "Documentação e wiki para equipas",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.bookstack/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.bookstack/assets/bookstack.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.bookstack/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.bookstack/meta.json",
-      "content_hash": "bfc5e35f",
-      "version": "1.0.2"
-    },
-    {
       "id": "io.github.mrpiracy94.brave",
       "title": "Brave",
       "tagline": "Navegador web com proteção de privacidade",
@@ -463,48 +2645,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.calibre",
-      "title": "Calibre",
-      "tagline": "Organiza, converte e lê livros digitais",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.calibre/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.calibre/assets/calibre.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.calibre/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.calibre/meta.json",
-      "content_hash": "b582d66a",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.calibre-web",
-      "title": "Calibre-Web",
-      "tagline": "Biblioteca web para livros digitais",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.calibre-web/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.calibre-web/assets/calibre-web.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.calibre-web/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.calibre-web/meta.json",
-      "content_hash": "7b688b30",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.calligra",
       "title": "Calligra",
       "tagline": "Suite de produtividade e documentos",
@@ -523,27 +2663,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.calligra/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.calligra/meta.json",
       "content_hash": "0d489a87",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.changedetection.io",
-      "title": "changedetection.io",
-      "tagline": "Monitoriza alterações em páginas web",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.changedetection.io/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.changedetection.io/assets/changedetection.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.changedetection.io/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.changedetection.io/meta.json",
-      "content_hash": "7d4d416d",
       "version": "1.0.1"
     },
     {
@@ -587,48 +2706,6 @@
       "meta_url": "/apps/io.github.mrpiracy94.chromium/meta.json",
       "content_hash": "d7f574f3",
       "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.cloudflared",
-      "title": "Cloudflared",
-      "tagline": "Cria túneis seguros para serviços locais",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "Cloudflared",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.cloudflared/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.cloudflared/assets/cloudflared.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.cloudflared/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.cloudflared/meta.json",
-      "content_hash": "9000fb24",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.code-server",
-      "title": "code-server",
-      "tagline": "Editor VS Code acessível no navegador",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.code-server/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.code-server/assets/code-server.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.code-server/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.code-server/meta.json",
-      "content_hash": "b09d09ae",
-      "version": "1.0.2"
     },
     {
       "id": "io.github.mrpiracy94.cops",
@@ -714,69 +2791,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.dashy",
-      "title": "Dashy",
-      "tagline": "Painel personalizável para serviços web",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Dashy",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.dashy/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.dashy/assets/dashy.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.dashy/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.dashy/meta.json",
-      "content_hash": "99ddee58",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.ddclient",
-      "title": "ddclient",
-      "tagline": "Atualiza automaticamente endereços DNS dinâmicos",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.ddclient/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.ddclient/assets/ddclient.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.ddclient/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.ddclient/meta.json",
-      "content_hash": "4c244f32",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.deluge",
-      "title": "Deluge",
-      "tagline": "Cliente BitTorrent com interface web",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.deluge/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.deluge/assets/deluge.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.deluge/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.deluge/meta.json",
-      "content_hash": "78c52a6e",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.digikam",
       "title": "digiKam",
       "tagline": "Organiza e edita bibliotecas de fotografias",
@@ -815,27 +2829,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.diskover/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.diskover/meta.json",
       "content_hash": "3ddc7aa9",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.dockge",
-      "title": "Dockge",
-      "tagline": "Gere stacks Docker Compose numa interface web",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Dockge",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.dockge/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.dockge/assets/dockge.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.dockge/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.dockge/meta.json",
-      "content_hash": "6b009125",
       "version": "1.0.1"
     },
     {
@@ -962,27 +2955,6 @@
       "version": "1.0.2"
     },
     {
-      "id": "io.github.mrpiracy94.dozzle",
-      "title": "Dozzle",
-      "tagline": "Consulta logs Docker em tempo real",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Dozzle",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.dozzle/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.dozzle/assets/dozzle.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.dozzle/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.dozzle/meta.json",
-      "content_hash": "d2146772",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.duckdns",
       "title": "DuckDNS",
       "tagline": "Atualiza o IP associado a um domínio DuckDNS",
@@ -1025,27 +2997,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.duplicati",
-      "title": "Duplicati",
-      "tagline": "Cria backups encriptados e programados",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.duplicati/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.duplicati/assets/duplicati.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.duplicati/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.duplicati/meta.json",
-      "content_hash": "38adae6c",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.eden",
       "title": "Eden",
       "tagline": "Emulador de jogos Nintendo Switch",
@@ -1063,48 +3014,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.eden/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.eden/meta.json",
       "content_hash": "a3570c6f",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.emby",
-      "title": "Emby",
-      "tagline": "Organiza e transmite filmes, séries e música",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.emby/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.emby/assets/emby.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.emby/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.emby/meta.json",
-      "content_hash": "1a973b94",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.esphome",
-      "title": "ESPHome",
-      "tagline": "Cria firmware para dispositivos ESP inteligentes",
-      "category": "Home",
-      "categories": [
-        "home"
-      ],
-      "author": "MrStore",
-      "developer": "ESPHome",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.esphome/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.esphome/assets/esphome.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.esphome/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.esphome/meta.json",
-      "content_hash": "1530e717",
       "version": "1.0.1"
     },
     {
@@ -1338,48 +3247,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.freshrss",
-      "title": "FreshRSS",
-      "tagline": "Leitor RSS para acompanhar notícias e sites",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.freshrss/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.freshrss/assets/freshrss.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.freshrss/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.freshrss/meta.json",
-      "content_hash": "337bb7de",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.frigate",
-      "title": "Frigate",
-      "tagline": "Videovigilância com deteção inteligente",
-      "category": "Home",
-      "categories": [
-        "home"
-      ],
-      "author": "MrStore",
-      "developer": "Frigate",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.frigate/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.frigate/assets/frigate.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.frigate/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.frigate/meta.json",
-      "content_hash": "5a31b6be",
-      "version": "1.0.2"
-    },
-    {
       "id": "io.github.mrpiracy94.gimp",
       "title": "GIMP",
       "tagline": "Editor avançado de imagens e fotografias",
@@ -1398,27 +3265,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.gimp/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.gimp/meta.json",
       "content_hash": "426f2c6f",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.gitea",
-      "title": "Gitea",
-      "tagline": "Alojamento Git para projetos e equipas",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "MrStore",
-      "developer": "Gitea",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.gitea/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.gitea/assets/gitea.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.gitea/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.gitea/meta.json",
-      "content_hash": "f6d07c83",
       "version": "1.0.1"
     },
     {
@@ -1464,48 +3310,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.glances",
-      "title": "Glances",
-      "tagline": "Monitoriza CPU, memória, discos e rede",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "nicolargo",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.glances/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.glances/assets/glances.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.glances/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.glances/meta.json",
-      "content_hash": "13020fa3",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.gluetun",
-      "title": "Gluetun",
-      "tagline": "Liga contentores à Internet através de VPN",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "Gluetun",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.gluetun/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.gluetun/assets/gluetun.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.gluetun/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.gluetun/meta.json",
-      "content_hash": "59bf23bc",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.grav",
       "title": "Grav",
       "tagline": "Criação de sites com CMS sem base de dados",
@@ -1524,27 +3328,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.grav/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.grav/meta.json",
       "content_hash": "b8510ac9",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.grocy",
-      "title": "Grocy",
-      "tagline": "Gere compras, produtos e tarefas domésticas",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.grocy/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.grocy/assets/grocy.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.grocy/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.grocy/meta.json",
-      "content_hash": "51f91141",
       "version": "1.0.1"
     },
     {
@@ -1588,47 +3371,6 @@
       "meta_url": "/apps/io.github.mrpiracy94.habridge/meta.json",
       "content_hash": "dc1dca41",
       "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.handbrake",
-      "title": "HandBrake",
-      "tagline": "Converte e comprime ficheiros de vídeo",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.handbrake/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.handbrake/assets/handbrake.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.handbrake/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.handbrake/meta.json",
-      "content_hash": "f878f38e",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.healthchecks",
-      "title": "Healthchecks",
-      "tagline": "Deteta falhas em tarefas e backups programados",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.healthchecks/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.healthchecks/assets/healthchecks.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.healthchecks/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.healthchecks/meta.json",
-      "content_hash": "7f37d035",
-      "version": "1.0.3"
     },
     {
       "id": "io.github.mrpiracy94.hedgedoc",
@@ -1715,90 +3457,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.homarr",
-      "title": "Homarr",
-      "tagline": "Painel de controlo para serviços do homelab",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Homarr",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.homarr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.homarr/assets/homarr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.homarr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.homarr/meta.json",
-      "content_hash": "6ab65531",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.homeassistant",
-      "title": "Home Assistant",
-      "tagline": "Automação e controlo da casa inteligente",
-      "category": "Home",
-      "categories": [
-        "home"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.homeassistant/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.homeassistant/assets/home-assistant.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.homeassistant/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.homeassistant/meta.json",
-      "content_hash": "ebee48d8",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.homepage",
-      "title": "Homepage",
-      "tagline": "Página inicial personalizável para o homelab",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Homepage",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.homepage/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.homepage/assets/homepage.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.homepage/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.homepage/meta.json",
-      "content_hash": "c0f19f34",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.immich",
-      "title": "Immich",
-      "tagline": "Biblioteca privada de fotos e vídeos",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "Immich",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.immich/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.immich/assets/immich.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.immich/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.immich/meta.json",
-      "content_hash": "9ad5386d",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.inkscape",
       "title": "Inkscape",
       "tagline": "Cria e edita gráficos vetoriais",
@@ -1840,110 +3498,6 @@
       "version": "1.0.2"
     },
     {
-      "id": "io.github.mrpiracy94.it-tools",
-      "title": "IT-Tools",
-      "tagline": "Coleção de ferramentas para programadores",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "MrStore",
-      "developer": "IT-Tools",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.it-tools/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.it-tools/assets/it-tools.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.it-tools/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.it-tools/meta.json",
-      "content_hash": "99514164",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.jackett",
-      "title": "Jackett",
-      "tagline": "Liga indexadores de torrents a outras aplicações",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.jackett/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.jackett/assets/jackett.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.jackett/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.jackett/meta.json",
-      "content_hash": "e18d61cc",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.jdownloader",
-      "title": "JDownloader 2",
-      "tagline": "Gestor de downloads de ficheiros e links",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "jlesage",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.jdownloader/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.jdownloader/assets/jdownloader.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.jdownloader/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.jdownloader/meta.json",
-      "content_hash": "95956e1e",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.jellyfin",
-      "title": "Jellyfin",
-      "tagline": "Servidor multimédia para filmes, séries e música",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "Jellyfin Project",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.jellyfin/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.jellyfin/assets/jellyfin.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.jellyfin/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.jellyfin/meta.json",
-      "content_hash": "7832b731",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.joplin",
-      "title": "Joplin Server",
-      "tagline": "Sincronização de notas e cadernos Joplin",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.joplin/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.joplin/assets/joplin.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.joplin/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.joplin/meta.json",
-      "content_hash": "30fdd2da",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.kali-linux",
       "title": "Kali Linux",
       "tagline": "Ambiente Linux para testes de segurança",
@@ -1965,27 +3519,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.karakeep",
-      "title": "Karakeep",
-      "tagline": "Guarda e pesquisa favoritos, notas e imagens",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "Karakeep",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.karakeep/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.karakeep/assets/karakeep.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.karakeep/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.karakeep/meta.json",
-      "content_hash": "d0183221",
-      "version": "1.0.4"
-    },
-    {
       "id": "io.github.mrpiracy94.kasm",
       "title": "Kasm Workspaces",
       "tagline": "Ambientes de trabalho e aplicações no navegador",
@@ -2004,27 +3537,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.kasm/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.kasm/meta.json",
       "content_hash": "30d18e52",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.kavita",
-      "title": "Kavita",
-      "tagline": "Leitor e biblioteca de livros, manga e BD",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.kavita/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.kavita/assets/kavita.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.kavita/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.kavita/meta.json",
-      "content_hash": "27aa157f",
       "version": "1.0.1"
     },
     {
@@ -2195,27 +3707,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.librespeed",
-      "title": "LibreSpeed",
-      "tagline": "Teste de velocidade da rede no navegador",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.librespeed/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.librespeed/assets/librespeed.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.librespeed/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.librespeed/meta.json",
-      "content_hash": "2e2b34e5",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.librewolf",
       "title": "LibreWolf",
       "tagline": "Navegador com foco na privacidade",
@@ -2237,27 +3728,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.lidarr",
-      "title": "Lidarr",
-      "tagline": "Organiza e acompanha bibliotecas de música",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.lidarr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.lidarr/assets/lidarr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.lidarr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.lidarr/meta.json",
-      "content_hash": "b1c4ee44",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.limnoria",
       "title": "Limnoria",
       "tagline": "Bot IRC extensível e personalizável",
@@ -2276,27 +3746,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.limnoria/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.limnoria/meta.json",
       "content_hash": "ecbdc11b",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.lldap",
-      "title": "LLDAP",
-      "tagline": "Servidor LDAP simples e leve",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LLDAP",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.lldap/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.lldap/assets/lldap.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.lldap/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.lldap/meta.json",
-      "content_hash": "38fc219d",
       "version": "1.0.1"
     },
     {
@@ -2383,27 +3832,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.maintainerr",
-      "title": "Maintainerr",
-      "tagline": "Limpeza automática de conteúdos multimédia",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "Maintainerr",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.maintainerr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.maintainerr/assets/maintainerr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.maintainerr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.maintainerr/meta.json",
-      "content_hash": "a3ac18ad",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.mame",
       "title": "MAME",
       "tagline": "Emulador de máquinas arcade clássicas",
@@ -2446,27 +3874,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.mariadb",
-      "title": "MariaDB",
-      "tagline": "Servidor de base de dados relacional",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.mariadb/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.mariadb/assets/mariadb.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.mariadb/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.mariadb/meta.json",
-      "content_hash": "e59dedd8",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.mastodon",
       "title": "Mastodon",
       "tagline": "Rede social descentralizada e independente",
@@ -2485,27 +3892,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.mastodon/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.mastodon/meta.json",
       "content_hash": "7f2e0b6b",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.mealie",
-      "title": "Mealie",
-      "tagline": "Organiza receitas e planos de refeições",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "Mealie",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.mealie/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.mealie/assets/mealie.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.mealie/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.mealie/meta.json",
-      "content_hash": "3dc94a49",
       "version": "1.0.1"
     },
     {
@@ -2571,48 +3957,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.memos",
-      "title": "Memos",
-      "tagline": "Notas rápidas e organização pessoal",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "Memos",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.memos/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.memos/assets/memos.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.memos/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.memos/meta.json",
-      "content_hash": "ce7309a8",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.metube",
-      "title": "MeTube",
-      "tagline": "Descarrega vídeos e áudio através do navegador",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "MeTube",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.metube/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.metube/assets/metube.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.metube/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.metube/meta.json",
-      "content_hash": "84b1e06f",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.minisatip",
       "title": "minisatip",
       "tagline": "Distribui televisão por satélite na rede",
@@ -2675,27 +4019,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.mosquitto",
-      "title": "Mosquitto",
-      "tagline": "Broker MQTT para automação e IoT",
-      "category": "Home",
-      "categories": [
-        "home"
-      ],
-      "author": "MrStore",
-      "developer": "Mosquitto",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.mosquitto/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.mosquitto/assets/mosquitto.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.mosquitto/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.mosquitto/meta.json",
-      "content_hash": "699c790c",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.msedge",
       "title": "Microsoft Edge",
       "tagline": "Navegador Microsoft Edge no servidor",
@@ -2714,27 +4037,6 @@
       "meta_url": "/apps/io.github.mrpiracy94.msedge/meta.json",
       "content_hash": "fbdcc8f0",
       "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.mstream",
-      "title": "mStream",
-      "tagline": "Servidor pessoal para ouvir música",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.mstream/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.mstream/assets/mstream.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.mstream/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.mstream/meta.json",
-      "content_hash": "82389c5b",
-      "version": "1.0.1"
     },
     {
       "id": "io.github.mrpiracy94.mullvad-browser",
@@ -2757,27 +4059,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.mylar3",
-      "title": "Mylar3",
-      "tagline": "Organiza e acompanha coleções de banda desenhada",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.mylar3/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.mylar3/assets/mylar3.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.mylar3/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.mylar3/meta.json",
-      "content_hash": "8562bcb0",
-      "version": "1.0.2"
-    },
-    {
       "id": "io.github.mrpiracy94.mysql-workbench",
       "title": "MySQL Workbench",
       "tagline": "Administração e modelação de bases de dados MySQL",
@@ -2798,111 +4079,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.navidrome",
-      "title": "Navidrome",
-      "tagline": "Servidor de música compatível com Subsonic",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "Deluan",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.navidrome/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.navidrome/assets/navidrome.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.navidrome/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.navidrome/meta.json",
-      "content_hash": "d9e7582b",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.netbootxyz",
-      "title": "netboot.xyz",
-      "tagline": "Arranca sistemas e utilitários pela rede",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "netboot.xyz",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.netbootxyz/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.netbootxyz/assets/netbootxyz.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.netbootxyz/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.netbootxyz/meta.json",
-      "content_hash": "b8857671",
-      "version": "1.1.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.netbox",
-      "title": "NetBox",
-      "tagline": "Documenta redes, racks, IPs e equipamentos",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.netbox/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.netbox/assets/netbox.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.netbox/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.netbox/meta.json",
-      "content_hash": "74c3bdce",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.netdata",
-      "title": "Netdata",
-      "tagline": "Monitorização de servidores em tempo real",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Netdata",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.netdata/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.netdata/assets/netdata.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.netdata/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.netdata/meta.json",
-      "content_hash": "2e98f77f",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.nextcloud",
-      "title": "Nextcloud",
-      "tagline": "Nuvem privada para ficheiros e colaboração",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.nextcloud/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.nextcloud/assets/nextcloud.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.nextcloud/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.nextcloud/meta.json",
-      "content_hash": "70b86267",
-      "version": "1.0.2"
-    },
-    {
       "id": "io.github.mrpiracy94.nginx",
       "title": "NGINX",
       "tagline": "Servidor web e proxy reverso",
@@ -2921,27 +4097,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.nginx/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.nginx/meta.json",
       "content_hash": "7562722a",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.nginx-proxy-manager",
-      "title": "Nginx Proxy Manager",
-      "tagline": "Gere proxies reversos e certificados SSL",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "Nginx Proxy Manager",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.nginx-proxy-manager/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.nginx-proxy-manager/assets/nginx-proxy-manager.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.nginx-proxy-manager/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.nginx-proxy-manager/meta.json",
-      "content_hash": "9e6b973a",
       "version": "1.0.1"
     },
     {
@@ -2966,194 +4121,6 @@
       "version": "1.0.2"
     },
     {
-      "id": "io.github.mrpiracy94.node-red",
-      "title": "Node-RED",
-      "tagline": "Automatização visual com fluxos de tarefas",
-      "category": "Home",
-      "categories": [
-        "home"
-      ],
-      "author": "MrStore",
-      "developer": "Node-RED",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.node-red/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.node-red/assets/node-red.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.node-red/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.node-red/meta.json",
-      "content_hash": "24c146e1",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.notifiarr",
-      "title": "Notifiarr",
-      "tagline": "Notificações e integração de serviços multimédia",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "Notifiarr",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.notifiarr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.notifiarr/assets/notifiarr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.notifiarr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.notifiarr/meta.json",
-      "content_hash": "6b8ee133",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.nzbget",
-      "title": "NZBGet",
-      "tagline": "Gestor de downloads da rede Usenet",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.nzbget/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.nzbget/assets/nzbget.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.nzbget/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.nzbget/meta.json",
-      "content_hash": "fa04c5f3",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.nzbhydra2",
-      "title": "NZBHydra2",
-      "tagline": "Pesquisa em vários indexadores Usenet",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.nzbhydra2/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.nzbhydra2/assets/nzbhydra2.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.nzbhydra2/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.nzbhydra2/meta.json",
-      "content_hash": "42d85ca1",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.obsidian",
-      "title": "Obsidian",
-      "tagline": "Notas Markdown e gestão de conhecimento",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.obsidian/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.obsidian/assets/obsidian.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.obsidian/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.obsidian/meta.json",
-      "content_hash": "17faead1",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.ollama",
-      "title": "Ollama",
-      "tagline": "Executa modelos de inteligência artificial locais",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Ollama",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.ollama/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.ollama/assets/ollama.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.ollama/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.ollama/meta.json",
-      "content_hash": "51aca94b",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.ombi",
-      "title": "Ombi",
-      "tagline": "Pedidos de filmes e séries para servidores multimédia",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.ombi/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.ombi/assets/ombi.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.ombi/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.ombi/meta.json",
-      "content_hash": "46f2a3ae",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.onlyoffice",
-      "title": "ONLYOFFICE",
-      "tagline": "Edita documentos e folhas de cálculo",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.onlyoffice/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.onlyoffice/assets/onlyoffice.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.onlyoffice/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.onlyoffice/meta.json",
-      "content_hash": "2f8dd56c",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.open-webui",
-      "title": "Open WebUI",
-      "tagline": "Interface web para conversar com modelos de IA",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Open WebUI",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.open-webui/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.open-webui/assets/open-webui.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.open-webui/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.open-webui/meta.json",
-      "content_hash": "bb523964",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.openshot",
       "title": "OpenShot",
       "tagline": "Editor de vídeo simples",
@@ -3171,27 +4138,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.openshot/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.openshot/meta.json",
       "content_hash": "23d12307",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.openssh-server",
-      "title": "OpenSSH Server",
-      "tagline": "Acesso remoto seguro por SSH",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.openssh-server/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.openssh-server/assets/openssh-server-icon.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.openssh-server/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.openssh-server/meta.json",
-      "content_hash": "dd497a85",
       "version": "1.0.1"
     },
     {
@@ -3236,27 +4182,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.organizr",
-      "title": "Organizr",
-      "tagline": "Organiza serviços numa única página",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Organizr",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.organizr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.organizr/assets/organizr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.organizr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.organizr/meta.json",
-      "content_hash": "7abe34cf",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.oscam",
       "title": "OSCam",
       "tagline": "Servidor de gestão de cartões e acessos TV",
@@ -3275,48 +4200,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.oscam/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.oscam/meta.json",
       "content_hash": "d2d2eb35",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.pairdrop",
-      "title": "PairDrop",
-      "tagline": "Partilha ficheiros entre dispositivos na rede",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.pairdrop/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.pairdrop/assets/pairdrop.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.pairdrop/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.pairdrop/meta.json",
-      "content_hash": "37afc88a",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.paperless-ngx",
-      "title": "Paperless-ngx",
-      "tagline": "Digitaliza e organiza documentos com OCR",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "Paperless-ngx",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.paperless-ngx/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.paperless-ngx/assets/paperless-ngx.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.paperless-ngx/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.paperless-ngx/meta.json",
-      "content_hash": "d0823d1f",
       "version": "1.0.2"
     },
     {
@@ -3358,48 +4241,6 @@
       "meta_url": "/apps/io.github.mrpiracy94.pelorus/meta.json",
       "content_hash": "0f5c3ce4",
       "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.photoprism",
-      "title": "PhotoPrism",
-      "tagline": "Biblioteca de fotografias com pesquisa inteligente",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "PhotoPrism",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.photoprism/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.photoprism/assets/photoprism.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.photoprism/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.photoprism/meta.json",
-      "content_hash": "f3e372f5",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.phpmyadmin",
-      "title": "phpMyAdmin",
-      "tagline": "Administra bases de dados MySQL no navegador",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.phpmyadmin/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.phpmyadmin/assets/phpmyadmin.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.phpmyadmin/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.phpmyadmin/meta.json",
-      "content_hash": "5f7b9830",
-      "version": "1.0.2"
     },
     {
       "id": "io.github.mrpiracy94.pidgin",
@@ -3444,90 +4285,6 @@
       "version": "1.0.2"
     },
     {
-      "id": "io.github.mrpiracy94.piwigo",
-      "title": "Piwigo",
-      "tagline": "Galeria e arquivo de fotografias",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.piwigo/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.piwigo/assets/piwigo.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.piwigo/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.piwigo/meta.json",
-      "content_hash": "f175edaf",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.planka",
-      "title": "Planka",
-      "tagline": "Quadros Kanban para organizar tarefas",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.planka/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.planka/assets/planka.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.planka/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.planka/meta.json",
-      "content_hash": "2ca0129a",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.plex",
-      "title": "Plex",
-      "tagline": "Servidor multimédia para filmes, séries e música",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.plex/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.plex/assets/plex.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.plex/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.plex/meta.json",
-      "content_hash": "63d87509",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.pocket-id",
-      "title": "Pocket ID",
-      "tagline": "Autenticação única com passkeys e OpenID Connect",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "Pocket ID",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.pocket-id/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.pocket-id/assets/pocket-id.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.pocket-id/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.pocket-id/meta.json",
-      "content_hash": "8468f384",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.ppsspp",
       "title": "PPSSPP",
       "tagline": "Emulador de jogos PlayStation Portable",
@@ -3545,48 +4302,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.ppsspp/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.ppsspp/meta.json",
       "content_hash": "1862b478",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.projectsend",
-      "title": "ProjectSend",
-      "tagline": "Partilha privada de ficheiros com clientes",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.projectsend/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.projectsend/assets/projectsend.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.projectsend/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.projectsend/meta.json",
-      "content_hash": "f0beacc6",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.prowlarr",
-      "title": "Prowlarr",
-      "tagline": "Gere indexadores para aplicações multimédia",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.prowlarr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.prowlarr/assets/prowlarr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.prowlarr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.prowlarr/meta.json",
-      "content_hash": "6b36e545",
       "version": "1.0.1"
     },
     {
@@ -3652,48 +4367,6 @@
       "version": "1.0.2"
     },
     {
-      "id": "io.github.mrpiracy94.pyload-ng",
-      "title": "pyLoad-ng",
-      "tagline": "Gestor de downloads através do navegador",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.pyload-ng/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.pyload-ng/assets/pyload.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.pyload-ng/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.pyload-ng/meta.json",
-      "content_hash": "382c27d2",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.qbittorrent",
-      "title": "qBittorrent",
-      "tagline": "Cliente BitTorrent com interface web",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.qbittorrent/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.qbittorrent/assets/qbittorrent.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.qbittorrent/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.qbittorrent/meta.json",
-      "content_hash": "2c89d83e",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.qbittorrent-4",
       "title": "qBittorrent 5.2 (libtorrent v1)",
       "tagline": "Cliente BitTorrent 5.2 com libtorrent v1",
@@ -3733,69 +4406,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.qdirstat/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.qdirstat/meta.json",
       "content_hash": "45ee3337",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.qui",
-      "title": "qui",
-      "tagline": "Interface web para gerir torrents",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "autobrr",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.qui/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.qui/assets/qui.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.qui/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.qui/meta.json",
-      "content_hash": "fd8af786",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.radarr",
-      "title": "Radarr",
-      "tagline": "Organiza e acompanha downloads de filmes",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.radarr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.radarr/assets/radarr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.radarr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.radarr/meta.json",
-      "content_hash": "29ff7a76",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.radarr-4k",
-      "title": "Radarr 4K",
-      "tagline": "Gestão automática de filmes em qualidade 4K",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.radarr-4k/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.radarr-4k/assets/radarr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.radarr-4k/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.radarr-4k/meta.json",
-      "content_hash": "1745e7de",
       "version": "1.0.1"
     },
     {
@@ -3841,27 +4451,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.recyclarr",
-      "title": "Recyclarr",
-      "tagline": "Sincroniza perfis de qualidade com Sonarr e Radarr",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "Recyclarr",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.recyclarr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.recyclarr/assets/recyclarr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.recyclarr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.recyclarr/meta.json",
-      "content_hash": "4d16838e",
-      "version": "1.0.2"
-    },
-    {
       "id": "io.github.mrpiracy94.remmina",
       "title": "Remmina",
       "tagline": "Cliente de acesso remoto RDP, VNC e SSH",
@@ -3881,27 +4470,6 @@
       "meta_url": "/apps/io.github.mrpiracy94.remmina/meta.json",
       "content_hash": "e19bb05c",
       "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.resilio-sync",
-      "title": "Resilio Sync",
-      "tagline": "Sincronização de ficheiros entre dispositivos",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.resilio-sync/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.resilio-sync/assets/resilio-sync.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.resilio-sync/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.resilio-sync/meta.json",
-      "content_hash": "03a82789",
-      "version": "1.0.2"
     },
     {
       "id": "io.github.mrpiracy94.retroarch",
@@ -3946,90 +4514,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.rsnapshot",
-      "title": "rsnapshot",
-      "tagline": "Backups incrementais com rsync",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.rsnapshot/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.rsnapshot/assets/rsnapshot-icon.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.rsnapshot/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.rsnapshot/meta.json",
-      "content_hash": "aa61ab5d",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.rustdesk",
-      "title": "RustDesk",
-      "tagline": "Acesso remoto e partilha de ecrã",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.rustdesk/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.rustdesk/assets/rustdesk.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.rustdesk/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.rustdesk/meta.json",
-      "content_hash": "97a6ed33",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.rutorrent",
-      "title": "ruTorrent (rTorrent)",
-      "tagline": "Interface web para o cliente rTorrent",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "crazy-max",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.rutorrent/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.rutorrent/assets/rtorrent.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.rutorrent/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.rutorrent/meta.json",
-      "content_hash": "b66986ce",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.sabnzbd",
-      "title": "SABnzbd",
-      "tagline": "Automatiza downloads a partir da Usenet",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.sabnzbd/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.sabnzbd/assets/sabnzbd.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.sabnzbd/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.sabnzbd/meta.json",
-      "content_hash": "d32414f8",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.scummvm",
       "title": "ScummVM",
       "tagline": "Executa aventuras gráficas clássicas",
@@ -4068,48 +4552,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.sealskin/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.sealskin/meta.json",
       "content_hash": "4caed113",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.searxng",
-      "title": "SearXNG",
-      "tagline": "Metamotor de pesquisa com foco na privacidade",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "SearXNG",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.searxng/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.searxng/assets/searxng.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.searxng/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.searxng/meta.json",
-      "content_hash": "3a007a46",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.seerr",
-      "title": "Seerr",
-      "tagline": "Pedidos de filmes e séries para servidores multimédia",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "seerr-team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.seerr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.seerr/assets/seerr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.seerr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.seerr/meta.json",
-      "content_hash": "05ec4744",
       "version": "1.0.1"
     },
     {
@@ -4215,111 +4657,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.smokeping",
-      "title": "SmokePing",
-      "tagline": "Monitorização de latência e perdas de rede",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.smokeping/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.smokeping/assets/smokeping.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.smokeping/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.smokeping/meta.json",
-      "content_hash": "494bd078",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.socket-proxy",
-      "title": "Socket Proxy",
-      "tagline": "Acesso controlado à API do Docker",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.socket-proxy/assets/icon.svg",
-      "thumbnail": "/apps/io.github.mrpiracy94.socket-proxy/assets/icon.svg",
-      "compose_url": "/apps/io.github.mrpiracy94.socket-proxy/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.socket-proxy/meta.json",
-      "content_hash": "44595906",
-      "version": "1.1.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.sonarr",
-      "title": "Sonarr",
-      "tagline": "Organiza e acompanha downloads de séries",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.sonarr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.sonarr/assets/sonarr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.sonarr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.sonarr/meta.json",
-      "content_hash": "39807aba",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.sonarr-4k",
-      "title": "Sonarr 4K",
-      "tagline": "Gestão automática de séries em qualidade 4K",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.sonarr-4k/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.sonarr-4k/assets/sonarr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.sonarr-4k/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.sonarr-4k/meta.json",
-      "content_hash": "3100b417",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.speedtest-tracker",
-      "title": "Speedtest Tracker",
-      "tagline": "Regista e compara velocidades da Internet",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.speedtest-tracker/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.speedtest-tracker/assets/speedtest-tracker.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.speedtest-tracker/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.speedtest-tracker/meta.json",
-      "content_hash": "dd0b105c",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.spotube",
       "title": "Spotube",
       "tagline": "Leitor de música com integração de serviços",
@@ -4382,90 +4719,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.stirling-pdf",
-      "title": "Stirling PDF",
-      "tagline": "Converte e edita ficheiros PDF",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "Stirling PDF",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.stirling-pdf/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.stirling-pdf/assets/stirling-pdf.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.stirling-pdf/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.stirling-pdf/meta.json",
-      "content_hash": "6c290587",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.swag",
-      "title": "SWAG",
-      "tagline": "Proxy reverso Nginx com certificados SSL",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.swag/assets/icon.gif",
-      "thumbnail": "/apps/io.github.mrpiracy94.swag/assets/swag.gif",
-      "compose_url": "/apps/io.github.mrpiracy94.swag/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.swag/meta.json",
-      "content_hash": "6a5695dd",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.synclounge",
-      "title": "SyncLounge",
-      "tagline": "Sessões de visualização conjunta de conteúdos",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.synclounge/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.synclounge/assets/synclounge.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.synclounge/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.synclounge/meta.json",
-      "content_hash": "afe09d5a",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.syncthing",
-      "title": "Syncthing",
-      "tagline": "Sincroniza pastas entre dispositivos",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.syncthing/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.syncthing/assets/syncthing.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.syncthing/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.syncthing/meta.json",
-      "content_hash": "ff3d94f1",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.syslog-ng",
       "title": "syslog-ng",
       "tagline": "Recolhe e centraliza logs de sistemas",
@@ -4484,69 +4737,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.syslog-ng/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.syslog-ng/meta.json",
       "content_hash": "2b1fbbda",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.tailscale",
-      "title": "Tailscale",
-      "tagline": "Rede privada segura entre dispositivos",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "Tailscale",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.tailscale/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.tailscale/assets/tailscale.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.tailscale/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.tailscale/meta.json",
-      "content_hash": "990a4fa5",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.tautulli",
-      "title": "Tautulli",
-      "tagline": "Estatísticas e notificações para Plex",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.tautulli/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.tautulli/assets/tautulli.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.tautulli/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.tautulli/meta.json",
-      "content_hash": "bbe14d23",
-      "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.tdarr",
-      "title": "Tdarr",
-      "tagline": "Converte e otimiza bibliotecas de vídeo",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "Tdarr",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.tdarr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.tdarr/assets/tdarr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.tdarr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.tdarr/meta.json",
-      "content_hash": "3b8409e1",
       "version": "1.0.1"
     },
     {
@@ -4613,48 +4803,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.transmission",
-      "title": "Transmission",
-      "tagline": "Cliente BitTorrent leve",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.transmission/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.transmission/assets/transmission.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.transmission/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.transmission/meta.json",
-      "content_hash": "dac9d8da",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.tvheadend",
-      "title": "Tvheadend",
-      "tagline": "Servidor de televisão e gravações digitais",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.tvheadend/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.tvheadend/assets/tvheadend.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.tvheadend/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.tvheadend/meta.json",
-      "content_hash": "dbc21df2",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.ubooquity",
       "title": "Ubooquity",
       "tagline": "Servidor de ebooks e banda desenhada",
@@ -4695,90 +4843,6 @@
       "meta_url": "/apps/io.github.mrpiracy94.ungoogled-chromium/meta.json",
       "content_hash": "45b194c5",
       "version": "1.0.2"
-    },
-    {
-      "id": "io.github.mrpiracy94.unifi-network-application",
-      "title": "UniFi Network Application",
-      "tagline": "Administra redes e dispositivos UniFi",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.unifi-network-application/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.unifi-network-application/assets/unifi-network-application-icon.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.unifi-network-application/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.unifi-network-application/meta.json",
-      "content_hash": "0eadfbe9",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.unpackerr",
-      "title": "Unpackerr",
-      "tagline": "Extrai automaticamente arquivos descarregados",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "Golift",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.unpackerr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.unpackerr/assets/unpackerr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.unpackerr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.unpackerr/meta.json",
-      "content_hash": "0d789818",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.uptime-kuma",
-      "title": "Uptime Kuma",
-      "tagline": "Monitoriza disponibilidade de serviços",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Uptime Kuma",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.uptime-kuma/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.uptime-kuma/assets/uptime-kuma.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.uptime-kuma/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.uptime-kuma/meta.json",
-      "content_hash": "4701b9d5",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.vaultwarden",
-      "title": "Vaultwarden",
-      "tagline": "Gestor de palavras-passe compatível com Bitwarden",
-      "category": "Others",
-      "categories": [
-        "others"
-      ],
-      "author": "MrStore",
-      "developer": "Vaultwarden",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.vaultwarden/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.vaultwarden/assets/vaultwarden.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.vaultwarden/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.vaultwarden/meta.json",
-      "content_hash": "84860973",
-      "version": "1.0.3"
     },
     {
       "id": "io.github.mrpiracy94.vivaldi",
@@ -4844,27 +4908,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.vscodium",
-      "title": "VSCodium",
-      "tagline": "Editor de código VSCodium",
-      "category": "Developer",
-      "categories": [
-        "developer"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.vscodium/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.vscodium/assets/vscodium.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.vscodium/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.vscodium/meta.json",
-      "content_hash": "30d57926",
-      "version": "1.0.2"
-    },
-    {
       "id": "io.github.mrpiracy94.vscodium-web",
       "title": "VSCodium Web",
       "tagline": "Editor VSCodium acessível na web",
@@ -4883,6 +4926,27 @@
       "compose_url": "/apps/io.github.mrpiracy94.vscodium-web/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.vscodium-web/meta.json",
       "content_hash": "adc8bb90",
+      "version": "1.0.2"
+    },
+    {
+      "id": "io.github.mrpiracy94.vscodium",
+      "title": "VSCodium",
+      "tagline": "Editor de código VSCodium",
+      "category": "Developer",
+      "categories": [
+        "developer"
+      ],
+      "author": "MrStore",
+      "developer": "LinuxServer.io",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/io.github.mrpiracy94.vscodium/assets/icon.png",
+      "thumbnail": "/apps/io.github.mrpiracy94.vscodium/assets/vscodium.webp",
+      "compose_url": "/apps/io.github.mrpiracy94.vscodium/docker-compose.yml",
+      "meta_url": "/apps/io.github.mrpiracy94.vscodium/meta.json",
+      "content_hash": "30d57926",
       "version": "1.0.2"
     },
     {
@@ -5011,27 +5075,6 @@
       "version": "1.0.1"
     },
     {
-      "id": "io.github.mrpiracy94.wikijs",
-      "title": "Wiki.js",
-      "tagline": "Wiki moderna para documentação de equipas",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.wikijs/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.wikijs/assets/wikijs.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.wikijs/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.wikijs/meta.json",
-      "content_hash": "1cf2704e",
-      "version": "1.0.1"
-    },
-    {
       "id": "io.github.mrpiracy94.winegui",
       "title": "WineGUI",
       "tagline": "Executa aplicações Windows através de Wine",
@@ -5049,27 +5092,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.winegui/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.winegui/meta.json",
       "content_hash": "ca65b71c",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.wireguard",
-      "title": "WireGuard",
-      "tagline": "VPN segura e de alto desempenho",
-      "category": "Networking",
-      "categories": [
-        "networking"
-      ],
-      "author": "MrStore",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.wireguard/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.wireguard/assets/wireguard.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.wireguard/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.wireguard/meta.json",
-      "content_hash": "ef14726d",
       "version": "1.0.1"
     },
     {
@@ -5091,27 +5113,6 @@
       "compose_url": "/apps/io.github.mrpiracy94.wireshark/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.wireshark/meta.json",
       "content_hash": "c9227ba4",
-      "version": "1.0.1"
-    },
-    {
-      "id": "io.github.mrpiracy94.wizarr",
-      "title": "Wizarr",
-      "tagline": "Convites para servidores Plex, Jellyfin e Emby",
-      "category": "Media",
-      "categories": [
-        "media"
-      ],
-      "author": "MrStore",
-      "developer": "Wizarr",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "/apps/io.github.mrpiracy94.wizarr/assets/icon.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.wizarr/assets/wizarr.webp",
-      "compose_url": "/apps/io.github.mrpiracy94.wizarr/docker-compose.yml",
-      "meta_url": "/apps/io.github.mrpiracy94.wizarr/meta.json",
-      "content_hash": "0343cac2",
       "version": "1.0.1"
     },
     {
