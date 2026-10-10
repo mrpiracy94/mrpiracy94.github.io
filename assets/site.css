@@ -715,3 +715,26 @@ body{background:#10151d;overflow-x:hidden}
 .system-glyph.violet,.system-glyph.green{background:#fffaf0}
 .system-glyph.purple{background:#5351f3}
 .system-glyph.green{background:#f8f4ef}
+
+
+/* Ajuste de composição do hero: duas linhas previsíveis no desktop. */
+.hero-lead h1 .hero-first-line{display:block;color:#f7f7fa;background:none;-webkit-text-fill-color:initial}
+.hero-lead h1 .hero-first-line .hero-highlight{display:inline;font-style:normal;white-space:nowrap;background:linear-gradient(100deg,#ffc671,#ff842b);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero-lead h1 .hero-second-line{display:block;white-space:nowrap;color:#f7f7fa;background:none;-webkit-text-fill-color:#f7f7fa}
+.pilot-notice strong{font-weight:800;color:#ffcc9e}
+@media(min-width:961px){
+  .hero-main{grid-template-columns:minmax(0,60%) minmax(0,40%)}
+  .hero-lead h1{font-size:clamp(37px,3.75vw,54px);line-height:1.105;letter-spacing:-.052em;max-width:none}
+  .hero-lead h1 .hero-first-line{white-space:nowrap}
+  .hero-orbits{width:100%;height:480px}
+}
+@media(min-width:521px) and (max-width:960px){
+  .hero-lead h1{font-size:clamp(38px,5.4vw,56px);line-height:1.12}
+  .hero-lead h1 .hero-first-line{white-space:nowrap}
+}
+@media(max-width:520px){
+  .hero-lead h1{font-size:clamp(28px,7.6vw,38px);line-height:1.14;letter-spacing:-.035em}
+  .hero-lead h1 .hero-first-line{white-space:nowrap}
+  .hero-lead h1 .hero-first-line .hero-highlight{white-space:nowrap}
+  .hero-lead h1 .hero-second-line{white-space:nowrap}
+}
