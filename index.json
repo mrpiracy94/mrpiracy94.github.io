@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-10T15:37:04Z",
+  "updated_at": "2026-10-11T14:00:45Z",
   "app_count": 254,
   "base_url": "https://mrpiracy94.github.io/MrStore",
   "catalogue_status": "editorial_pilot_unverified",
@@ -23,7 +23,7 @@
       "thumbnail": "./assets/catalog-icons/da2b115f3e8c4a5c4cd44c.webp",
       "compose_url": "/apps/io.github.mrpiracy94.actual-budget/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.actual-budget/meta.json",
-      "content_hash": "c0ddfea6",
+      "content_hash": "0d11206d",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.actual-budget/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.actual-budget/assets/actual-budget.webp"
@@ -46,7 +46,7 @@
       "thumbnail": "./assets/catalog-icons/3e63d9c008443e6e93d6ee.webp",
       "compose_url": "/apps/io.github.mrpiracy94.adguardhome-sync/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.adguardhome-sync/meta.json",
-      "content_hash": "0a0c9407",
+      "content_hash": "ac12090a",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.adguardhome-sync/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.adguardhome-sync/assets/adguardhome-sync.webp"
@@ -69,7 +69,7 @@
       "thumbnail": "./assets/catalog-icons/bfd1ab6abb39a5ee0b8ee9.webp",
       "compose_url": "/apps/io.github.mrpiracy94.airsonic-advanced/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.airsonic-advanced/meta.json",
-      "content_hash": "a2dee7cc",
+      "content_hash": "f1e81256",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.airsonic-advanced/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.airsonic-advanced/assets/airsonic.webp"
@@ -92,7 +92,7 @@
       "thumbnail": "./assets/catalog-icons/9bd1a5f52d71701db15e5e.webp",
       "compose_url": "/apps/io.github.mrpiracy94.altus/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.altus/meta.json",
-      "content_hash": "32f23977",
+      "content_hash": "8a0c80c6",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.altus/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.altus/assets/altus-logo.webp"
@@ -115,7 +115,7 @@
       "thumbnail": "./assets/catalog-icons/f7828d2c7aeacdb997aa70.webp",
       "compose_url": "/apps/io.github.mrpiracy94.apprise-api/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.apprise-api/meta.json",
-      "content_hash": "43cfa07c",
+      "content_hash": "0f2a24a6",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.apprise-api/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.apprise-api/assets/apprise.webp"
@@ -138,7 +138,7 @@
       "thumbnail": "./assets/catalog-icons/3e4ede5d897c149a2bd575.webp",
       "compose_url": "/apps/io.github.mrpiracy94.ardour/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.ardour/meta.json",
-      "content_hash": "9d9ec6c6",
+      "content_hash": "51e5b334",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.ardour/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.ardour/assets/ardour-logo.webp"
@@ -160,7 +160,7 @@
       "thumbnail": "./assets/catalog-icons/cbf7e9be080d73a36d4480.webp",
       "compose_url": "/apps/io.github.mrpiracy94.audacity/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.audacity/meta.json",
-      "content_hash": "23ceee96",
+      "content_hash": "1aa69842",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.audacity/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.audacity/assets/audacity.webp"
@@ -183,7 +183,7 @@
       "thumbnail": "./assets/catalog-icons/7778bc09560e6931d2dad1.webp",
       "compose_url": "/apps/io.github.mrpiracy94.audiobookshelf/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.audiobookshelf/meta.json",
-      "content_hash": "5693c1e9",
+      "content_hash": "8f9baaa8",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.audiobookshelf/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.audiobookshelf/assets/audiobookshelf.webp"
@@ -206,7 +206,7 @@
       "thumbnail": "./assets/catalog-icons/487b0bdf8375a6725f873b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.autobrr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.autobrr/meta.json",
-      "content_hash": "7081a58c",
+      "content_hash": "ab2de09d",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.autobrr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.autobrr/assets/autobrr.webp"
@@ -228,7 +228,7 @@
       "thumbnail": "./assets/catalog-icons/60e3d8c03a8848fbd1440d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.azahar/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.azahar/meta.json",
-      "content_hash": "fe036201",
+      "content_hash": "0cbdbe09",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.azahar/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.azahar/assets/azahar-logo.webp"
@@ -251,7 +251,7 @@
       "thumbnail": "./assets/catalog-icons/eff17e8267dbf8880628eb.webp",
       "compose_url": "/apps/io.github.mrpiracy94.babybuddy/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.babybuddy/meta.json",
-      "content_hash": "b18ec02a",
+      "content_hash": "2b469097",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.babybuddy/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.babybuddy/assets/babybuddy.webp"
@@ -273,7 +273,7 @@
       "thumbnail": "./assets/catalog-icons/a22cd8ac496a41ca3810ec.webp",
       "compose_url": "/apps/io.github.mrpiracy94.bambustudio/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.bambustudio/meta.json",
-      "content_hash": "392f6a55",
+      "content_hash": "e9263e7d",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.bambustudio/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.bambustudio/assets/bambu-lab.webp"
@@ -296,7 +296,7 @@
       "thumbnail": "./assets/catalog-icons/41a66481c988845489d261.webp",
       "compose_url": "/apps/io.github.mrpiracy94.bazarr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.bazarr/meta.json",
-      "content_hash": "311c08af",
+      "content_hash": "502c00b0",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.bazarr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.bazarr/assets/bazarr.webp"
@@ -342,7 +342,7 @@
       "thumbnail": "./assets/catalog-icons/71f2447c9d023270e3038d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.beszel/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.beszel/meta.json",
-      "content_hash": "14cd546f",
+      "content_hash": "a99e8122",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.beszel/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.beszel/assets/beszel.webp"
@@ -365,7 +365,7 @@
       "thumbnail": "./assets/catalog-icons/80339ef58e885c55025929.webp",
       "compose_url": "/apps/io.github.mrpiracy94.bitcoin-knots/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.bitcoin-knots/meta.json",
-      "content_hash": "0b823847",
+      "content_hash": "2059b40b",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.bitcoin-knots/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.bitcoin-knots/assets/bitcoin-knots-logo.webp"
@@ -387,7 +387,7 @@
       "thumbnail": "./assets/catalog-icons/984f21e913aeb16f4e61f4.webp",
       "compose_url": "/apps/io.github.mrpiracy94.blade-of-agony/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.blade-of-agony/meta.json",
-      "content_hash": "9506d503",
+      "content_hash": "1f7f3419",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.blade-of-agony/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.blade-of-agony/assets/boa-logo.webp"
@@ -410,7 +410,7 @@
       "thumbnail": "./assets/catalog-icons/82129cbdb200208eed93ea.webp",
       "compose_url": "/apps/io.github.mrpiracy94.blender/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.blender/meta.json",
-      "content_hash": "8e877533",
+      "content_hash": "4427436f",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.blender/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.blender/assets/blender.webp"
@@ -433,7 +433,7 @@
       "thumbnail": "./assets/catalog-icons/819516bf2774d2ee629564.webp",
       "compose_url": "/apps/io.github.mrpiracy94.boinc/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.boinc/meta.json",
-      "content_hash": "ecb42219",
+      "content_hash": "6f5c06e1",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.boinc/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.boinc/assets/boinc.webp"
@@ -456,7 +456,7 @@
       "thumbnail": "./assets/catalog-icons/62a7177fe5bcd35270987d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.bookstack/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.bookstack/meta.json",
-      "content_hash": "bfc5e35f",
+      "content_hash": "4190e777",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.bookstack/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.bookstack/assets/bookstack.webp"
@@ -479,7 +479,7 @@
       "thumbnail": "./assets/catalog-icons/875772a6cad086fc562f38.webp",
       "compose_url": "/apps/io.github.mrpiracy94.brave/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.brave/meta.json",
-      "content_hash": "afe614f3",
+      "content_hash": "653ca8ca",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.brave/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.brave/assets/brave.webp"
@@ -502,7 +502,7 @@
       "thumbnail": "./assets/catalog-icons/b1cb4979ada2ae7003068f.svg",
       "compose_url": "/apps/io.github.mrpiracy94.budge/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.budge/meta.json",
-      "content_hash": "2d31f444",
+      "content_hash": "3473c248",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.budge/assets/icon.svg",
       "thumbnail_source": "/apps/io.github.mrpiracy94.budge/assets/icon.svg"
@@ -525,7 +525,7 @@
       "thumbnail": "./assets/catalog-icons/f2401f9134739aa100b4b4.webp",
       "compose_url": "/apps/io.github.mrpiracy94.calibre/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.calibre/meta.json",
-      "content_hash": "b582d66a",
+      "content_hash": "976167c6",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.calibre/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.calibre/assets/calibre.webp"
@@ -548,7 +548,7 @@
       "thumbnail": "./assets/catalog-icons/d6195843ebfe2894aa9513.webp",
       "compose_url": "/apps/io.github.mrpiracy94.calibre-web/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.calibre-web/meta.json",
-      "content_hash": "7b688b30",
+      "content_hash": "6845e245",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.calibre-web/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.calibre-web/assets/calibre-web.webp"
@@ -571,7 +571,7 @@
       "thumbnail": "./assets/catalog-icons/4fa729b9c4c3c10baca8d7.webp",
       "compose_url": "/apps/io.github.mrpiracy94.calligra/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.calligra/meta.json",
-      "content_hash": "0d489a87",
+      "content_hash": "52265836",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.calligra/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.calligra/assets/calligra-logo.webp"
@@ -594,7 +594,7 @@
       "thumbnail": "./assets/catalog-icons/fd47c18e972c7ea0c9dd85.webp",
       "compose_url": "/apps/io.github.mrpiracy94.changedetection.io/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.changedetection.io/meta.json",
-      "content_hash": "7d4d416d",
+      "content_hash": "77d6ba9a",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.changedetection.io/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.changedetection.io/assets/changedetection.webp"
@@ -617,7 +617,7 @@
       "thumbnail": "./assets/catalog-icons/87c8c94304f61662b04707.webp",
       "compose_url": "/apps/io.github.mrpiracy94.chrome/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.chrome/meta.json",
-      "content_hash": "785652f4",
+      "content_hash": "32e84975",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.chrome/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.chrome/assets/chrome.webp"
@@ -640,7 +640,7 @@
       "thumbnail": "./assets/catalog-icons/9b30382ee04d512d724bda.webp",
       "compose_url": "/apps/io.github.mrpiracy94.chromium/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.chromium/meta.json",
-      "content_hash": "d7f574f3",
+      "content_hash": "22a90683",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.chromium/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.chromium/assets/chromium.webp"
@@ -663,7 +663,7 @@
       "thumbnail": "./assets/catalog-icons/2156cbb76866e97120f9a0.webp",
       "compose_url": "/apps/io.github.mrpiracy94.cloudflared/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.cloudflared/meta.json",
-      "content_hash": "9000fb24",
+      "content_hash": "a690fa52",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.cloudflared/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.cloudflared/assets/cloudflared.webp"
@@ -709,7 +709,7 @@
       "thumbnail": "./assets/catalog-icons/aa19502abc20e19e112c1d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.cops/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.cops/meta.json",
-      "content_hash": "47be1043",
+      "content_hash": "c4e9901a",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.cops/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.cops/assets/cops-icon.webp"
@@ -732,7 +732,7 @@
       "thumbnail": "./assets/catalog-icons/bbf198e4916934ac5f7401.webp",
       "compose_url": "/apps/io.github.mrpiracy94.cross-seed/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.cross-seed/meta.json",
-      "content_hash": "9523952b",
+      "content_hash": "d96f430f",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.cross-seed/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.cross-seed/assets/cross-seed.webp"
@@ -754,7 +754,7 @@
       "thumbnail": "./assets/catalog-icons/6890c7d9c56a7127d88050.webp",
       "compose_url": "/apps/io.github.mrpiracy94.cura/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.cura/meta.json",
-      "content_hash": "0a084573",
+      "content_hash": "def700c5",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.cura/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.cura/assets/cura.webp"
@@ -777,7 +777,7 @@
       "thumbnail": "./assets/catalog-icons/0f46326f3a7b5a5af6e146.webp",
       "compose_url": "/apps/io.github.mrpiracy94.darktable/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.darktable/meta.json",
-      "content_hash": "aff22ae4",
+      "content_hash": "2697f4a5",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.darktable/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.darktable/assets/darktable-logo.webp"
@@ -800,7 +800,7 @@
       "thumbnail": "./assets/catalog-icons/8945658d2c251650495bf1.webp",
       "compose_url": "/apps/io.github.mrpiracy94.dashy/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.dashy/meta.json",
-      "content_hash": "99ddee58",
+      "content_hash": "f1383973",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.dashy/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.dashy/assets/dashy.webp"
@@ -823,7 +823,7 @@
       "thumbnail": "./assets/catalog-icons/a48253c52d029604936733.webp",
       "compose_url": "/apps/io.github.mrpiracy94.ddclient/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.ddclient/meta.json",
-      "content_hash": "4c244f32",
+      "content_hash": "b3acc76d",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.ddclient/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.ddclient/assets/ddclient.webp"
@@ -846,7 +846,7 @@
       "thumbnail": "./assets/catalog-icons/f925de4ea762ffdcf6b963.webp",
       "compose_url": "/apps/io.github.mrpiracy94.deluge/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.deluge/meta.json",
-      "content_hash": "78c52a6e",
+      "content_hash": "82525ca2",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.deluge/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.deluge/assets/deluge.webp"
@@ -868,7 +868,7 @@
       "thumbnail": "./assets/catalog-icons/f55bb862a50df8632c6e9d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.digikam/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.digikam/meta.json",
-      "content_hash": "072c145f",
+      "content_hash": "fd786573",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.digikam/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.digikam/assets/digikam.webp"
@@ -891,7 +891,7 @@
       "thumbnail": "./assets/catalog-icons/699911cea1310cb05ac557.webp",
       "compose_url": "/apps/io.github.mrpiracy94.diskover/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.diskover/meta.json",
-      "content_hash": "3ddc7aa9",
+      "content_hash": "46a636b4",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.diskover/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.diskover/assets/diskover.webp"
@@ -914,7 +914,7 @@
       "thumbnail": "./assets/catalog-icons/04b713265a61cbdea355a8.webp",
       "compose_url": "/apps/io.github.mrpiracy94.dockge/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.dockge/meta.json",
-      "content_hash": "6b009125",
+      "content_hash": "56bdbaa8",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.dockge/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.dockge/assets/dockge.webp"
@@ -936,7 +936,7 @@
       "thumbnail": "./assets/catalog-icons/a4936658e0cec9237a00e6.webp",
       "compose_url": "/apps/io.github.mrpiracy94.dogwalk/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.dogwalk/meta.json",
-      "content_hash": "a97ce2c3",
+      "content_hash": "ec3ea96f",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.dogwalk/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.dogwalk/assets/dogwalk-logo.webp"
@@ -959,7 +959,7 @@
       "thumbnail": "./assets/catalog-icons/c9a43a5f012484013c9d6a.webp",
       "compose_url": "/apps/io.github.mrpiracy94.dokuwiki/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.dokuwiki/meta.json",
-      "content_hash": "ad71b541",
+      "content_hash": "489c80c3",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.dokuwiki/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.dokuwiki/assets/dokuwiki.webp"
@@ -981,7 +981,7 @@
       "thumbnail": "./assets/catalog-icons/3d363a9d628ed3c64e9b67.webp",
       "compose_url": "/apps/io.github.mrpiracy94.dolphin/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.dolphin/meta.json",
-      "content_hash": "5e6835ad",
+      "content_hash": "4829dfbe",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.dolphin/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.dolphin/assets/dolphin.webp"
@@ -1004,7 +1004,7 @@
       "thumbnail": "./assets/catalog-icons/f313fd2eac5e8c9d12f88d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.doplarr_rs/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.doplarr_rs/meta.json",
-      "content_hash": "2f4303e1",
+      "content_hash": "bf60f2ab",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.doplarr_rs/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.doplarr_rs/assets/doplarr.webp"
@@ -1026,7 +1026,7 @@
       "thumbnail": "./assets/catalog-icons/bf0a686e24d5146f63bdbf.webp",
       "compose_url": "/apps/io.github.mrpiracy94.dosbox-staging/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.dosbox-staging/meta.json",
-      "content_hash": "403dd287",
+      "content_hash": "81feb6e5",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.dosbox-staging/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.dosbox-staging/assets/icon_512.webp"
@@ -1049,7 +1049,7 @@
       "thumbnail": "./assets/catalog-icons/196c3241ccf8ea6b207a6b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.doublecommander/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.doublecommander/meta.json",
-      "content_hash": "27bedf9f",
+      "content_hash": "f193cbce",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.doublecommander/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.doublecommander/assets/double-commander.webp"
@@ -1072,7 +1072,7 @@
       "thumbnail": "./assets/catalog-icons/dd2675e219bcc07c9e87d8.webp",
       "compose_url": "/apps/io.github.mrpiracy94.dozzle/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.dozzle/meta.json",
-      "content_hash": "d2146772",
+      "content_hash": "e4bbcbe3",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.dozzle/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.dozzle/assets/dozzle.webp"
@@ -1095,7 +1095,7 @@
       "thumbnail": "./assets/catalog-icons/131e20aad941255b9b8f38.webp",
       "compose_url": "/apps/io.github.mrpiracy94.duckdns/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.duckdns/meta.json",
-      "content_hash": "7b410e7e",
+      "content_hash": "d7e4eca6",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.duckdns/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.duckdns/assets/duckdns.webp"
@@ -1118,7 +1118,7 @@
       "thumbnail": "./assets/catalog-icons/79928460eb05fe8eec896d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.duckstation/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.duckstation/meta.json",
-      "content_hash": "7b01a868",
+      "content_hash": "300d6a0b",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.duckstation/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.duckstation/assets/duckstation-logo.webp"
@@ -1141,7 +1141,7 @@
       "thumbnail": "./assets/catalog-icons/29c7329716bc550433c707.webp",
       "compose_url": "/apps/io.github.mrpiracy94.duplicati/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.duplicati/meta.json",
-      "content_hash": "38adae6c",
+      "content_hash": "38fc33c0",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.duplicati/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.duplicati/assets/duplicati.webp"
@@ -1163,7 +1163,7 @@
       "thumbnail": "./assets/catalog-icons/536b16c0a8944cce3d2be8.webp",
       "compose_url": "/apps/io.github.mrpiracy94.eden/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.eden/meta.json",
-      "content_hash": "a3570c6f",
+      "content_hash": "d1d223f3",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.eden/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.eden/assets/eden-logo.webp"
@@ -1186,7 +1186,7 @@
       "thumbnail": "./assets/catalog-icons/9a7cf1847618d29da01780.webp",
       "compose_url": "/apps/io.github.mrpiracy94.emby/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.emby/meta.json",
-      "content_hash": "1a973b94",
+      "content_hash": "7625020d",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.emby/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.emby/assets/emby.webp"
@@ -1209,7 +1209,7 @@
       "thumbnail": "./assets/catalog-icons/1d15b62f287ae4cbfb42af.webp",
       "compose_url": "/apps/io.github.mrpiracy94.esphome/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.esphome/meta.json",
-      "content_hash": "1530e717",
+      "content_hash": "87e74c3b",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.esphome/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.esphome/assets/esphome.webp"
@@ -1232,7 +1232,7 @@
       "thumbnail": "./assets/catalog-icons/b72d45887a5d75504996dc.webp",
       "compose_url": "/apps/io.github.mrpiracy94.fail2ban/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.fail2ban/meta.json",
-      "content_hash": "167ef787",
+      "content_hash": "cafaa70f",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.fail2ban/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.fail2ban/assets/fail2ban.webp"
@@ -1255,7 +1255,7 @@
       "thumbnail": "./assets/catalog-icons/818da9ac99cbaae2f6aad6.svg",
       "compose_url": "/apps/io.github.mrpiracy94.faster-whisper/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.faster-whisper/meta.json",
-      "content_hash": "5157af41",
+      "content_hash": "66d3bf81",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.faster-whisper/assets/icon.svg",
       "thumbnail_source": "/apps/io.github.mrpiracy94.faster-whisper/assets/icon.svg"
@@ -1278,7 +1278,7 @@
       "thumbnail": "./assets/catalog-icons/3d3491d579a1e050e7bac0.webp",
       "compose_url": "/apps/io.github.mrpiracy94.ferdium/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.ferdium/meta.json",
-      "content_hash": "236c6e9a",
+      "content_hash": "6e646723",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.ferdium/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.ferdium/assets/ferdium.webp"
@@ -1324,7 +1324,7 @@
       "thumbnail": "./assets/catalog-icons/f4ee1292bb82a5b586d958.webp",
       "compose_url": "/apps/io.github.mrpiracy94.filebrowser/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.filebrowser/meta.json",
-      "content_hash": "f39416fd",
+      "content_hash": "077ceabb",
       "version": "2.43.1",
       "icon_source": "/apps/io.github.mrpiracy94.filebrowser/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.filebrowser/assets/filebrowser.webp"
@@ -1347,7 +1347,7 @@
       "thumbnail": "./assets/catalog-icons/c1ae215d10e676cd11b84d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.filezilla/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.filezilla/meta.json",
-      "content_hash": "f47624ba",
+      "content_hash": "90836148",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.filezilla/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.filezilla/assets/filezilla.webp"
@@ -1370,7 +1370,7 @@
       "thumbnail": "./assets/catalog-icons/b5ed92f50088fd6bffd9c0.webp",
       "compose_url": "/apps/io.github.mrpiracy94.firefox/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.firefox/meta.json",
-      "content_hash": "c5eea711",
+      "content_hash": "6269b02c",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.firefox/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.firefox/assets/firefox.webp"
@@ -1393,7 +1393,7 @@
       "thumbnail": "./assets/catalog-icons/9f3640c8ca28e1d5e1bd10.webp",
       "compose_url": "/apps/io.github.mrpiracy94.flaresolverr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.flaresolverr/meta.json",
-      "content_hash": "23a84481",
+      "content_hash": "6bc4aefb",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.flaresolverr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.flaresolverr/assets/flaresolverr.webp"
@@ -1416,7 +1416,7 @@
       "thumbnail": "./assets/catalog-icons/22f045e109fe7400ecf578.webp",
       "compose_url": "/apps/io.github.mrpiracy94.flexget/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.flexget/meta.json",
-      "content_hash": "b11d5a5e",
+      "content_hash": "7b8d8d87",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.flexget/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.flexget/assets/flexget.webp"
@@ -1438,7 +1438,7 @@
       "thumbnail": "./assets/catalog-icons/ae1b50689d2b1b48c7c68f.webp",
       "compose_url": "/apps/io.github.mrpiracy94.flycast/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.flycast/meta.json",
-      "content_hash": "aa651d22",
+      "content_hash": "e02244b7",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.flycast/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.flycast/assets/flycast-logo.webp"
@@ -1461,7 +1461,7 @@
       "thumbnail": "./assets/catalog-icons/97a0829298bebfdc1d4711.webp",
       "compose_url": "/apps/io.github.mrpiracy94.foldingathome/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.foldingathome/meta.json",
-      "content_hash": "4a850cd0",
+      "content_hash": "af017993",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.foldingathome/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.foldingathome/assets/foldingathome.webp"
@@ -1484,7 +1484,7 @@
       "thumbnail": "./assets/catalog-icons/c2734fdd3d19aae173129d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.freecad/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.freecad/meta.json",
-      "content_hash": "ede0a5c9",
+      "content_hash": "d347aff0",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.freecad/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.freecad/assets/freecad.webp"
@@ -1507,7 +1507,7 @@
       "thumbnail": "./assets/catalog-icons/17ca2b81ce0a597788b739.webp",
       "compose_url": "/apps/io.github.mrpiracy94.freshrss/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.freshrss/meta.json",
-      "content_hash": "337bb7de",
+      "content_hash": "d3b20b2d",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.freshrss/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.freshrss/assets/freshrss.webp"
@@ -1530,7 +1530,7 @@
       "thumbnail": "./assets/catalog-icons/0f14a05834e94718fcb71d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.frigate/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.frigate/meta.json",
-      "content_hash": "5a31b6be",
+      "content_hash": "423448bf",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.frigate/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.frigate/assets/frigate.webp"
@@ -1553,7 +1553,7 @@
       "thumbnail": "./assets/catalog-icons/c94fb6fc028eb31dd75431.webp",
       "compose_url": "/apps/io.github.mrpiracy94.gimp/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.gimp/meta.json",
-      "content_hash": "426f2c6f",
+      "content_hash": "b7d9b34f",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.gimp/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.gimp/assets/gimp.webp"
@@ -1576,7 +1576,7 @@
       "thumbnail": "./assets/catalog-icons/412bbc60e3f833abb3f978.webp",
       "compose_url": "/apps/io.github.mrpiracy94.gitea/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.gitea/meta.json",
-      "content_hash": "f6d07c83",
+      "content_hash": "52090677",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.gitea/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.gitea/assets/gitea.webp"
@@ -1599,7 +1599,7 @@
       "thumbnail": "./assets/catalog-icons/e65c27f62212ae8f66b49d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.github-desktop/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.github-desktop/meta.json",
-      "content_hash": "9a7a7825",
+      "content_hash": "30002954",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.github-desktop/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.github-desktop/assets/github-desktop-icon.webp"
@@ -1622,7 +1622,7 @@
       "thumbnail": "./assets/catalog-icons/650e5853b0f6b75b14447b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.gitqlient/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.gitqlient/meta.json",
-      "content_hash": "43d3f99e",
+      "content_hash": "c6078699",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.gitqlient/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.gitqlient/assets/gitqlient-icon.webp"
@@ -1645,7 +1645,7 @@
       "thumbnail": "./assets/catalog-icons/2f35cad086561d800e9f9d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.glances/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.glances/meta.json",
-      "content_hash": "13020fa3",
+      "content_hash": "7897f0ec",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.glances/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.glances/assets/glances.webp"
@@ -1668,7 +1668,7 @@
       "thumbnail": "./assets/catalog-icons/bcfffecb2eff53c629bef0.webp",
       "compose_url": "/apps/io.github.mrpiracy94.gluetun/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.gluetun/meta.json",
-      "content_hash": "59bf23bc",
+      "content_hash": "d62ec484",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.gluetun/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.gluetun/assets/gluetun.webp"
@@ -1691,7 +1691,7 @@
       "thumbnail": "./assets/catalog-icons/06db704f4e6d1f80641190.webp",
       "compose_url": "/apps/io.github.mrpiracy94.grav/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.grav/meta.json",
-      "content_hash": "b8510ac9",
+      "content_hash": "f3b16740",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.grav/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.grav/assets/grav.webp"
@@ -1714,7 +1714,7 @@
       "thumbnail": "./assets/catalog-icons/e4ca70fc6848a9881cd36d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.grocy/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.grocy/meta.json",
-      "content_hash": "51f91141",
+      "content_hash": "d0940ab8",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.grocy/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.grocy/assets/grocy.webp"
@@ -1737,7 +1737,7 @@
       "thumbnail": "./assets/catalog-icons/656ecc1151cf3c9a8dc2d0.webp",
       "compose_url": "/apps/io.github.mrpiracy94.gzdoom/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.gzdoom/meta.json",
-      "content_hash": "c5c0f287",
+      "content_hash": "0cd27d98",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.gzdoom/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.gzdoom/assets/gzdoom-logo.webp"
@@ -1760,7 +1760,7 @@
       "thumbnail": "./assets/catalog-icons/d1ded891987ff41af1f982.webp",
       "compose_url": "/apps/io.github.mrpiracy94.habridge/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.habridge/meta.json",
-      "content_hash": "dc1dca41",
+      "content_hash": "a2a4db0c",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.habridge/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.habridge/assets/habridge-icon.webp"
@@ -1782,7 +1782,7 @@
       "thumbnail": "./assets/catalog-icons/08efd90730273851e9956c.webp",
       "compose_url": "/apps/io.github.mrpiracy94.handbrake/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.handbrake/meta.json",
-      "content_hash": "f878f38e",
+      "content_hash": "e97ee20f",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.handbrake/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.handbrake/assets/handbrake.webp"
@@ -1828,7 +1828,7 @@
       "thumbnail": "./assets/catalog-icons/85743124164a2fbc4f96f7.webp",
       "compose_url": "/apps/io.github.mrpiracy94.hedgedoc/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.hedgedoc/meta.json",
-      "content_hash": "f4d82247",
+      "content_hash": "5ea319aa",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.hedgedoc/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.hedgedoc/assets/hedgedoc.webp"
@@ -1851,7 +1851,7 @@
       "thumbnail": "./assets/catalog-icons/b5153cec6c2aeb3001dcd7.webp",
       "compose_url": "/apps/io.github.mrpiracy94.heimdall/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.heimdall/meta.json",
-      "content_hash": "fc134ef5",
+      "content_hash": "a93770a1",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.heimdall/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.heimdall/assets/heimdall.webp"
@@ -1874,7 +1874,7 @@
       "thumbnail": "./assets/catalog-icons/309c196b4b610d8ebef398.webp",
       "compose_url": "/apps/io.github.mrpiracy94.helium/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.helium/meta.json",
-      "content_hash": "ab6f09c1",
+      "content_hash": "d0f0f8a7",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.helium/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.helium/assets/helium-logo.webp"
@@ -1897,7 +1897,7 @@
       "thumbnail": "./assets/catalog-icons/31ae295113094e372b0c7b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.hishtory-server/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.hishtory-server/meta.json",
-      "content_hash": "39d034aa",
+      "content_hash": "770d87c1",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.hishtory-server/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.hishtory-server/assets/hishtory-server-icon.webp"
@@ -1920,7 +1920,7 @@
       "thumbnail": "./assets/catalog-icons/22841ad879a92e7745974f.webp",
       "compose_url": "/apps/io.github.mrpiracy94.homarr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.homarr/meta.json",
-      "content_hash": "6ab65531",
+      "content_hash": "14791ecc",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.homarr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.homarr/assets/homarr.webp"
@@ -1943,7 +1943,7 @@
       "thumbnail": "./assets/catalog-icons/9348c783c92ac462e19d54.webp",
       "compose_url": "/apps/io.github.mrpiracy94.homeassistant/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.homeassistant/meta.json",
-      "content_hash": "ebee48d8",
+      "content_hash": "feb214bf",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.homeassistant/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.homeassistant/assets/home-assistant.webp"
@@ -1966,7 +1966,7 @@
       "thumbnail": "./assets/catalog-icons/7a7013d5ac4f433d01e08c.webp",
       "compose_url": "/apps/io.github.mrpiracy94.homepage/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.homepage/meta.json",
-      "content_hash": "c0f19f34",
+      "content_hash": "5295b16f",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.homepage/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.homepage/assets/homepage.webp"
@@ -1989,7 +1989,7 @@
       "thumbnail": "./assets/catalog-icons/20183b1ebdc8118e5e181b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.immich/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.immich/meta.json",
-      "content_hash": "9ad5386d",
+      "content_hash": "3c7a4ccb",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.immich/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.immich/assets/immich.webp"
@@ -2012,7 +2012,7 @@
       "thumbnail": "./assets/catalog-icons/016adfe21186ca7e19f3af.webp",
       "compose_url": "/apps/io.github.mrpiracy94.inkscape/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.inkscape/meta.json",
-      "content_hash": "ddb39ff6",
+      "content_hash": "d6451805",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.inkscape/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.inkscape/assets/inkscape.webp"
@@ -2034,7 +2034,7 @@
       "thumbnail": "./assets/catalog-icons/f3cfed689097b1c195b567.webp",
       "compose_url": "/apps/io.github.mrpiracy94.intellij-idea/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.intellij-idea/meta.json",
-      "content_hash": "77b6a272",
+      "content_hash": "809282b7",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.intellij-idea/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.intellij-idea/assets/intellij.webp"
@@ -2080,7 +2080,7 @@
       "thumbnail": "./assets/catalog-icons/a87906fe0daee29f6edcd3.webp",
       "compose_url": "/apps/io.github.mrpiracy94.jackett/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.jackett/meta.json",
-      "content_hash": "e18d61cc",
+      "content_hash": "1c671865",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.jackett/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.jackett/assets/jackett.webp"
@@ -2148,7 +2148,7 @@
       "thumbnail": "./assets/catalog-icons/985c82f8798b8d5fd6c689.webp",
       "compose_url": "/apps/io.github.mrpiracy94.joplin/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.joplin/meta.json",
-      "content_hash": "30fdd2da",
+      "content_hash": "3b2997ab",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.joplin/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.joplin/assets/joplin.webp"
@@ -2171,7 +2171,7 @@
       "thumbnail": "./assets/catalog-icons/e2fb303bcd3f8467bd1b7e.webp",
       "compose_url": "/apps/io.github.mrpiracy94.kali-linux/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.kali-linux/meta.json",
-      "content_hash": "ae32fa7a",
+      "content_hash": "b8f20398",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.kali-linux/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.kali-linux/assets/kali-linux.webp"
@@ -2194,7 +2194,7 @@
       "thumbnail": "./assets/catalog-icons/23570fccc82065076d7f7b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.karakeep/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.karakeep/meta.json",
-      "content_hash": "d0183221",
+      "content_hash": "f648a622",
       "version": "1.0.4",
       "icon_source": "/apps/io.github.mrpiracy94.karakeep/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.karakeep/assets/karakeep.webp"
@@ -2217,7 +2217,7 @@
       "thumbnail": "./assets/catalog-icons/b01131b4970491d556f050.webp",
       "compose_url": "/apps/io.github.mrpiracy94.kasm/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.kasm/meta.json",
-      "content_hash": "30d18e52",
+      "content_hash": "03577c1d",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.kasm/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.kasm/assets/kasm.webp"
@@ -2240,7 +2240,7 @@
       "thumbnail": "./assets/catalog-icons/69e8e268d1138d0dfcbfde.webp",
       "compose_url": "/apps/io.github.mrpiracy94.kavita/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.kavita/meta.json",
-      "content_hash": "27aa157f",
+      "content_hash": "929e4920",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.kavita/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.kavita/assets/kavita.webp"
@@ -2263,7 +2263,7 @@
       "thumbnail": "./assets/catalog-icons/27c32159b9d8547d6952fa.webp",
       "compose_url": "/apps/io.github.mrpiracy94.kdenlive/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.kdenlive/meta.json",
-      "content_hash": "cc28ddfe",
+      "content_hash": "3c3044fb",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.kdenlive/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.kdenlive/assets/kdenlive-logo.webp"
@@ -2286,7 +2286,7 @@
       "thumbnail": "./assets/catalog-icons/6d9ab23c42f41744c7f124.webp",
       "compose_url": "/apps/io.github.mrpiracy94.keepassxc/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.keepassxc/meta.json",
-      "content_hash": "99c629ed",
+      "content_hash": "69d33c35",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.keepassxc/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.keepassxc/assets/keepassxc.webp"
@@ -2309,7 +2309,7 @@
       "thumbnail": "./assets/catalog-icons/eed71196f16103d1dd6a05.webp",
       "compose_url": "/apps/io.github.mrpiracy94.kicad/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.kicad/meta.json",
-      "content_hash": "477125da",
+      "content_hash": "6655a84c",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.kicad/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.kicad/assets/kicad-logo.webp"
@@ -2332,7 +2332,7 @@
       "thumbnail": "./assets/catalog-icons/63dca8d3a7a5813dcb9589.webp",
       "compose_url": "/apps/io.github.mrpiracy94.kimai/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.kimai/meta.json",
-      "content_hash": "8e43e23d",
+      "content_hash": "862d0463",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.kimai/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.kimai/assets/kimai.webp"
@@ -2355,7 +2355,7 @@
       "thumbnail": "./assets/catalog-icons/e0aad22aa8c31955c4a894.webp",
       "compose_url": "/apps/io.github.mrpiracy94.kometa/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.kometa/meta.json",
-      "content_hash": "1ad45264",
+      "content_hash": "06c97b82",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.kometa/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.kometa/assets/kometa.webp"
@@ -2377,7 +2377,7 @@
       "thumbnail": "./assets/catalog-icons/4cb9e7451fa22a72bfb4d9.webp",
       "compose_url": "/apps/io.github.mrpiracy94.krita/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.krita/meta.json",
-      "content_hash": "2bb9a98c",
+      "content_hash": "15dadb8b",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.krita/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.krita/assets/krita-logo.webp"
@@ -2400,7 +2400,7 @@
       "thumbnail": "./assets/catalog-icons/55f3aa3dae959e7c261677.webp",
       "compose_url": "/apps/io.github.mrpiracy94.lazylibrarian/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.lazylibrarian/meta.json",
-      "content_hash": "ccdf021b",
+      "content_hash": "435a7227",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.lazylibrarian/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.lazylibrarian/assets/lazylibrarian.webp"
@@ -2423,7 +2423,7 @@
       "thumbnail": "./assets/catalog-icons/7ac0cfcb8b325043b52fe4.webp",
       "compose_url": "/apps/io.github.mrpiracy94.libreoffice/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.libreoffice/meta.json",
-      "content_hash": "2ca600b5",
+      "content_hash": "c9a8e4a4",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.libreoffice/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.libreoffice/assets/libreoffice.webp"
@@ -2446,7 +2446,7 @@
       "thumbnail": "./assets/catalog-icons/a342d9d585ccfa1339e6e1.webp",
       "compose_url": "/apps/io.github.mrpiracy94.librespeed/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.librespeed/meta.json",
-      "content_hash": "2e2b34e5",
+      "content_hash": "1b0430e9",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.librespeed/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.librespeed/assets/librespeed.webp"
@@ -2469,7 +2469,7 @@
       "thumbnail": "./assets/catalog-icons/dc39289c9cfd4b34c61e8c.webp",
       "compose_url": "/apps/io.github.mrpiracy94.librewolf/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.librewolf/meta.json",
-      "content_hash": "0f9b1341",
+      "content_hash": "10bae617",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.librewolf/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.librewolf/assets/librewolf.webp"
@@ -2492,7 +2492,7 @@
       "thumbnail": "./assets/catalog-icons/56f70b0cde0ec19cf2d1c3.webp",
       "compose_url": "/apps/io.github.mrpiracy94.lidarr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.lidarr/meta.json",
-      "content_hash": "b1c4ee44",
+      "content_hash": "a1c79759",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.lidarr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.lidarr/assets/lidarr.webp"
@@ -2515,7 +2515,7 @@
       "thumbnail": "./assets/catalog-icons/fe5cd168924f6b141f21ce.webp",
       "compose_url": "/apps/io.github.mrpiracy94.limnoria/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.limnoria/meta.json",
-      "content_hash": "ecbdc11b",
+      "content_hash": "625e87a7",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.limnoria/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.limnoria/assets/limnoria-icon.webp"
@@ -2538,7 +2538,7 @@
       "thumbnail": "./assets/catalog-icons/2135e0e1561c6eba148e91.webp",
       "compose_url": "/apps/io.github.mrpiracy94.lldap/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.lldap/meta.json",
-      "content_hash": "38fc219d",
+      "content_hash": "9c7b7c16",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.lldap/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.lldap/assets/lldap.webp"
@@ -2560,7 +2560,7 @@
       "thumbnail": "./assets/catalog-icons/0feafbf4b8d9328b2b6eec.webp",
       "compose_url": "/apps/io.github.mrpiracy94.lm-studio/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.lm-studio/meta.json",
-      "content_hash": "79dbc06b",
+      "content_hash": "4db1c74a",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.lm-studio/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.lm-studio/assets/lmstudio-logo.webp"
@@ -2583,7 +2583,7 @@
       "thumbnail": "./assets/catalog-icons/8519addfcfafc85493f075.webp",
       "compose_url": "/apps/io.github.mrpiracy94.lollypop/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.lollypop/meta.json",
-      "content_hash": "725ca4e1",
+      "content_hash": "a1cfc69b",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.lollypop/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.lollypop/assets/lollypop-music-player.webp"
@@ -2606,7 +2606,7 @@
       "thumbnail": "./assets/catalog-icons/2598a8cb6d676a7884c856.webp",
       "compose_url": "/apps/io.github.mrpiracy94.luanti/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.luanti/meta.json",
-      "content_hash": "e16816e6",
+      "content_hash": "cb08e288",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.luanti/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.luanti/assets/icon.webp"
@@ -2629,7 +2629,7 @@
       "thumbnail": "./assets/catalog-icons/405e5659e02c66267d4bff.webp",
       "compose_url": "/apps/io.github.mrpiracy94.lychee/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.lychee/meta.json",
-      "content_hash": "5a282684",
+      "content_hash": "e56222b8",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.lychee/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.lychee/assets/lychee.webp"
@@ -2652,7 +2652,7 @@
       "thumbnail": "./assets/catalog-icons/4e237e29e2e24e62a466a2.webp",
       "compose_url": "/apps/io.github.mrpiracy94.maintainerr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.maintainerr/meta.json",
-      "content_hash": "a3ac18ad",
+      "content_hash": "48f45128",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.maintainerr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.maintainerr/assets/maintainerr.webp"
@@ -2675,7 +2675,7 @@
       "thumbnail": "./assets/catalog-icons/4e74272e61158ddc9afe3c.webp",
       "compose_url": "/apps/io.github.mrpiracy94.mame/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.mame/meta.json",
-      "content_hash": "f8479709",
+      "content_hash": "862c3142",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.mame/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.mame/assets/mame-logo.webp"
@@ -2698,7 +2698,7 @@
       "thumbnail": "./assets/catalog-icons/0635341a8d726014d0500d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.manyfold/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.manyfold/meta.json",
-      "content_hash": "1e7a50d7",
+      "content_hash": "6a7bbd33",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.manyfold/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.manyfold/assets/manyfold.webp"
@@ -2721,7 +2721,7 @@
       "thumbnail": "./assets/catalog-icons/8d7e45e158b658a61cc006.webp",
       "compose_url": "/apps/io.github.mrpiracy94.mariadb/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.mariadb/meta.json",
-      "content_hash": "e59dedd8",
+      "content_hash": "6ed6f0da",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.mariadb/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.mariadb/assets/mariadb.webp"
@@ -2744,7 +2744,7 @@
       "thumbnail": "./assets/catalog-icons/ffd2533bba220019509270.webp",
       "compose_url": "/apps/io.github.mrpiracy94.mastodon/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.mastodon/meta.json",
-      "content_hash": "7f2e0b6b",
+      "content_hash": "4e7adf66",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.mastodon/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.mastodon/assets/mastodon.webp"
@@ -2767,7 +2767,7 @@
       "thumbnail": "./assets/catalog-icons/8a2a488203254f5f5cc9f9.webp",
       "compose_url": "/apps/io.github.mrpiracy94.mealie/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.mealie/meta.json",
-      "content_hash": "3dc94a49",
+      "content_hash": "6a4a88e8",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.mealie/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.mealie/assets/mealie.webp"
@@ -2789,7 +2789,7 @@
       "thumbnail": "./assets/catalog-icons/725d2bbad42bf95f033024.webp",
       "compose_url": "/apps/io.github.mrpiracy94.mediaelch/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.mediaelch/meta.json",
-      "content_hash": "58058dfd",
+      "content_hash": "9d23ce3b",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.mediaelch/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.mediaelch/assets/mediaelch.webp"
@@ -2812,7 +2812,7 @@
       "thumbnail": "./assets/catalog-icons/b619a5dd5d4dbe3c45b568.webp",
       "compose_url": "/apps/io.github.mrpiracy94.medusa/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.medusa/meta.json",
-      "content_hash": "b8372cd8",
+      "content_hash": "4e3b397a",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.medusa/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.medusa/assets/medusa.webp"
@@ -2835,7 +2835,7 @@
       "thumbnail": "./assets/catalog-icons/ebc714a951eec860928f31.webp",
       "compose_url": "/apps/io.github.mrpiracy94.melonds/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.melonds/meta.json",
-      "content_hash": "eaf56cf2",
+      "content_hash": "0e745330",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.melonds/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.melonds/assets/melonds-logo.webp"
@@ -2858,7 +2858,7 @@
       "thumbnail": "./assets/catalog-icons/53b866334456d4651396bf.webp",
       "compose_url": "/apps/io.github.mrpiracy94.memos/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.memos/meta.json",
-      "content_hash": "ce7309a8",
+      "content_hash": "a8c11716",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.memos/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.memos/assets/memos.webp"
@@ -2881,7 +2881,7 @@
       "thumbnail": "./assets/catalog-icons/8bbf5048d28116d346d51c.webp",
       "compose_url": "/apps/io.github.mrpiracy94.metube/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.metube/meta.json",
-      "content_hash": "84b1e06f",
+      "content_hash": "450b1d24",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.metube/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.metube/assets/metube.webp"
@@ -2904,7 +2904,7 @@
       "thumbnail": "./assets/catalog-icons/293318d7d91f0c77415afd.webp",
       "compose_url": "/apps/io.github.mrpiracy94.minisatip/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.minisatip/meta.json",
-      "content_hash": "e062445e",
+      "content_hash": "5d2c29f0",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.minisatip/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.minisatip/assets/minisatip-icon.webp"
@@ -2927,7 +2927,7 @@
       "thumbnail": "./assets/catalog-icons/87f0c49228d678166f40db.svg",
       "compose_url": "/apps/io.github.mrpiracy94.modmanager/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.modmanager/meta.json",
-      "content_hash": "42e23460",
+      "content_hash": "a4bbe2f9",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.modmanager/assets/icon.svg",
       "thumbnail_source": "/apps/io.github.mrpiracy94.modmanager/assets/icon.svg"
@@ -2949,7 +2949,7 @@
       "thumbnail": "./assets/catalog-icons/0b230985ec3f4da48685b1.webp",
       "compose_url": "/apps/io.github.mrpiracy94.modrinth/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.modrinth/meta.json",
-      "content_hash": "96897418",
+      "content_hash": "b3f99ad5",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.modrinth/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.modrinth/assets/modrinth.webp"
@@ -2972,7 +2972,7 @@
       "thumbnail": "./assets/catalog-icons/bcff9b5ac91b1db117e5a7.webp",
       "compose_url": "/apps/io.github.mrpiracy94.mosquitto/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.mosquitto/meta.json",
-      "content_hash": "699c790c",
+      "content_hash": "da05583e",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.mosquitto/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.mosquitto/assets/mosquitto.webp"
@@ -2994,7 +2994,7 @@
       "thumbnail": "./assets/catalog-icons/3054a166ee4637ab393231.webp",
       "compose_url": "/apps/io.github.mrpiracy94.msedge/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.msedge/meta.json",
-      "content_hash": "fbdcc8f0",
+      "content_hash": "57701549",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.msedge/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.msedge/assets/microsoft-edge.webp"
@@ -3017,7 +3017,7 @@
       "thumbnail": "./assets/catalog-icons/5e4be22347570fde32b818.webp",
       "compose_url": "/apps/io.github.mrpiracy94.mstream/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.mstream/meta.json",
-      "content_hash": "82389c5b",
+      "content_hash": "293acdd3",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.mstream/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.mstream/assets/mstream.webp"
@@ -3039,7 +3039,7 @@
       "thumbnail": "./assets/catalog-icons/57fe59468cb1a99820c6d5.webp",
       "compose_url": "/apps/io.github.mrpiracy94.mullvad-browser/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.mullvad-browser/meta.json",
-      "content_hash": "ddd3d549",
+      "content_hash": "9aeeeea9",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.mullvad-browser/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.mullvad-browser/assets/mullvad-browser.webp"
@@ -3062,7 +3062,7 @@
       "thumbnail": "./assets/catalog-icons/d72add8725b6007a726aee.webp",
       "compose_url": "/apps/io.github.mrpiracy94.mylar3/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.mylar3/meta.json",
-      "content_hash": "8562bcb0",
+      "content_hash": "42faa21c",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.mylar3/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.mylar3/assets/mylar3.webp"
@@ -3084,7 +3084,7 @@
       "thumbnail": "./assets/catalog-icons/ed5ccbe2f8337bf81313b5.webp",
       "compose_url": "/apps/io.github.mrpiracy94.mysql-workbench/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.mysql-workbench/meta.json",
-      "content_hash": "82598c05",
+      "content_hash": "719a32c4",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.mysql-workbench/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.mysql-workbench/assets/mysql-workbench-icon.webp"
@@ -3107,7 +3107,7 @@
       "thumbnail": "./assets/catalog-icons/4866c8a5231e2276d3c51f.webp",
       "compose_url": "/apps/io.github.mrpiracy94.navidrome/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.navidrome/meta.json",
-      "content_hash": "d9e7582b",
+      "content_hash": "40783770",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.navidrome/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.navidrome/assets/navidrome.webp"
@@ -3153,7 +3153,7 @@
       "thumbnail": "./assets/catalog-icons/f6fc8485f26f6c87a1db25.webp",
       "compose_url": "/apps/io.github.mrpiracy94.netbox/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.netbox/meta.json",
-      "content_hash": "74c3bdce",
+      "content_hash": "3671aabf",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.netbox/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.netbox/assets/netbox.webp"
@@ -3176,7 +3176,7 @@
       "thumbnail": "./assets/catalog-icons/81e8d99491b5df1fe9b9b6.webp",
       "compose_url": "/apps/io.github.mrpiracy94.netdata/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.netdata/meta.json",
-      "content_hash": "2e98f77f",
+      "content_hash": "6c6a3d14",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.netdata/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.netdata/assets/netdata.webp"
@@ -3199,7 +3199,7 @@
       "thumbnail": "./assets/catalog-icons/0223beae027c683a7f2ac7.webp",
       "compose_url": "/apps/io.github.mrpiracy94.nextcloud/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.nextcloud/meta.json",
-      "content_hash": "70b86267",
+      "content_hash": "ded51c6b",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.nextcloud/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.nextcloud/assets/nextcloud.webp"
@@ -3222,7 +3222,7 @@
       "thumbnail": "./assets/catalog-icons/84cf44c992277b94cf7e1c.webp",
       "compose_url": "/apps/io.github.mrpiracy94.nginx/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.nginx/meta.json",
-      "content_hash": "7562722a",
+      "content_hash": "7b667e01",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.nginx/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.nginx/assets/nginx.webp"
@@ -3245,7 +3245,7 @@
       "thumbnail": "./assets/catalog-icons/24e49f7bb1259bf2ec7737.webp",
       "compose_url": "/apps/io.github.mrpiracy94.nginx-proxy-manager/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.nginx-proxy-manager/meta.json",
-      "content_hash": "9e6b973a",
+      "content_hash": "b0750168",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.nginx-proxy-manager/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.nginx-proxy-manager/assets/nginx-proxy-manager.webp"
@@ -3291,7 +3291,7 @@
       "thumbnail": "./assets/catalog-icons/8ebdaa899a249228eb033b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.node-red/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.node-red/meta.json",
-      "content_hash": "24c146e1",
+      "content_hash": "145685c8",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.node-red/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.node-red/assets/node-red.webp"
@@ -3314,7 +3314,7 @@
       "thumbnail": "./assets/catalog-icons/a9f73b7040fd4a36f78e20.webp",
       "compose_url": "/apps/io.github.mrpiracy94.notifiarr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.notifiarr/meta.json",
-      "content_hash": "6b8ee133",
+      "content_hash": "2e9e14bb",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.notifiarr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.notifiarr/assets/notifiarr.webp"
@@ -3360,7 +3360,7 @@
       "thumbnail": "./assets/catalog-icons/57a85ec862bdc332c9eebd.webp",
       "compose_url": "/apps/io.github.mrpiracy94.nzbhydra2/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.nzbhydra2/meta.json",
-      "content_hash": "42d85ca1",
+      "content_hash": "12924a1c",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.nzbhydra2/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.nzbhydra2/assets/nzbhydra2.webp"
@@ -3383,7 +3383,7 @@
       "thumbnail": "./assets/catalog-icons/28bbe3789b1ba88bde0603.webp",
       "compose_url": "/apps/io.github.mrpiracy94.obsidian/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.obsidian/meta.json",
-      "content_hash": "17faead1",
+      "content_hash": "16faa0d4",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.obsidian/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.obsidian/assets/obsidian.webp"
@@ -3406,7 +3406,7 @@
       "thumbnail": "./assets/catalog-icons/aaa0052ec9a13548207f13.webp",
       "compose_url": "/apps/io.github.mrpiracy94.ollama/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.ollama/meta.json",
-      "content_hash": "51aca94b",
+      "content_hash": "b060ef00",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.ollama/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.ollama/assets/ollama.webp"
@@ -3429,7 +3429,7 @@
       "thumbnail": "./assets/catalog-icons/08920863f1e6abe0a20093.webp",
       "compose_url": "/apps/io.github.mrpiracy94.ombi/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.ombi/meta.json",
-      "content_hash": "46f2a3ae",
+      "content_hash": "fa2c8673",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.ombi/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.ombi/assets/ombi.webp"
@@ -3451,7 +3451,7 @@
       "thumbnail": "./assets/catalog-icons/575d4c19cec05be0f99b58.webp",
       "compose_url": "/apps/io.github.mrpiracy94.onlyoffice/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.onlyoffice/meta.json",
-      "content_hash": "2f8dd56c",
+      "content_hash": "d2e93412",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.onlyoffice/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.onlyoffice/assets/onlyoffice.webp"
@@ -3474,7 +3474,7 @@
       "thumbnail": "./assets/catalog-icons/892f1d749614e502a78323.webp",
       "compose_url": "/apps/io.github.mrpiracy94.open-webui/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.open-webui/meta.json",
-      "content_hash": "bb523964",
+      "content_hash": "9c503209",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.open-webui/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.open-webui/assets/open-webui.webp"
@@ -3496,7 +3496,7 @@
       "thumbnail": "./assets/catalog-icons/0da3515a61642698d11a83.webp",
       "compose_url": "/apps/io.github.mrpiracy94.openshot/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.openshot/meta.json",
-      "content_hash": "23d12307",
+      "content_hash": "21178cd6",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.openshot/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.openshot/assets/openshot-logo.webp"
@@ -3519,7 +3519,7 @@
       "thumbnail": "./assets/catalog-icons/e82646ed433d422ef40288.webp",
       "compose_url": "/apps/io.github.mrpiracy94.openssh-server/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.openssh-server/meta.json",
-      "content_hash": "dd497a85",
+      "content_hash": "d76817dd",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.openssh-server/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.openssh-server/assets/openssh-server-icon.webp"
@@ -3541,7 +3541,7 @@
       "thumbnail": "./assets/catalog-icons/10a29940ba7f9d987783f0.webp",
       "compose_url": "/apps/io.github.mrpiracy94.opera/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.opera/meta.json",
-      "content_hash": "b6dd3c9a",
+      "content_hash": "7b7bbc6d",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.opera/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.opera/assets/opera.webp"
@@ -3564,7 +3564,7 @@
       "thumbnail": "./assets/catalog-icons/a6b389810fbc64ac6f7646.webp",
       "compose_url": "/apps/io.github.mrpiracy94.orcaslicer/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.orcaslicer/meta.json",
-      "content_hash": "32ce1d77",
+      "content_hash": "c6050f26",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.orcaslicer/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.orcaslicer/assets/orcaslicer.webp"
@@ -3587,7 +3587,7 @@
       "thumbnail": "./assets/catalog-icons/fb9021696bec0330c96787.webp",
       "compose_url": "/apps/io.github.mrpiracy94.organizr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.organizr/meta.json",
-      "content_hash": "7abe34cf",
+      "content_hash": "79e04dd9",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.organizr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.organizr/assets/organizr.webp"
@@ -3610,7 +3610,7 @@
       "thumbnail": "./assets/catalog-icons/2eff518e5646da5a4820fb.webp",
       "compose_url": "/apps/io.github.mrpiracy94.oscam/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.oscam/meta.json",
-      "content_hash": "d2d2eb35",
+      "content_hash": "662ed4c1",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.oscam/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.oscam/assets/oscam.webp"
@@ -3633,7 +3633,7 @@
       "thumbnail": "./assets/catalog-icons/aeb812a34ad61a2efe2808.webp",
       "compose_url": "/apps/io.github.mrpiracy94.pairdrop/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.pairdrop/meta.json",
-      "content_hash": "37afc88a",
+      "content_hash": "fa6af312",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.pairdrop/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.pairdrop/assets/pairdrop.webp"
@@ -3656,7 +3656,7 @@
       "thumbnail": "./assets/catalog-icons/f495d25bf00e46c7eac405.webp",
       "compose_url": "/apps/io.github.mrpiracy94.paperless-ngx/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.paperless-ngx/meta.json",
-      "content_hash": "d0823d1f",
+      "content_hash": "5b943c2d",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.paperless-ngx/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.paperless-ngx/assets/paperless-ngx.webp"
@@ -3678,7 +3678,7 @@
       "thumbnail": "./assets/catalog-icons/e6daa2afb271da1966534b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.pcsx2/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.pcsx2/meta.json",
-      "content_hash": "f069b36c",
+      "content_hash": "e88c48a7",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.pcsx2/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.pcsx2/assets/pcsx2-logo.webp"
@@ -3700,7 +3700,7 @@
       "thumbnail": "./assets/catalog-icons/73f5c23938c1506c7e42cf.webp",
       "compose_url": "/apps/io.github.mrpiracy94.pelorus/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.pelorus/meta.json",
-      "content_hash": "0f5c3ce4",
+      "content_hash": "c5b435bd",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.pelorus/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.pelorus/assets/pelorus-logo.webp"
@@ -3723,7 +3723,7 @@
       "thumbnail": "./assets/catalog-icons/523ff7425d3cb57458b86b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.photoprism/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.photoprism/meta.json",
-      "content_hash": "f3e372f5",
+      "content_hash": "c5361d51",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.photoprism/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.photoprism/assets/photoprism.webp"
@@ -3769,7 +3769,7 @@
       "thumbnail": "./assets/catalog-icons/7bb02a567add553d3bfc88.webp",
       "compose_url": "/apps/io.github.mrpiracy94.pidgin/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.pidgin/meta.json",
-      "content_hash": "049677a8",
+      "content_hash": "b9b6b242",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.pidgin/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.pidgin/assets/pidgin-logo.webp"
@@ -3792,7 +3792,7 @@
       "thumbnail": "./assets/catalog-icons/710dd6d274d7dec98efe7e.webp",
       "compose_url": "/apps/io.github.mrpiracy94.piper/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.piper/meta.json",
-      "content_hash": "62327043",
+      "content_hash": "e34ae939",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.piper/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.piper/assets/piper-tts.webp"
@@ -3815,7 +3815,7 @@
       "thumbnail": "./assets/catalog-icons/ee17e259a5efddbca5aa0f.webp",
       "compose_url": "/apps/io.github.mrpiracy94.piwigo/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.piwigo/meta.json",
-      "content_hash": "f175edaf",
+      "content_hash": "4988d9d9",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.piwigo/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.piwigo/assets/piwigo.webp"
@@ -3838,7 +3838,7 @@
       "thumbnail": "./assets/catalog-icons/8874f926dcc7973934cc4e.webp",
       "compose_url": "/apps/io.github.mrpiracy94.planka/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.planka/meta.json",
-      "content_hash": "2ca0129a",
+      "content_hash": "cda24a88",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.planka/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.planka/assets/planka.webp"
@@ -3884,7 +3884,7 @@
       "thumbnail": "./assets/catalog-icons/dac944c40f0e97cc94a6a4.webp",
       "compose_url": "/apps/io.github.mrpiracy94.pocket-id/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.pocket-id/meta.json",
-      "content_hash": "8468f384",
+      "content_hash": "85d2dfdf",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.pocket-id/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.pocket-id/assets/pocket-id.webp"
@@ -3906,7 +3906,7 @@
       "thumbnail": "./assets/catalog-icons/4b9641fd70f84cca7005b0.webp",
       "compose_url": "/apps/io.github.mrpiracy94.ppsspp/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.ppsspp/meta.json",
-      "content_hash": "1862b478",
+      "content_hash": "71a1a7c2",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.ppsspp/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.ppsspp/assets/ppsspp-logo.webp"
@@ -3929,7 +3929,7 @@
       "thumbnail": "./assets/catalog-icons/85cf94d185d7f0248d897c.webp",
       "compose_url": "/apps/io.github.mrpiracy94.projectsend/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.projectsend/meta.json",
-      "content_hash": "f0beacc6",
+      "content_hash": "fcda0a02",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.projectsend/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.projectsend/assets/projectsend.webp"
@@ -3952,7 +3952,7 @@
       "thumbnail": "./assets/catalog-icons/49f280ca43daf90451b4bc.webp",
       "compose_url": "/apps/io.github.mrpiracy94.prowlarr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.prowlarr/meta.json",
-      "content_hash": "6b36e545",
+      "content_hash": "b4827505",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.prowlarr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.prowlarr/assets/prowlarr.webp"
@@ -3975,7 +3975,7 @@
       "thumbnail": "./assets/catalog-icons/3c61ba45b0a3d9bb722406.webp",
       "compose_url": "/apps/io.github.mrpiracy94.pwndrop/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.pwndrop/meta.json",
-      "content_hash": "729c50e0",
+      "content_hash": "9e06539f",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.pwndrop/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.pwndrop/assets/pwndrop.webp"
@@ -3997,7 +3997,7 @@
       "thumbnail": "./assets/catalog-icons/50bf410e30dba1efb88675.webp",
       "compose_url": "/apps/io.github.mrpiracy94.pycharm/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.pycharm/meta.json",
-      "content_hash": "acb90ec4",
+      "content_hash": "cf46543c",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.pycharm/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.pycharm/assets/pycharm-logo.webp"
@@ -4020,7 +4020,7 @@
       "thumbnail": "./assets/catalog-icons/6e83c0630fa5f8a7d4fc28.webp",
       "compose_url": "/apps/io.github.mrpiracy94.pydio-cells/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.pydio-cells/meta.json",
-      "content_hash": "4a1973be",
+      "content_hash": "98f5ad67",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.pydio-cells/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.pydio-cells/assets/pydio.webp"
@@ -4043,7 +4043,7 @@
       "thumbnail": "./assets/catalog-icons/cbca257c1fbda5a1c3de42.webp",
       "compose_url": "/apps/io.github.mrpiracy94.pyload-ng/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.pyload-ng/meta.json",
-      "content_hash": "382c27d2",
+      "content_hash": "204a6efc",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.pyload-ng/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.pyload-ng/assets/pyload.webp"
@@ -4066,7 +4066,7 @@
       "thumbnail": "./assets/catalog-icons/49b6c2eecf15bc6884c3c4.webp",
       "compose_url": "/apps/io.github.mrpiracy94.qbittorrent/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.qbittorrent/meta.json",
-      "content_hash": "2c89d83e",
+      "content_hash": "b67d0497",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.qbittorrent/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.qbittorrent/assets/qbittorrent.webp"
@@ -4112,7 +4112,7 @@
       "thumbnail": "./assets/catalog-icons/c57da21409409167c06153.webp",
       "compose_url": "/apps/io.github.mrpiracy94.qdirstat/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.qdirstat/meta.json",
-      "content_hash": "45ee3337",
+      "content_hash": "15f28176",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.qdirstat/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.qdirstat/assets/qdirstat.webp"
@@ -4135,7 +4135,7 @@
       "thumbnail": "./assets/catalog-icons/de76bd7e7909370a6e5840.webp",
       "compose_url": "/apps/io.github.mrpiracy94.qui/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.qui/meta.json",
-      "content_hash": "fd8af786",
+      "content_hash": "c9c011c4",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.qui/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.qui/assets/qui.webp"
@@ -4158,7 +4158,7 @@
       "thumbnail": "./assets/catalog-icons/0241d8a18ae8b0d3491bb6.webp",
       "compose_url": "/apps/io.github.mrpiracy94.radarr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.radarr/meta.json",
-      "content_hash": "29ff7a76",
+      "content_hash": "5adfe7f1",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.radarr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.radarr/assets/radarr.webp"
@@ -4181,7 +4181,7 @@
       "thumbnail": "./assets/catalog-icons/08d376d741ae6aa06eede7.webp",
       "compose_url": "/apps/io.github.mrpiracy94.radarr-4k/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.radarr-4k/meta.json",
-      "content_hash": "1745e7de",
+      "content_hash": "5cc2f334",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.radarr-4k/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.radarr-4k/assets/radarr.webp"
@@ -4204,7 +4204,7 @@
       "thumbnail": "./assets/catalog-icons/8dbf047b358a8652be4f96.webp",
       "compose_url": "/apps/io.github.mrpiracy94.raneto/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.raneto/meta.json",
-      "content_hash": "cb419e7b",
+      "content_hash": "f9207372",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.raneto/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.raneto/assets/raneto.webp"
@@ -4227,7 +4227,7 @@
       "thumbnail": "./assets/catalog-icons/1eeee94f0484e2d8506366.webp",
       "compose_url": "/apps/io.github.mrpiracy94.rawtherapee/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.rawtherapee/meta.json",
-      "content_hash": "85f3692a",
+      "content_hash": "c624b7fb",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.rawtherapee/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.rawtherapee/assets/rawtherapee-logo.webp"
@@ -4250,7 +4250,7 @@
       "thumbnail": "./assets/catalog-icons/89a3626fe88d7bfd9fc258.webp",
       "compose_url": "/apps/io.github.mrpiracy94.recyclarr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.recyclarr/meta.json",
-      "content_hash": "4d16838e",
+      "content_hash": "fdb44c52",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.recyclarr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.recyclarr/assets/recyclarr.webp"
@@ -4273,7 +4273,7 @@
       "thumbnail": "./assets/catalog-icons/aad57d9018ab22d2b60234.webp",
       "compose_url": "/apps/io.github.mrpiracy94.remmina/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.remmina/meta.json",
-      "content_hash": "e19bb05c",
+      "content_hash": "15341e91",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.remmina/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.remmina/assets/remmina.webp"
@@ -4296,7 +4296,7 @@
       "thumbnail": "./assets/catalog-icons/c907a19cfd26d8b3e97a77.webp",
       "compose_url": "/apps/io.github.mrpiracy94.resilio-sync/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.resilio-sync/meta.json",
-      "content_hash": "03a82789",
+      "content_hash": "32a2e0d6",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.resilio-sync/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.resilio-sync/assets/resilio-sync.webp"
@@ -4319,7 +4319,7 @@
       "thumbnail": "./assets/catalog-icons/ad80158000fb929486f83c.webp",
       "compose_url": "/apps/io.github.mrpiracy94.retroarch/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.retroarch/meta.json",
-      "content_hash": "b0102f63",
+      "content_hash": "cb9eb683",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.retroarch/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.retroarch/assets/retroarch-logo.webp"
@@ -4342,7 +4342,7 @@
       "thumbnail": "./assets/catalog-icons/14849c52f76f9ff3b474f1.webp",
       "compose_url": "/apps/io.github.mrpiracy94.rpcs3/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.rpcs3/meta.json",
-      "content_hash": "244c1da4",
+      "content_hash": "ffb4a5c1",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.rpcs3/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.rpcs3/assets/rpcs3-logo.webp"
@@ -4365,7 +4365,7 @@
       "thumbnail": "./assets/catalog-icons/f456c30598e87e5180d72a.webp",
       "compose_url": "/apps/io.github.mrpiracy94.rsnapshot/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.rsnapshot/meta.json",
-      "content_hash": "aa61ab5d",
+      "content_hash": "b7540191",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.rsnapshot/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.rsnapshot/assets/rsnapshot-icon.webp"
@@ -4388,7 +4388,7 @@
       "thumbnail": "./assets/catalog-icons/6906c0f068cb1e64e08e31.webp",
       "compose_url": "/apps/io.github.mrpiracy94.rustdesk/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.rustdesk/meta.json",
-      "content_hash": "97a6ed33",
+      "content_hash": "ed3ef17e",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.rustdesk/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.rustdesk/assets/rustdesk.webp"
@@ -4411,7 +4411,7 @@
       "thumbnail": "./assets/catalog-icons/77f6d8604f0e75cf8f477b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.rutorrent/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.rutorrent/meta.json",
-      "content_hash": "b66986ce",
+      "content_hash": "fdd73e2e",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.rutorrent/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.rutorrent/assets/rtorrent.webp"
@@ -4434,7 +4434,7 @@
       "thumbnail": "./assets/catalog-icons/fea9f144079a7eeda16814.webp",
       "compose_url": "/apps/io.github.mrpiracy94.sabnzbd/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.sabnzbd/meta.json",
-      "content_hash": "d32414f8",
+      "content_hash": "97483671",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.sabnzbd/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.sabnzbd/assets/sabnzbd.webp"
@@ -4456,7 +4456,7 @@
       "thumbnail": "./assets/catalog-icons/28ff4d09393cb610d60194.webp",
       "compose_url": "/apps/io.github.mrpiracy94.scummvm/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.scummvm/meta.json",
-      "content_hash": "b74f7639",
+      "content_hash": "6328e6ed",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.scummvm/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.scummvm/assets/scummvm-logo.webp"
@@ -4479,7 +4479,7 @@
       "thumbnail": "./assets/catalog-icons/5ba94a2b2a1ae31c66f4e7.webp",
       "compose_url": "/apps/io.github.mrpiracy94.sealskin/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.sealskin/meta.json",
-      "content_hash": "4caed113",
+      "content_hash": "c49a7185",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.sealskin/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.sealskin/assets/icon.webp"
@@ -4502,7 +4502,7 @@
       "thumbnail": "./assets/catalog-icons/e3fd5210e8e3311e3d89b2.webp",
       "compose_url": "/apps/io.github.mrpiracy94.searxng/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.searxng/meta.json",
-      "content_hash": "3a007a46",
+      "content_hash": "402e6ce4",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.searxng/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.searxng/assets/searxng.webp"
@@ -4525,7 +4525,7 @@
       "thumbnail": "./assets/catalog-icons/265038f713e373ff01a326.webp",
       "compose_url": "/apps/io.github.mrpiracy94.seerr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.seerr/meta.json",
-      "content_hash": "05ec4744",
+      "content_hash": "3fbe3fe7",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.seerr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.seerr/assets/seerr.webp"
@@ -4548,7 +4548,7 @@
       "thumbnail": "./assets/catalog-icons/e965180bb9cdd1f5c1d54b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.series-troxide/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.series-troxide/meta.json",
-      "content_hash": "c5dc153c",
+      "content_hash": "a886c92c",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.series-troxide/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.series-troxide/assets/series-troxide.webp"
@@ -4570,7 +4570,7 @@
       "thumbnail": "./assets/catalog-icons/db1ec545234b5b5c557ac4.webp",
       "compose_url": "/apps/io.github.mrpiracy94.shadps4/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.shadps4/meta.json",
-      "content_hash": "f93e91ae",
+      "content_hash": "e6761d41",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.shadps4/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.shadps4/assets/shadps4-logo.webp"
@@ -4592,7 +4592,7 @@
       "thumbnail": "./assets/catalog-icons/e3e948f62078c775774680.webp",
       "compose_url": "/apps/io.github.mrpiracy94.shotcut/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.shotcut/meta.json",
-      "content_hash": "e4283ffa",
+      "content_hash": "d1513c98",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.shotcut/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.shotcut/assets/shotcut-logo.webp"
@@ -4637,7 +4637,7 @@
       "thumbnail": "./assets/catalog-icons/8635d6ede3ee4b5561731e.webp",
       "compose_url": "/apps/io.github.mrpiracy94.signal/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.signal/meta.json",
-      "content_hash": "425d7a47",
+      "content_hash": "f62f2763",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.signal/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.signal/assets/signal.webp"
@@ -4660,7 +4660,7 @@
       "thumbnail": "./assets/catalog-icons/c05af15965ebd87d9756e9.webp",
       "compose_url": "/apps/io.github.mrpiracy94.smokeping/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.smokeping/meta.json",
-      "content_hash": "494bd078",
+      "content_hash": "07408a0a",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.smokeping/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.smokeping/assets/smokeping.webp"
@@ -4683,7 +4683,7 @@
       "thumbnail": "./assets/catalog-icons/bc46e892e85b871bd62333.svg",
       "compose_url": "/apps/io.github.mrpiracy94.socket-proxy/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.socket-proxy/meta.json",
-      "content_hash": "44595906",
+      "content_hash": "47c4067e",
       "version": "1.1.1",
       "icon_source": "/apps/io.github.mrpiracy94.socket-proxy/assets/icon.svg",
       "thumbnail_source": "/apps/io.github.mrpiracy94.socket-proxy/assets/icon.svg"
@@ -4706,7 +4706,7 @@
       "thumbnail": "./assets/catalog-icons/4394e4e907e2c5803aacd0.webp",
       "compose_url": "/apps/io.github.mrpiracy94.sonarr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.sonarr/meta.json",
-      "content_hash": "39807aba",
+      "content_hash": "93a96050",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.sonarr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.sonarr/assets/sonarr.webp"
@@ -4729,7 +4729,7 @@
       "thumbnail": "./assets/catalog-icons/400adfe08c1fe1901e1159.webp",
       "compose_url": "/apps/io.github.mrpiracy94.sonarr-4k/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.sonarr-4k/meta.json",
-      "content_hash": "3100b417",
+      "content_hash": "4a8585a4",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.sonarr-4k/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.sonarr-4k/assets/sonarr.webp"
@@ -4752,7 +4752,7 @@
       "thumbnail": "./assets/catalog-icons/e30de24d60d5faf462f4e0.webp",
       "compose_url": "/apps/io.github.mrpiracy94.speedtest-tracker/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.speedtest-tracker/meta.json",
-      "content_hash": "dd0b105c",
+      "content_hash": "35205fa1",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.speedtest-tracker/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.speedtest-tracker/assets/speedtest-tracker.webp"
@@ -4775,7 +4775,7 @@
       "thumbnail": "./assets/catalog-icons/449e5221eee22a1f850d0c.webp",
       "compose_url": "/apps/io.github.mrpiracy94.spotube/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.spotube/meta.json",
-      "content_hash": "14fc68c9",
+      "content_hash": "1359bd6a",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.spotube/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.spotube/assets/spotube-logo.webp"
@@ -4798,7 +4798,7 @@
       "thumbnail": "./assets/catalog-icons/20272086f4c9f547bc040e.webp",
       "compose_url": "/apps/io.github.mrpiracy94.sqlitebrowser/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.sqlitebrowser/meta.json",
-      "content_hash": "6f7f34b4",
+      "content_hash": "d8b4ceee",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.sqlitebrowser/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.sqlitebrowser/assets/sqlitebrowser.webp"
@@ -4820,7 +4820,7 @@
       "thumbnail": "./assets/catalog-icons/298fa76bcc4f86d679a9aa.webp",
       "compose_url": "/apps/io.github.mrpiracy94.steam/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.steam/meta.json",
-      "content_hash": "70bc1ad2",
+      "content_hash": "72ebe5c2",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.steam/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.steam/assets/steam.webp"
@@ -4843,7 +4843,7 @@
       "thumbnail": "./assets/catalog-icons/510982ddad24f39c522323.webp",
       "compose_url": "/apps/io.github.mrpiracy94.stirling-pdf/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.stirling-pdf/meta.json",
-      "content_hash": "6c290587",
+      "content_hash": "6573eff8",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.stirling-pdf/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.stirling-pdf/assets/stirling-pdf.webp"
@@ -4866,7 +4866,7 @@
       "thumbnail": "./assets/catalog-icons/57162f83804aa176fcc21f.gif",
       "compose_url": "/apps/io.github.mrpiracy94.swag/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.swag/meta.json",
-      "content_hash": "6a5695dd",
+      "content_hash": "3b30bf90",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.swag/assets/icon.gif",
       "thumbnail_source": "/apps/io.github.mrpiracy94.swag/assets/swag.gif"
@@ -4889,7 +4889,7 @@
       "thumbnail": "./assets/catalog-icons/5189fa8b61638a655884dc.webp",
       "compose_url": "/apps/io.github.mrpiracy94.synclounge/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.synclounge/meta.json",
-      "content_hash": "afe09d5a",
+      "content_hash": "9248d005",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.synclounge/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.synclounge/assets/synclounge.webp"
@@ -4912,7 +4912,7 @@
       "thumbnail": "./assets/catalog-icons/ab09cdf4b1a621a6c71c31.webp",
       "compose_url": "/apps/io.github.mrpiracy94.syncthing/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.syncthing/meta.json",
-      "content_hash": "ff3d94f1",
+      "content_hash": "4d6a4f0d",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.syncthing/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.syncthing/assets/syncthing.webp"
@@ -4935,7 +4935,7 @@
       "thumbnail": "./assets/catalog-icons/a462a4fea92c1f90908357.webp",
       "compose_url": "/apps/io.github.mrpiracy94.syslog-ng/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.syslog-ng/meta.json",
-      "content_hash": "2b1fbbda",
+      "content_hash": "6203997d",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.syslog-ng/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.syslog-ng/assets/syslog-ng-logo.webp"
@@ -4958,7 +4958,7 @@
       "thumbnail": "./assets/catalog-icons/807f9fbfd6e73e1e10f275.webp",
       "compose_url": "/apps/io.github.mrpiracy94.tailscale/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.tailscale/meta.json",
-      "content_hash": "990a4fa5",
+      "content_hash": "3de8f095",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.tailscale/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.tailscale/assets/tailscale.webp"
@@ -5004,7 +5004,7 @@
       "thumbnail": "./assets/catalog-icons/8b918bc9960e932003ae46.webp",
       "compose_url": "/apps/io.github.mrpiracy94.tdarr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.tdarr/meta.json",
-      "content_hash": "45e24133",
+      "content_hash": "9148b7b7",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.tdarr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.tdarr/assets/tdarr.webp"
@@ -5027,7 +5027,7 @@
       "thumbnail": "./assets/catalog-icons/2efcb3c5cc758efd0f93a3.webp",
       "compose_url": "/apps/io.github.mrpiracy94.telegram/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.telegram/meta.json",
-      "content_hash": "c3b22f56",
+      "content_hash": "7ea83885",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.telegram/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.telegram/assets/telegram.webp"
@@ -5050,7 +5050,7 @@
       "thumbnail": "./assets/catalog-icons/dc384a41fb09d072f6bfbd.webp",
       "compose_url": "/apps/io.github.mrpiracy94.thelounge/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.thelounge/meta.json",
-      "content_hash": "4cfbcdab",
+      "content_hash": "3a9a3ed9",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.thelounge/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.thelounge/assets/thelounge.webp"
@@ -5073,7 +5073,7 @@
       "thumbnail": "./assets/catalog-icons/b13682df51129ded2cb8d2.webp",
       "compose_url": "/apps/io.github.mrpiracy94.thunderbird/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.thunderbird/meta.json",
-      "content_hash": "de4747d7",
+      "content_hash": "fefd6bfa",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.thunderbird/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.thunderbird/assets/thunderbird.webp"
@@ -5096,7 +5096,7 @@
       "thumbnail": "./assets/catalog-icons/2b78869ca84984682fedcb.webp",
       "compose_url": "/apps/io.github.mrpiracy94.transmission/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.transmission/meta.json",
-      "content_hash": "dac9d8da",
+      "content_hash": "ebc98dad",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.transmission/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.transmission/assets/transmission.webp"
@@ -5119,7 +5119,7 @@
       "thumbnail": "./assets/catalog-icons/63414f9532f64fcf14aac2.webp",
       "compose_url": "/apps/io.github.mrpiracy94.tvheadend/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.tvheadend/meta.json",
-      "content_hash": "dbc21df2",
+      "content_hash": "57ca9a7e",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.tvheadend/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.tvheadend/assets/tvheadend.webp"
@@ -5142,7 +5142,7 @@
       "thumbnail": "./assets/catalog-icons/44cfda72f997534437f999.webp",
       "compose_url": "/apps/io.github.mrpiracy94.ubooquity/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.ubooquity/meta.json",
-      "content_hash": "53eeac61",
+      "content_hash": "6dafd7d5",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.ubooquity/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.ubooquity/assets/ubooquity.webp"
@@ -5165,7 +5165,7 @@
       "thumbnail": "./assets/catalog-icons/b05e44a5c659aae1243cbc.webp",
       "compose_url": "/apps/io.github.mrpiracy94.ungoogled-chromium/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.ungoogled-chromium/meta.json",
-      "content_hash": "45b194c5",
+      "content_hash": "a9d130cb",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.ungoogled-chromium/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.ungoogled-chromium/assets/ungoogled-chromium-logo.webp"
@@ -5188,7 +5188,7 @@
       "thumbnail": "./assets/catalog-icons/ae8924ffdc8e77f415d3cb.webp",
       "compose_url": "/apps/io.github.mrpiracy94.unifi-network-application/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.unifi-network-application/meta.json",
-      "content_hash": "0eadfbe9",
+      "content_hash": "12eaf1df",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.unifi-network-application/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.unifi-network-application/assets/unifi-network-application-icon.webp"
@@ -5211,7 +5211,7 @@
       "thumbnail": "./assets/catalog-icons/0e899ed1ffd652c0b3f80a.webp",
       "compose_url": "/apps/io.github.mrpiracy94.unpackerr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.unpackerr/meta.json",
-      "content_hash": "0d789818",
+      "content_hash": "b841e34a",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.unpackerr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.unpackerr/assets/unpackerr.webp"
@@ -5234,7 +5234,7 @@
       "thumbnail": "./assets/catalog-icons/fbce78075d5bf772df8292.webp",
       "compose_url": "/apps/io.github.mrpiracy94.uptime-kuma/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.uptime-kuma/meta.json",
-      "content_hash": "4701b9d5",
+      "content_hash": "e6022b4a",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.uptime-kuma/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.uptime-kuma/assets/uptime-kuma.webp"
@@ -5257,7 +5257,7 @@
       "thumbnail": "./assets/catalog-icons/2513b401bcb98b2ff67a46.webp",
       "compose_url": "/apps/io.github.mrpiracy94.vaultwarden/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.vaultwarden/meta.json",
-      "content_hash": "84860973",
+      "content_hash": "d8a22fb1",
       "version": "1.0.3",
       "icon_source": "/apps/io.github.mrpiracy94.vaultwarden/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.vaultwarden/assets/vaultwarden.webp"
@@ -5280,7 +5280,7 @@
       "thumbnail": "./assets/catalog-icons/af2a13771a900ee1e24420.webp",
       "compose_url": "/apps/io.github.mrpiracy94.vivaldi/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.vivaldi/meta.json",
-      "content_hash": "ba294c5c",
+      "content_hash": "f7b20404",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.vivaldi/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.vivaldi/assets/vivaldi.webp"
@@ -5303,7 +5303,7 @@
       "thumbnail": "./assets/catalog-icons/0ecee7efa27e5c6d875d18.webp",
       "compose_url": "/apps/io.github.mrpiracy94.vlc/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.vlc/meta.json",
-      "content_hash": "16659ee2",
+      "content_hash": "9617e14e",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.vlc/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.vlc/assets/vlc-logo.webp"
@@ -5326,7 +5326,7 @@
       "thumbnail": "./assets/catalog-icons/60619472a880c04284f51b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.vscode/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.vscode/meta.json",
-      "content_hash": "73a86c35",
+      "content_hash": "bdd22daf",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.vscode/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.vscode/assets/vscode.webp"
@@ -5349,7 +5349,7 @@
       "thumbnail": "./assets/catalog-icons/2198514e6a76c4df71ba57.webp",
       "compose_url": "/apps/io.github.mrpiracy94.vscodium/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.vscodium/meta.json",
-      "content_hash": "30d57926",
+      "content_hash": "88861ddd",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.vscodium/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.vscodium/assets/vscodium.webp"
@@ -5372,7 +5372,7 @@
       "thumbnail": "./assets/catalog-icons/d8b69d0897e52ef5e4452a.webp",
       "compose_url": "/apps/io.github.mrpiracy94.vscodium-web/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.vscodium-web/meta.json",
-      "content_hash": "adc8bb90",
+      "content_hash": "575ec3d2",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.vscodium-web/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.vscodium-web/assets/vscodium.webp"
@@ -5395,7 +5395,7 @@
       "thumbnail": "./assets/catalog-icons/fd7ead79e05288e8b3c2fa.webp",
       "compose_url": "/apps/io.github.mrpiracy94.webcord/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.webcord/meta.json",
-      "content_hash": "214aab14",
+      "content_hash": "3fcd912c",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.webcord/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.webcord/assets/webcord-icon.webp"
@@ -5418,7 +5418,7 @@
       "thumbnail": "./assets/catalog-icons/335ff48f6c6500f777030c.webp",
       "compose_url": "/apps/io.github.mrpiracy94.webgrabplus/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.webgrabplus/meta.json",
-      "content_hash": "0fae8d27",
+      "content_hash": "fc9b536e",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.webgrabplus/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.webgrabplus/assets/webgrabplus-logo.webp"
@@ -5440,7 +5440,7 @@
       "thumbnail": "./assets/catalog-icons/5a92a14bf4de02a58d9113.webp",
       "compose_url": "/apps/io.github.mrpiracy94.webstation/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.webstation/meta.json",
-      "content_hash": "1a8eba2c",
+      "content_hash": "4b20c56f",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.webstation/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.webstation/assets/webstation-logo.webp"
@@ -5463,7 +5463,7 @@
       "thumbnail": "./assets/catalog-icons/0b25f926ccbb27dce1f060.webp",
       "compose_url": "/apps/io.github.mrpiracy94.webtop/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.webtop/meta.json",
-      "content_hash": "d2b35ef1",
+      "content_hash": "7672b2fa",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.webtop/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.webtop/assets/webtop.webp"
@@ -5486,7 +5486,7 @@
       "thumbnail": "./assets/catalog-icons/97a9cd0c0faa36f1df068b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.weixin/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.weixin/meta.json",
-      "content_hash": "7ac1afe3",
+      "content_hash": "40930609",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.weixin/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.weixin/assets/weixin-logo.webp"
@@ -5509,7 +5509,7 @@
       "thumbnail": "./assets/catalog-icons/771ef4878d861fb5d7ad77.webp",
       "compose_url": "/apps/io.github.mrpiracy94.whisparr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.whisparr/meta.json",
-      "content_hash": "02e1da9c",
+      "content_hash": "14b8233e",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.whisparr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.whisparr/assets/whisparr.webp"
@@ -5532,7 +5532,7 @@
       "thumbnail": "./assets/catalog-icons/9645551bbb4ed82e3c20d4.webp",
       "compose_url": "/apps/io.github.mrpiracy94.wikijs/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.wikijs/meta.json",
-      "content_hash": "1cf2704e",
+      "content_hash": "6435037f",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.wikijs/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.wikijs/assets/wikijs.webp"
@@ -5554,7 +5554,7 @@
       "thumbnail": "./assets/catalog-icons/dd5dfec54a5b89db3af671.webp",
       "compose_url": "/apps/io.github.mrpiracy94.winegui/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.winegui/meta.json",
-      "content_hash": "ca65b71c",
+      "content_hash": "c4ac03b8",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.winegui/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.winegui/assets/winegui-logo.webp"
@@ -5577,7 +5577,7 @@
       "thumbnail": "./assets/catalog-icons/2b98f5b781b3e37aad617d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.wireguard/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.wireguard/meta.json",
-      "content_hash": "ef14726d",
+      "content_hash": "3658d71a",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.wireguard/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.wireguard/assets/wireguard.webp"
@@ -5600,7 +5600,7 @@
       "thumbnail": "./assets/catalog-icons/56dccdff71c6fd96effa40.webp",
       "compose_url": "/apps/io.github.mrpiracy94.wireshark/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.wireshark/meta.json",
-      "content_hash": "c9227ba4",
+      "content_hash": "307d6045",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.wireshark/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.wireshark/assets/wireshark.webp"
@@ -5623,7 +5623,7 @@
       "thumbnail": "./assets/catalog-icons/f43a55333ab7cd61be95f6.webp",
       "compose_url": "/apps/io.github.mrpiracy94.wizarr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.wizarr/meta.json",
-      "content_hash": "0343cac2",
+      "content_hash": "c5980dd7",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.wizarr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.wizarr/assets/wizarr.webp"
@@ -5645,7 +5645,7 @@
       "thumbnail": "./assets/catalog-icons/e54337a06c596d6ecf942e.webp",
       "compose_url": "/apps/io.github.mrpiracy94.wps-office/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.wps-office/meta.json",
-      "content_hash": "f65c9721",
+      "content_hash": "1749c487",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.wps-office/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.wps-office/assets/wps-office-icon.webp"
@@ -5668,7 +5668,7 @@
       "thumbnail": "./assets/catalog-icons/5af1c34c8a8436be41a713.webp",
       "compose_url": "/apps/io.github.mrpiracy94.xbackbone/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.xbackbone/meta.json",
-      "content_hash": "996e6c80",
+      "content_hash": "6146e795",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.xbackbone/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.xbackbone/assets/xbackbone.webp"
@@ -5691,7 +5691,7 @@
       "thumbnail": "./assets/catalog-icons/abf4c403ef7bae21b669d7.webp",
       "compose_url": "/apps/io.github.mrpiracy94.xemu/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.xemu/meta.json",
-      "content_hash": "340e805c",
+      "content_hash": "372fa448",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.xemu/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.xemu/assets/xemu-logo.webp"
@@ -5714,7 +5714,7 @@
       "thumbnail": "./assets/catalog-icons/1e133d4c1d886c4245b4d1.webp",
       "compose_url": "/apps/io.github.mrpiracy94.yaak/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.yaak/meta.json",
-      "content_hash": "96b1f5e8",
+      "content_hash": "11fd377c",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.yaak/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.yaak/assets/yaak-logo.webp"
@@ -5737,7 +5737,7 @@
       "thumbnail": "./assets/catalog-icons/03e5d9f90ef1389c95011b.webp",
       "compose_url": "/apps/io.github.mrpiracy94.your_spotify/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.your_spotify/meta.json",
-      "content_hash": "dd0bafb2",
+      "content_hash": "cd14396b",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.your_spotify/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.your_spotify/assets/your-spotify.webp"
@@ -5760,7 +5760,7 @@
       "thumbnail": "./assets/catalog-icons/04b1477afbe4d110b93b38.webp",
       "compose_url": "/apps/io.github.mrpiracy94.zen/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.zen/meta.json",
-      "content_hash": "715bae8a",
+      "content_hash": "ff49eccb",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.zen/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.zen/assets/zen-browser.webp"
@@ -5783,7 +5783,7 @@
       "thumbnail": "./assets/catalog-icons/59b41a02ccbad095b8e458.webp",
       "compose_url": "/apps/io.github.mrpiracy94.znc/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.znc/meta.json",
-      "content_hash": "c9399d20",
+      "content_hash": "be87dad2",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.znc/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.znc/assets/znc.webp"
@@ -5805,7 +5805,7 @@
       "thumbnail": "./assets/catalog-icons/95f9bb817b090ff6e17b13.webp",
       "compose_url": "/apps/io.github.mrpiracy94.zotero/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.zotero/meta.json",
-      "content_hash": "53dfb706",
+      "content_hash": "ad87202b",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.zotero/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.zotero/assets/zotero.webp"
