@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-11T18:39:52Z",
+  "updated_at": "2026-10-11T20:50:39Z",
   "app_count": 254,
   "base_url": "https://mrpiracy94.github.io/MrStore",
   "catalogue_status": "editorial_pilot_unverified",
@@ -1507,7 +1507,7 @@
       "thumbnail": "./assets/catalog-icons/17ca2b81ce0a597788b739.webp",
       "compose_url": "/apps/io.github.mrpiracy94.freshrss/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.freshrss/meta.json",
-      "content_hash": "d3b20b2d",
+      "content_hash": "d544dd37",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.freshrss/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.freshrss/assets/freshrss.webp"
@@ -1645,7 +1645,7 @@
       "thumbnail": "./assets/catalog-icons/2f35cad086561d800e9f9d.webp",
       "compose_url": "/apps/io.github.mrpiracy94.glances/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.glances/meta.json",
-      "content_hash": "7897f0ec",
+      "content_hash": "2c544006",
       "version": "1.0.2",
       "icon_source": "/apps/io.github.mrpiracy94.glances/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.glances/assets/glances.webp"
@@ -3383,7 +3383,7 @@
       "thumbnail": "./assets/catalog-icons/28bbe3789b1ba88bde0603.webp",
       "compose_url": "/apps/io.github.mrpiracy94.obsidian/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.obsidian/meta.json",
-      "content_hash": "16faa0d4",
+      "content_hash": "fa2c6810",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.obsidian/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.obsidian/assets/obsidian.webp"
@@ -4066,7 +4066,7 @@
       "thumbnail": "./assets/catalog-icons/49b6c2eecf15bc6884c3c4.webp",
       "compose_url": "/apps/io.github.mrpiracy94.qbittorrent/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.qbittorrent/meta.json",
-      "content_hash": "b67d0497",
+      "content_hash": "1d96f3bf",
       "version": "1.0.1",
       "icon_source": "/apps/io.github.mrpiracy94.qbittorrent/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.qbittorrent/assets/qbittorrent.webp"
