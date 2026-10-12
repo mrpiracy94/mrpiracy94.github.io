@@ -11,7 +11,7 @@
     Finance: "Finanças", Social: "Social", Utilities: "Utilitários",
     Others: "Outras"
   };
-  const CATEGORY_SYMBOLS = { "": "▦", Media: "▣", Productivity: "◈", Home: "⌂", Networking: "⛨", Network: "⛨", Cloud: "☁", Browser: "◉", Downloader: "↓", Games: "✦", Graphics: "▧", Developer: "</>", AI: "✺", Finance: "▤", Social: "◎", Utilities: "⚙", Others: "◇" };
+  const CATEGORY_ICONS = { "": "grid", Media: "play-square", Productivity: "tag", Home: "house", Networking: "network", Network: "network", Cloud: "cloud", Browser: "globe", Downloader: "download", Games: "gamepad", Graphics: "palette", Developer: "code", AI: "bot", Finance: "wallet", Social: "users", Utilities: "settings", Others: "shapes" };
   const $ = (id) => document.getElementById(id);
   const state = { apps: [], filtered: [], category: "", query: "", arch: "",
     favoritesOnly: false, limit: BATCH_SIZE, saved: new Set(), validated: false };
@@ -60,11 +60,29 @@
     if (textValue !== undefined) node.textContent = String(textValue);
     return node;
   }
+  // SVG da interface armazenados na própria MrStore (sem CDN nem dependência remota).
+  // Os identificadores provêm exclusivamente desta lista fixa, não dos metadados externos.
+  function uiIcon(name, className) {
+    const allow = new Set(["grid", "house", "code", "play-square", "shapes",
+      "tag", "network", "cloud", "globe", "download", "gamepad", "palette",
+      "bot", "wallet", "users", "settings", "search", "layers", "star",
+      "chevron-down", "arrow-right", "external-link", "menu", "circle-alert",
+      "info", "sparkles", "copy", "shield-check", "refresh-cw", "filter"]);
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("class", "ui-icon" + (className ? " " + className : ""));
+    svg.setAttribute("aria-hidden", "true");
+    svg.setAttribute("focusable", "false");
+    const use = document.createElementNS("http://www.w3.org/2000/svg", "use");
+    use.setAttribute("href", "./assets/ui-icons.svg#" + (allow.has(name) ? name : "shapes"));
+    svg.appendChild(use);
+    return svg;
+  }
   function appTitle(app) { return app.title && typeof app.title === "string" ? app.title : app.id.slice(PREFIX.length); }
   function categoryLabel(name) { return CATEGORY_LABELS[name] || name || "Outras"; }
   function setNotice(message, error) {
     const item = $("catalog-alert"); item.hidden = !message;
-    item.textContent = message || ""; item.classList.toggle("is-error", Boolean(error));
+    $("catalog-alert-message").textContent = message || "";
+    item.classList.toggle("is-error", Boolean(error));
   }
   function iconNode(app, className) {
     const wrap = element("div", className);
@@ -90,7 +108,9 @@
       const button = element("button", "chip" + (state.category === entry[0] ? " active" : ""));
       button.type = "button"; button.dataset.category = entry[0];
       button.setAttribute("aria-pressed", String(state.category === entry[0]));
-      button.appendChild(element("span", "chip-symbol", CATEGORY_SYMBOLS[entry[0]] || "◇"));
+      const symbol = element("span", "chip-symbol");
+      symbol.appendChild(uiIcon(CATEGORY_ICONS[entry[0]] || "shapes"));
+      button.appendChild(symbol);
       button.appendChild(element("span", "chip-label", entry[1]));
       button.appendChild(element("span", "count", entry[2] + " aplicações"));
       button.addEventListener("click", function () {
@@ -132,7 +152,8 @@
     copy.appendChild(element("h3", "", appTitle(app)));
     copy.appendChild(element("span", "app-category", categoryLabel(app.category)));
     head.appendChild(copy);
-    const favorite = element("button", "favorite-btn", state.saved.has(app.id) ? "★" : "☆");
+    const favorite = element("button", "favorite-btn");
+    favorite.appendChild(uiIcon("star", "icon-star"));
     favorite.type = "button";
     favorite.setAttribute("aria-label", (state.saved.has(app.id) ? "Remover dos favoritos: " : "Adicionar aos favoritos: ") + appTitle(app));
     favorite.setAttribute("aria-pressed", String(state.saved.has(app.id)));
@@ -148,7 +169,9 @@
       arches.appendChild(element("span", "architecture", arch.toUpperCase()));
     });
     footer.appendChild(arches);
-    const details = element("button", "details-button", "Ver detalhes →");
+    const details = element("button", "details-button");
+    details.appendChild(element("span", "", "Ver detalhes"));
+    details.appendChild(uiIcon("arrow-right"));
     details.type = "button"; details.addEventListener("click", function () { openDetails(app); });
     footer.appendChild(details); card.appendChild(footer);
     return card;
@@ -172,7 +195,11 @@
     }
     $("clear-filters").disabled = !(state.category || state.arch || state.query.trim() || state.favoritesOnly);
     const more = $("load-more"); more.hidden = shown >= state.filtered.length;
-    if (!more.hidden) more.textContent = "Mostrar mais aplicações (" + (state.filtered.length - shown) + " restantes) ↓";
+    if (!more.hidden) {
+      more.replaceChildren(element("span", "", "Mostrar mais aplicações (" +
+        (state.filtered.length - shown) + " restantes)"));
+      more.appendChild(uiIcon("chevron-down"));
+    }
   }
   function openDetails(app) {
     $("details-icon").replaceChildren(iconNode(app, "detail-icon-inner"));
