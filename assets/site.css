@@ -738,3 +738,77 @@ body{background:#10151d;overflow-x:hidden}
   .hero-lead h1 .hero-first-line .hero-highlight{white-space:nowrap}
   .hero-lead h1 .hero-second-line{white-space:nowrap}
 }
+
+
+/* MrStore UI v2 — icones vetoriais locais e coerentes no desktop e mobile.
+   Nao alterar os logotipos originais das aplicacoes do catalogo. */
+.ui-icon{display:inline-block;width:20px;height:20px;flex:none;vertical-align:-.23em;color:inherit;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ui-icon use{pointer-events:none}
+.nav-search>.ui-icon{width:17px;height:17px;color:#ffab69}
+.header-action .ui-icon,.btn .ui-icon{height:15px;width:15px}
+.mobile-nav summary{display:flex;gap:8px;align-items:center;justify-content:center}
+.mobile-nav summary .ui-icon{width:20px;height:20px;color:#ffb06b}
+.hero-footnote .footnote-spark{display:inline-flex;align-items:center}
+.hero-footnote .footnote-spark .ui-icon{height:15px;width:15px}
+.play-icon .ui-icon{height:17px;width:17px}
+.section-kicker>.ui-icon{height:16px;width:16px;vertical-align:-.23em;margin-right:5px}
+.catalog-section .chip-symbol{display:inline-grid;place-items:center;width:21px;height:21px;font-size:inherit;line-height:1;color:#ffa656}
+.catalog-section .chip-symbol .ui-icon{width:19px;height:19px;stroke-width:1.9}
+.catalog-section .chip.active .chip-symbol{color:#32201c}
+.catalog-section .chip:focus-visible{outline:3px solid #ffbc75;outline-offset:2px}
+.catalog-section .search-glyph{display:inline-grid;place-items:center;font-size:inherit;line-height:1}
+.catalog-section .search-glyph>.ui-icon{width:21px;height:21px;color:#aab8ca;stroke-width:1.8}
+.catalog-section .searchbox:focus-within .search-glyph>.ui-icon{color:#ffb16e}
+.catalog-section .arch-filter{display:flex;align-items:center;gap:9px}
+.catalog-section .arch-filter-icon{width:19px;height:19px;color:#adbacc}
+.catalog-section .arch-filter select{min-width:0;max-width:145px}
+.catalog-section .arch-filter .arch-chevron{width:15px;height:15px;pointer-events:none;color:#cad4df}
+.catalog-section .arch-filter:has(.arch-chevron) select{appearance:none;-webkit-appearance:none;padding-right:0}
+.catalog-section .favorites-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.catalog-section .favorites-toggle .icon-star{width:20px;height:20px;stroke-width:1.7;color:#b9c6d8}
+.catalog-section .favorites-toggle[aria-pressed="true"] .icon-star{color:#ffae62;fill:#ffa13c42}
+.catalog-section .app-card .favorite-btn{display:grid;place-items:center;width:37px;height:37px;min-height:37px;min-width:37px;padding:0;border-radius:10px;line-height:1}
+.catalog-section .app-card .favorite-btn .ui-icon{height:21px;width:21px;stroke-width:1.85}
+.catalog-section .app-card .favorite-btn[aria-pressed="true"] .icon-star{fill:#ffac5160;color:#ffb96f}
+.catalog-section .app-card .details-button{display:inline-flex;align-items:center;justify-content:center;gap:6px;white-space:nowrap}
+.catalog-section .app-card .details-button .ui-icon{width:15px;height:15px}
+.catalog-section .app-card .details-button:hover .ui-icon{transform:translateX(2px)}
+.catalog-section .btn-more .ui-icon{height:16px;width:16px}
+.catalog-section .notice{display:flex;align-items:flex-start;gap:12px}
+.catalog-section .notice .notice-icon{display:grid;place-items:center;flex:0 0 24px;margin-top:2px}
+.catalog-section .notice .notice-icon .ui-icon{height:22px;width:22px;stroke-width:1.85}
+.catalog-section .notice .notice-message{display:block;min-width:0}
+.catalog-section .notice.is-error .notice-icon{color:#ff898d}
+.catalog-section .catalog-disclaimer>.ui-icon{width:17px;height:17px;vertical-align:-.3em;color:#ffb56c;margin-right:7px}
+.benefit-icon>.ui-icon{width:25px;height:25px;stroke-width:1.8}
+.screen-search .ui-icon{width:13px;height:13px;vertical-align:-.2em}
+.install-address button .ui-icon{width:14px;height:14px;margin-left:5px}
+.platform-section .platform-grid.platform-grid-single{grid-template-columns:minmax(0,280px);justify-content:center}
+.platform-section .platform-grid-single .system-card{grid-column:auto;min-height:157px;max-width:280px;width:100%;justify-self:center;border-radius:18px}
+.platform-section .platform-grid-single .system-glyph{width:58px;height:58px}
+.platform-section .platform-grid-single .system-glyph img{width:46px;height:46px}
+.platform-section .platform-status .platform-label{white-space:normal}
+@media(max-width:750px){
+  .platform-section .platform-grid.platform-grid-single{grid-template-columns:minmax(0,250px)}
+  .platform-section .platform-grid-single .system-card{grid-column:auto;max-width:250px}
+}
+@media(max-width:520px){
+  .catalog-section .chip{flex-direction:column;justify-content:center;align-items:center;gap:5px;min-height:67px;padding:8px 13px}
+  .catalog-section .chip-symbol{width:20px;height:20px}
+  .catalog-section .chip-symbol .ui-icon{width:18px;height:18px}
+  .catalog-section .chip-label{font-size:11px;white-space:nowrap}
+  .catalog-section .search-glyph>.ui-icon{width:19px;height:19px}
+  .catalog-section .arch-filter{gap:7px;padding:0 10px}
+  .catalog-section .arch-filter-icon{width:17px;height:17px}
+  .catalog-section .arch-filter .arch-chevron{width:14px;height:14px}
+  .catalog-section .arch-filter select{max-width:66px}
+  .catalog-section .favorites-toggle{gap:5px;padding:0 12px}
+  .catalog-section .favorites-toggle .icon-star{height:18px;width:18px}
+  .catalog-section .notice{gap:10px}
+  .catalog-section .notice .notice-icon{flex-basis:20px}
+  .catalog-section .notice .notice-icon .ui-icon{height:20px;width:20px}
+  .platform-section .platform-grid.platform-grid-single{grid-template-columns:minmax(0,225px)}
+}
+@media(prefers-reduced-motion:reduce){
+  .catalog-section .app-card .details-button .ui-icon{transform:none}
+}
