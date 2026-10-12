@@ -19,6 +19,17 @@ assert.ok(catalog.app_count > 0, "No catalog entries");
 assert.equal(new Set(catalog.apps.map(app => app.id)).size, catalog.app_count);
 assert.ok(/id="app-grid"/.test(html), "App grid is missing");
 assert.ok(/id="categories"/.test(html), "Categories are missing");
+const iconSprite = fs.readFileSync(path.join(root, "assets/ui-icons.svg"), "utf8");
+for (const name of ["grid", "house", "code", "play-square", "search", "star",
+                    "menu", "layers", "circle-alert", "arrow-right", "sparkles"]) {
+  assert.ok(iconSprite.includes('id="' + name + '"'), "Missing UI SVG: " + name);
+}
+assert.ok(script.includes("createElementNS"), "The UI must render real SVG icons");
+assert.ok(script.includes('uiIcon("star"'), "Card favorite buttons must use SVG");
+assert.ok(html.includes('assets/ui-icons.svg#search'), "Search SVG missing from HTML");
+assert.equal((html.match(/class="system-card /g) || []).length, 1, "Show only one platform");
+assert.ok(html.includes('assets/platforms/zimaos.svg'), "ZimaOS logo missing");
+assert.ok(!html.includes("Integração planeada"), "Unverified integrations were reintroduced");
 assert.ok(/id="pilot-count"/.test(html), "Pilot app count target is missing");
 assert.ok(script.includes('pilotCount.textContent = String(state.apps.length)') ||
           script.includes('pilotCounter.textContent = state.apps.length + " aplicações selecionadas"'),

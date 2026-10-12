@@ -48,7 +48,15 @@ def inspect(browser, base, width, height, columns):
     assert page.locator(".app-card .app-icon").count() == min(12, EXPECTED), (
         f"Espaços dos ícones em falta: {width}px"
     )
-    assert page.locator(".system-card").count() == 11
+    assert page.locator(".system-card").count() == 1
+    assert page.locator(".system-card strong").first.inner_text() == "ZimaOS"
+    assert page.locator(".system-card img").get_attribute("src") == "./assets/platforms/zimaos.svg"
+    # A sprite de icones UI tem de estar publicada localmente.
+    sprite = page.request.get(base + "assets/ui-icons.svg")
+    assert sprite.ok and b'id="star"' in sprite.body()
+    assert page.locator(".search-glyph .ui-icon").count() == 1
+    assert page.locator(".favorites-toggle .icon-star").count() == 1
+    assert page.locator(".chip-symbol .ui-icon").count() > 1
     assert page.locator(".showcase-window .screen-app").count() == 6
 
     # Não basta existir o elemento img: o SVG tem de carregar realmente.
@@ -100,7 +108,10 @@ def inspect(browser, base, width, height, columns):
         page.locator("#details-close").click()
         assert not page.locator("#details").evaluate("(el) => el.open")
         page.locator("#clear-filters").click()
-        page.locator(".app-card").first.locator(".favorite-btn").click()
+        favorite = page.locator(".app-card").first.locator(".favorite-btn")
+        assert favorite.locator("svg.icon-star").count() == 1
+        favorite.click()
+        assert page.locator(".app-card").first.locator(".favorite-btn").get_attribute("aria-pressed") == "true"
         page.locator("#favorites-toggle").click()
         assert page.locator(".app-card").count() >= 1
         page.locator("#favorites-toggle").click()
