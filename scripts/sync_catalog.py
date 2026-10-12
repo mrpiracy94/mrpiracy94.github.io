@@ -19,16 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 UPSTREAM_RAW = "https://raw.githubusercontent.com/mrpiracy94/MrStore"
 PREFIX = "io.github.mrpiracy94."
 FILES = ("index.html", "assets/site.css", "assets/site.js", "assets/mark.svg",
-         "assets/platforms/umbrel-os.svg",
-         "assets/platforms/casaos.svg",
-         "assets/platforms/zimaos.svg",
-         "assets/platforms/portainer.svg",
-         "assets/platforms/cosmos.svg",
-         "assets/platforms/dockge.svg",
-         "assets/platforms/runtipi.svg",
-         "assets/platforms/docker.svg",
-         "assets/platforms/homedock-os.svg",
-         "assets/platforms/olares.svg")
+         "assets/ui-icons.svg", "assets/platforms/zimaos.svg")
 
 
 def get_json(url: str, *, allow_missing: bool = False):

@@ -2,6 +2,14 @@
 
 Website público da MrStore: https://mrpiracy94.github.io/
 
+## Interface e integração
+
+- Ícones da UI (categorias, pesquisa, favoritos, filtros, avisos e ações) são SVG locais em `assets/ui-icons.svg`, sem bibliotecas externas.
+- A secção de plataformas exibe **apenas ZimaOS**, com o logótipo original e a indicação de que o formato App Store v2 existe, mas necessita de testes de instalação por aplicação.
+- As imagens/logótipos das próprias aplicações são mantidos no catálogo de descoberta e não são confundidos com logótipos de sistemas operativos.
+- A implantação preserva os 254 registos do catálogo e não altera Docker Compose nem os relatórios de segurança.
+
+
 Este repositório publica apenas a **montra de descoberta**. O projeto, os manifests e as auditorias continuam no [repositório principal](https://github.com/mrpiracy94/MrStore).
 
 ## Publicação inicial
