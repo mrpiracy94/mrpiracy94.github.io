@@ -1182,13 +1182,12 @@
         "amd64",
         "arm64"
       ],
-      "icon": "./assets/catalog-icons/779f58d1a6fec3197c1741.png",
+      "icon": "/apps/io.github.mrpiracy94.emby/assets/icon.png",
       "thumbnail": "./assets/catalog-icons/9a7cf1847618d29da01780.webp",
       "compose_url": "/apps/io.github.mrpiracy94.emby/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.emby/meta.json",
       "content_hash": "7625020d",
       "version": "1.0.1",
-      "icon_source": "/apps/io.github.mrpiracy94.emby/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.emby/assets/emby.webp"
     },
     {
