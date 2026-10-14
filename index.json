@@ -3219,13 +3219,12 @@
         "arm64"
       ],
       "icon": "./assets/catalog-icons/9b0f6f495dad5869f3e76f.png",
-      "thumbnail": "./assets/catalog-icons/84cf44c992277b94cf7e1c.webp",
+      "thumbnail": "/apps/io.github.mrpiracy94.nginx/assets/nginx.webp",
       "compose_url": "/apps/io.github.mrpiracy94.nginx/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.nginx/meta.json",
       "content_hash": "7b667e01",
       "version": "1.0.1",
-      "icon_source": "/apps/io.github.mrpiracy94.nginx/assets/icon.png",
-      "thumbnail_source": "/apps/io.github.mrpiracy94.nginx/assets/nginx.webp"
+      "icon_source": "/apps/io.github.mrpiracy94.nginx/assets/icon.png"
     },
     {
       "id": "io.github.mrpiracy94.nginx-proxy-manager",
