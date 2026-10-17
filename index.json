@@ -4908,13 +4908,12 @@
         "amd64",
         "arm64"
       ],
-      "icon": "./assets/catalog-icons/99e26b60b7199878ba5c0c.png",
+      "icon": "/apps/io.github.mrpiracy94.syncthing/assets/icon.png",
       "thumbnail": "./assets/catalog-icons/ab09cdf4b1a621a6c71c31.webp",
       "compose_url": "/apps/io.github.mrpiracy94.syncthing/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.syncthing/meta.json",
       "content_hash": "4a4256fa",
       "version": "1.0.1",
-      "icon_source": "/apps/io.github.mrpiracy94.syncthing/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.syncthing/assets/syncthing.webp"
     },
     {
