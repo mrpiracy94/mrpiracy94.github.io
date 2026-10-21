@@ -4522,12 +4522,13 @@
         "arm64"
       ],
       "icon": "./assets/catalog-icons/02c48ca4bbd489bc3f7fa9.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.seerr/assets/seerr.webp",
+      "thumbnail": "./assets/catalog-icons/265038f713e373ff01a326.webp",
       "compose_url": "/apps/io.github.mrpiracy94.seerr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.seerr/meta.json",
       "content_hash": "3fbe3fe7",
       "version": "1.0.1",
-      "icon_source": "/apps/io.github.mrpiracy94.seerr/assets/icon.png"
+      "icon_source": "/apps/io.github.mrpiracy94.seerr/assets/icon.png",
+      "thumbnail_source": "/apps/io.github.mrpiracy94.seerr/assets/seerr.webp"
     },
     {
       "id": "io.github.mrpiracy94.series-troxide",
