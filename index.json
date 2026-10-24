@@ -429,12 +429,13 @@
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/io.github.mrpiracy94.boinc/assets/icon.png",
+      "icon": "./assets/catalog-icons/b1f125d4a9d83ac1ec6029.png",
       "thumbnail": "./assets/catalog-icons/819516bf2774d2ee629564.webp",
       "compose_url": "/apps/io.github.mrpiracy94.boinc/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.boinc/meta.json",
       "content_hash": "6f5c06e1",
       "version": "1.0.1",
+      "icon_source": "/apps/io.github.mrpiracy94.boinc/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.boinc/assets/boinc.webp"
     },
     {
