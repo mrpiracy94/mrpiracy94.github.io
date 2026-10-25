@@ -1229,13 +1229,12 @@
         "arm64"
       ],
       "icon": "./assets/catalog-icons/278d62d23bfe1d4af28ef9.png",
-      "thumbnail": "./assets/catalog-icons/b72d45887a5d75504996dc.webp",
+      "thumbnail": "/apps/io.github.mrpiracy94.fail2ban/assets/fail2ban.webp",
       "compose_url": "/apps/io.github.mrpiracy94.fail2ban/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.fail2ban/meta.json",
       "content_hash": "cafaa70f",
       "version": "1.0.1",
-      "icon_source": "/apps/io.github.mrpiracy94.fail2ban/assets/icon.png",
-      "thumbnail_source": "/apps/io.github.mrpiracy94.fail2ban/assets/fail2ban.webp"
+      "icon_source": "/apps/io.github.mrpiracy94.fail2ban/assets/icon.png"
     },
     {
       "id": "io.github.mrpiracy94.faster-whisper",
