@@ -3013,12 +3013,13 @@
         "amd64",
         "arm64"
       ],
-      "icon": "/apps/io.github.mrpiracy94.mstream/assets/icon.png",
+      "icon": "./assets/catalog-icons/f72fde895f231aae85cca0.png",
       "thumbnail": "./assets/catalog-icons/5e4be22347570fde32b818.webp",
       "compose_url": "/apps/io.github.mrpiracy94.mstream/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.mstream/meta.json",
       "content_hash": "293acdd3",
       "version": "1.0.1",
+      "icon_source": "/apps/io.github.mrpiracy94.mstream/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.mstream/assets/mstream.webp"
     },
     {
