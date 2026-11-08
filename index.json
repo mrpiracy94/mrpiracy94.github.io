@@ -3835,13 +3835,12 @@
         "arm64"
       ],
       "icon": "./assets/catalog-icons/adb7af43bb40c9af4b50fc.png",
-      "thumbnail": "./assets/catalog-icons/8874f926dcc7973934cc4e.webp",
+      "thumbnail": "/apps/io.github.mrpiracy94.planka/assets/planka.webp",
       "compose_url": "/apps/io.github.mrpiracy94.planka/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.planka/meta.json",
       "content_hash": "cda24a88",
       "version": "1.0.1",
-      "icon_source": "/apps/io.github.mrpiracy94.planka/assets/icon.png",
-      "thumbnail_source": "/apps/io.github.mrpiracy94.planka/assets/planka.webp"
+      "icon_source": "/apps/io.github.mrpiracy94.planka/assets/icon.png"
     },
     {
       "id": "io.github.mrpiracy94.plex",
