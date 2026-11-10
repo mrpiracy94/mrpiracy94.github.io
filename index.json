@@ -4589,12 +4589,13 @@
         "amd64"
       ],
       "icon": "./assets/catalog-icons/bbb7b8fe297c548bc684d4.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.shotcut/assets/shotcut-logo.webp",
+      "thumbnail": "./assets/catalog-icons/e3e948f62078c775774680.webp",
       "compose_url": "/apps/io.github.mrpiracy94.shotcut/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.shotcut/meta.json",
       "content_hash": "d1513c98",
       "version": "1.0.1",
-      "icon_source": "/apps/io.github.mrpiracy94.shotcut/assets/icon.png"
+      "icon_source": "/apps/io.github.mrpiracy94.shotcut/assets/icon.png",
+      "thumbnail_source": "/apps/io.github.mrpiracy94.shotcut/assets/shotcut-logo.webp"
     },
     {
       "id": "io.github.mrpiracy94.sickgear",
@@ -4633,13 +4634,12 @@
         "amd64"
       ],
       "icon": "./assets/catalog-icons/938ec2864fe8f149f2715a.png",
-      "thumbnail": "./assets/catalog-icons/8635d6ede3ee4b5561731e.webp",
+      "thumbnail": "/apps/io.github.mrpiracy94.signal/assets/signal.webp",
       "compose_url": "/apps/io.github.mrpiracy94.signal/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.signal/meta.json",
       "content_hash": "03bd9a0c",
       "version": "1.0.1",
-      "icon_source": "/apps/io.github.mrpiracy94.signal/assets/icon.png",
-      "thumbnail_source": "/apps/io.github.mrpiracy94.signal/assets/signal.webp"
+      "icon_source": "/apps/io.github.mrpiracy94.signal/assets/icon.png"
     },
     {
       "id": "io.github.mrpiracy94.smokeping",
