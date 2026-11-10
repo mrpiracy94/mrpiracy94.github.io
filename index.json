@@ -4589,13 +4589,12 @@
         "amd64"
       ],
       "icon": "./assets/catalog-icons/bbb7b8fe297c548bc684d4.png",
-      "thumbnail": "./assets/catalog-icons/e3e948f62078c775774680.webp",
+      "thumbnail": "/apps/io.github.mrpiracy94.shotcut/assets/shotcut-logo.webp",
       "compose_url": "/apps/io.github.mrpiracy94.shotcut/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.shotcut/meta.json",
       "content_hash": "d1513c98",
       "version": "1.0.1",
-      "icon_source": "/apps/io.github.mrpiracy94.shotcut/assets/icon.png",
-      "thumbnail_source": "/apps/io.github.mrpiracy94.shotcut/assets/shotcut-logo.webp"
+      "icon_source": "/apps/io.github.mrpiracy94.shotcut/assets/icon.png"
     },
     {
       "id": "io.github.mrpiracy94.sickgear",
