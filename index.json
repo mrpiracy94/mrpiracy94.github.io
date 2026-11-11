@@ -4634,12 +4634,13 @@
         "amd64"
       ],
       "icon": "./assets/catalog-icons/938ec2864fe8f149f2715a.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.signal/assets/signal.webp",
+      "thumbnail": "./assets/catalog-icons/8635d6ede3ee4b5561731e.webp",
       "compose_url": "/apps/io.github.mrpiracy94.signal/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.signal/meta.json",
       "content_hash": "03bd9a0c",
       "version": "1.0.1",
-      "icon_source": "/apps/io.github.mrpiracy94.signal/assets/icon.png"
+      "icon_source": "/apps/io.github.mrpiracy94.signal/assets/icon.png",
+      "thumbnail_source": "/apps/io.github.mrpiracy94.signal/assets/signal.webp"
     },
     {
       "id": "io.github.mrpiracy94.smokeping",
