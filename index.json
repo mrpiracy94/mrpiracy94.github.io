@@ -2512,12 +2512,13 @@
         "arm64"
       ],
       "icon": "./assets/catalog-icons/0880145c30dc8ebae21b26.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.limnoria/assets/limnoria-icon.webp",
+      "thumbnail": "./assets/catalog-icons/fe5cd168924f6b141f21ce.webp",
       "compose_url": "/apps/io.github.mrpiracy94.limnoria/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.limnoria/meta.json",
       "content_hash": "625e87a7",
       "version": "1.0.1",
-      "icon_source": "/apps/io.github.mrpiracy94.limnoria/assets/icon.png"
+      "icon_source": "/apps/io.github.mrpiracy94.limnoria/assets/icon.png",
+      "thumbnail_source": "/apps/io.github.mrpiracy94.limnoria/assets/limnoria-icon.webp"
     },
     {
       "id": "io.github.mrpiracy94.lldap",
