@@ -1802,12 +1802,13 @@
         "arm64"
       ],
       "icon": "./assets/catalog-icons/46b1833cb4bcdecb61602e.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.healthchecks/assets/healthchecks.webp",
+      "thumbnail": "./assets/catalog-icons/775c8b40b0921bce673a94.webp",
       "compose_url": "/apps/io.github.mrpiracy94.healthchecks/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.healthchecks/meta.json",
       "content_hash": "7f37d035",
       "version": "1.0.3",
-      "icon_source": "/apps/io.github.mrpiracy94.healthchecks/assets/icon.png"
+      "icon_source": "/apps/io.github.mrpiracy94.healthchecks/assets/icon.png",
+      "thumbnail_source": "/apps/io.github.mrpiracy94.healthchecks/assets/healthchecks.webp"
     },
     {
       "id": "io.github.mrpiracy94.hedgedoc",
