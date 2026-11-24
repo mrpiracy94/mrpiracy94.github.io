@@ -4246,13 +4246,12 @@
         "amd64",
         "arm64"
       ],
-      "icon": "./assets/catalog-icons/09e2427c646b40b3d37220.png",
+      "icon": "/apps/io.github.mrpiracy94.recyclarr/assets/icon.png",
       "thumbnail": "./assets/catalog-icons/89a3626fe88d7bfd9fc258.webp",
       "compose_url": "/apps/io.github.mrpiracy94.recyclarr/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.recyclarr/meta.json",
       "content_hash": "fdb44c52",
       "version": "1.0.2",
-      "icon_source": "/apps/io.github.mrpiracy94.recyclarr/assets/icon.png",
       "thumbnail_source": "/apps/io.github.mrpiracy94.recyclarr/assets/recyclarr.webp"
     },
     {
