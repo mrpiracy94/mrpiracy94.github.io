@@ -3972,12 +3972,13 @@
         "arm64"
       ],
       "icon": "./assets/catalog-icons/cb2d09cf7c3981e41ceeb0.png",
-      "thumbnail": "/apps/io.github.mrpiracy94.pwndrop/assets/pwndrop.webp",
+      "thumbnail": "./assets/catalog-icons/3c61ba45b0a3d9bb722406.webp",
       "compose_url": "/apps/io.github.mrpiracy94.pwndrop/docker-compose.yml",
       "meta_url": "/apps/io.github.mrpiracy94.pwndrop/meta.json",
       "content_hash": "9e06539f",
       "version": "1.0.1",
-      "icon_source": "/apps/io.github.mrpiracy94.pwndrop/assets/icon.png"
+      "icon_source": "/apps/io.github.mrpiracy94.pwndrop/assets/icon.png",
+      "thumbnail_source": "/apps/io.github.mrpiracy94.pwndrop/assets/pwndrop.webp"
     },
     {
       "id": "io.github.mrpiracy94.pycharm",
